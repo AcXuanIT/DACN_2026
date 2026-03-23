@@ -1,0 +1,2483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4061268324235159}
+  - component: {fileID: 111587765826080250}
+  - component: {fileID: 114709867586078768}
+  - component: {fileID: 114044625135789424}
+  m_Layer: 0
+  m_Name: Wingsuit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4589667821646929}
+  m_Layer: 0
+  m_Name: C_skin_joints__SET
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1724804207875695
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4372920208702427}
+  m_Layer: 0
+  m_Name: c_WingsuitWing_root_uJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1618682377417806
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4025901758691103}
+  m_Layer: 0
+  m_Name: c_WingsuitWingParent_uJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1703437598541787
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4985305603660343}
+  m_Layer: 0
+  m_Name: c_WingsuitWingL_uJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1884547391421755
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4705390221481576}
+  m_Layer: 0
+  m_Name: c_WingsuitWingR_uJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1099118695303065
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4977153420339851}
+  m_Layer: 0
+  m_Name: C_skin_meshes__SET
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1243736805655561
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4336590748365959}
+  - component: {fileID: 137256069497284392}
+  m_Layer: 0
+  m_Name: Wingsuit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4061268324235159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4589667821646929}
+  - {fileID: 4977153420339851}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!111 &111587765826080250
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+--- !u!114 &114709867586078768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1270679060, guid: 57608e885eb51e446ff486f5ae575708, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Version: 1
+  UserDefinedCallbackMonoBehaviours: []
+  Layers:
+  - Name: Base
+    Comment:
+    AnimationBlendMode: 0
+    Weight: 1
+    States:
+    - Name: Any State
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 2
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 1
+          ValueFloat: 1
+          ValueInt: 1
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 3
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 2
+          ValueFloat: 1
+          ValueInt: 1
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 5
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 1
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 6
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 2
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 11
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 9
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 12
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 10
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 13
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 11
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 7
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 4
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 8
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 5
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 9
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 6
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 3
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 15
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 15
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 16
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 16
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 14
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 14
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 10
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 3
+          ValueFloat: 1
+          ValueInt: 7
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: -20, y: -500}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath:
+              EditorAssetGUID:
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: Run
+      Comment:
+      Transitions: []
+      EditorPosition: {x: -30, y: 10}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_RunLoop1
+              EditorAssetGUID: 5f668dac1e6c54ff980a0bd7a0525a9e
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 1
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: Attaching
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: 350, y: -500}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_Start
+              EditorAssetGUID: 8facdfe487f8d43958df0eba33e29ad3
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: Detaching
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 4
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: 10, y: -400}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_End
+              EditorAssetGUID: dc32c900d48d148b8b6026aefc8b796d
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents:
+      - Time: 0
+        Method: Hide
+        Parameters: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: Inactive
+      Comment:
+      Transitions: []
+      EditorPosition: {x: 10, y: -310}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath:
+              EditorAssetGUID:
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: Left
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: 350, y: -430}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_Left
+              EditorAssetGUID: 46b19d69364a145198327b67742511b5
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: Right
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: 350, y: -360}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_Right
+              EditorAssetGUID: c11c394157d4a4559ab8d5836cf4e489
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: JumpStart
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: -360, y: -500}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_Jump1Start
+              EditorAssetGUID: 40c27ceedacac4110ad061178425d32b
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: JumpLoop
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: -360, y: -430}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_Jump1Loop
+              EditorAssetGUID: 2b453fef74bc4424786562945172d2f1
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: JumpEnd
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: -360, y: -350}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_Jump1End
+              EditorAssetGUID: b1539adf28744480ba5e7b7cee98b374
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: JumpDown
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: -360, y: -30}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_JumpDown
+              EditorAssetGUID: 94dec47b82354401d825196996233985
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: HitLeft
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: 350, y: -280}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_HitLeft
+              EditorAssetGUID: d6983211a90944d9fa2c8509c8b07ea2
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: HitRight
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: 350, y: -200}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_HitRight
+              EditorAssetGUID: 165e33078f682483daaec5b1eb1c0443
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: HitSmall
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: 350, y: -120}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_HitSmall
+              EditorAssetGUID: d0e23d8354ee94ccf9e177453891ff55
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: JumpStart2
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: -360, y: -270}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_Jump2Start
+              EditorAssetGUID: 738886d86a24855459730a43de764acc
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: JumpLoop2
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: -360, y: -190}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_Jump2Loop
+              EditorAssetGUID: b6d2780289022584c92abb6e9f397860
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: JumpEnd2
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: -360, y: -110}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/WingsuitWing_tomFlying_Jump2End
+              EditorAssetGUID: c8d759173d37712449ae59b53b35e8b9
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    DefaultStateIndex: 4
+    MixTransforms: []
+    EditorPositionOffset: {x: 842, y: 633}
+    Enabled: 1
+    NormalizedTime: 0
+    PreviousNormalizedTime: 0
+    CurrentNormalizedTime: 0
+    PreviousNormalizedSpeed: 1
+    CurrentNormalizedSpeed: 1
+    Speed: 1
+    TransitionSpeed: 1
+    CurrentStateWeight: 1
+    MaxPreviousStateWeight: 0
+    MaxCurrentStateWeight: 0
+    AnimationIndex: 0
+    LoopCount: 0
+    Transitions: []
+  Parameters:
+  - Name: Base Time
+    ParameterType: 1
+    ParameterIndex: 0
+    ValueFloat: 0
+    ValueInt: 0
+  - Name: AttachWingsuit
+    ParameterType: 4
+    ParameterIndex: 0
+    ValueFloat: 0
+    ValueInt: 0
+  - Name: DetachWingsuit
+    ParameterType: 4
+    ParameterIndex: 0
+    ValueFloat: 0
+    ValueInt: 0
+  - Name: Action
+    ParameterType: 6
+    ParameterIndex: 0
+    ValueFloat: 0
+    ValueInt: 0
+  AttributeNames:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  AnimationSets:
+  - Name: Default
+  Enums:
+  - Name: Action
+    Strings:
+    - None
+    - Left
+    - Right
+    - Run
+    - JumpStart
+    - JumpLoop
+    - JumpEnd
+    - JumpDown
+    - JumpFan
+    - HitLeft
+    - HitRight
+    - HitSmall
+    - CrashSmallStart
+    - CrashSmallLoop
+    - JumpStart2
+    - JumpLoop2
+    - JumpEnd2
+  TargetAnimation: {fileID: 111587765826080250}
+  Speed: 1
+  CurrentAnimationSetIndex: 0
+  SmoothDeltaTimeEnabled: 1
+  UpdateTime: 0
+  UpdateIfPaused: 1
+  EditorLayerIndex: 0
+--- !u!114 &114044625135789424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -160678961, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  AnimationStateMachine: {fileID: 114709867586078768}
+  AttachTransformPath: C_skin_joints__SET/c_root_01_uJnt/c_root_00_uJnt/c_spine_00_uJnt/c_spine_01_uJnt/c_spine_02_uJnt/c_chest_00_uJnt
+  PropEffects: []
+  RebindSkinnedMesh: 0
+  MeshRenderer: {fileID: 0}
+  GlassesPrefab: {fileID: 114099118695303065, guid: f27dc545fda77be43a669d030c73d427, type: 2}
+  HarnessPrefab: {fileID: 114470112387431263, guid: 0ec297d634d5d3649822951a6273c745, type: 2}
+  CharacterGlassesPosOffsets:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0.006, z: -0.008}
+  - {x: 0, y: 0.049, z: -0.021}
+  - {x: 0, y: 0.101, z: -0.022}
+  - {x: 0, y: -0.015, z: 0}
+--- !u!4 &4589667821646929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4372920208702427}
+  m_Father: {fileID: 4061268324235159}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!4 &4372920208702427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4025901758691103}
+  m_Father: {fileID: 4589667821646929}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!4 &4025901758691103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.9103696E-12, y: 0.074084535, z: -0.1282991}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4985305603660343}
+  - {fileID: 4705390221481576}
+  m_Father: {fileID: 4372920208702427}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!4 &4985305603660343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703437598541787}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4025901758691103}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!4 &4705390221481576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884547391421755}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4025901758691103}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!4 &4977153420339851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099118695303065}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4336590748365959}
+  m_Father: {fileID: 4061268324235159}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!4 &4336590748365959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243736805655561}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4977153420339851}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!137 &137256069497284392
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243736805655561}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 77148e43c7296634ab29f48cfb66b297, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 5dff4687195dd30498ceb42e3d9f28c2, type: 2}
+  m_Bones:
+  - {fileID: 4705390221481576}
+  - {fileID: 4985305603660343}
+  - {fileID: 4025901758691103}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4025901758691103}
+  m_AABB:
+    m_Center: {x: 4.0233135E-07, y: -0.13330747, z: 0.035377063}
+    m_Extent: {x: 0.37095505, y: 0.15787484, z: 0.05993633}
+  m_DirtyAABB: 0

@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 518741173, guid: 57608e885eb51e446ff486f5ae575708, type: 3}
+  m_Name: tom_tomBuild_Idle2.animevent
+  m_EditorClassIdentifier:
+  Events:
+  - Time: 0.01817177
+    Method: PlayLoopAudioEvent
+    Parameters:
+    - ParameterType: 1
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 0}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 91ae41a7c566bdd4092222f4dbfbcd35, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+  - Time: 2.017066
+    Method: PlayCharacterAudioEvent
+    Parameters:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 6c6c40177a9047645bf4f634cb9784dc, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 210675ad37afa8e4b8c8b57af9609179, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 7406e7caa98176d47884854f094fdf3d, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 7168853910d7e5d408c1df2202a7e232, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 4f0222958d81aa847991d9dca8175a6c, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: c2edb9c412bb4ac4ea69c5b19e2a5842, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+  EnterEvents:
+  - Time: 0
+    Method: PlayProp
+    Parameters:
+    - ParameterType: 4
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter: BlueprintIdle
+      ObjectReferenceParameter: {fileID: 0}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+  ExitEvents:
+  - Time: 0
+    Method: StopProp
+    Parameters:
+    - ParameterType: 4
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter: BlueprintIdle
+      ObjectReferenceParameter: {fileID: 0}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:

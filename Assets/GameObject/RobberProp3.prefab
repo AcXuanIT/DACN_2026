@@ -1,0 +1,481 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4724804207875695}
+  - component: {fileID: 111618682377417806}
+  - component: {fileID: 114703437598541787}
+  - component: {fileID: 114884547391421755}
+  m_Layer: 0
+  m_Name: RobberProp3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4099118695303065}
+  - component: {fileID: 33243736805655561}
+  - component: {fileID: 23061268324235159}
+  m_Layer: 0
+  m_Name: Prop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4724804207875695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4099118695303065}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!111 &111618682377417806
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1270679060, guid: 57608e885eb51e446ff486f5ae575708, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Version: 1
+  UserDefinedCallbackMonoBehaviours: []
+  Layers:
+  - Name: Base
+    Comment:
+    AnimationBlendMode: 0
+    Weight: 1
+    States:
+    - Name: Any State
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 2
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 1
+          ValueFloat: 1
+          ValueInt: 1
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: 200, y: 50}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath:
+              EditorAssetGUID:
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: Inactive
+      Comment:
+      Transitions: []
+      EditorPosition: {x: -60, y: 50}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath:
+              EditorAssetGUID:
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: RobberProp3FrontLoop
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents:
+        - Time: 0
+          Method: Hide
+          Parameters: []
+      EditorPosition: {x: 200, y: 150}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/robberProp3_robbersIntro_FrontLoop
+              EditorAssetGUID: cc1c588cadd241844933601aeef5caed
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    DefaultStateIndex: 1
+    MixTransforms: []
+    EditorPositionOffset: {x: 79, y: 263}
+    Enabled: 1
+    NormalizedTime: 0
+    PreviousNormalizedTime: 0
+    CurrentNormalizedTime: 0
+    PreviousNormalizedSpeed: 1
+    CurrentNormalizedSpeed: 1
+    Speed: 1
+    TransitionSpeed: 1
+    CurrentStateWeight: 1
+    MaxPreviousStateWeight: 0
+    MaxCurrentStateWeight: 0
+    AnimationIndex: 0
+    LoopCount: 0
+    Transitions: []
+  Parameters:
+  - Name: Base Time
+    ParameterType: 1
+    ParameterIndex: 0
+    ValueFloat: 0
+    ValueInt: 0
+  - Name: RobberProp3FrontLoop
+    ParameterType: 4
+    ParameterIndex: 0
+    ValueFloat: 0
+    ValueInt: 0
+  AttributeNames:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  AnimationSets:
+  - Name: Default
+  Enums: []
+  TargetAnimation: {fileID: 111618682377417806}
+  Speed: 1
+  CurrentAnimationSetIndex: 0
+  SmoothDeltaTimeEnabled: 1
+  UpdateTime: 0
+  UpdateIfPaused: 1
+  EditorLayerIndex: 0
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -881069939, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  AnimationStateMachine: {fileID: 114703437598541787}
+  AttachTransformPath: C_skin_joints__SET/c_root_01_uJnt/c_root_00_uJnt/c_spine_00_uJnt/c_spine_01_uJnt/c_spine_02_uJnt/c_back_00_uJnt
+  PropEffects: []
+  RebindSkinnedMesh: 0
+  MeshRenderer: {fileID: 0}
+--- !u!4 &4099118695303065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0.19975573, y: 0.5317694, z: 0.6703639, w: -0.47742134}
+  m_LocalPosition: {x: -0.904, y: 0.782, z: -0.822}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4724804207875695}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 55.819843, y: 50.857124, z: 137.35536}
+--- !u!33 &33243736805655561
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Mesh: {fileID: 4300000, guid: def71f8a7dfb0784b9c0bcfc63146d34, type: 2}
+--- !u!23 &23061268324235159
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 77148e43c7296634ab29f48cfb66b297, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

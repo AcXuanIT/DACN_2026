@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GGJ_RestoreThePlanet_Planet
+  m_Shader: {fileID: 4800000, guid: b065447a23adb364f8cef29e3a29e03b, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2010
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _CleanMaskTex:
+        m_Texture: {fileID: 2800000, guid: fa7cfc51f4873644da5a9b6ce7bf952d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CleanTex:
+        m_Texture: {fileID: 2800000, guid: 0dd8d261883901b40a6a1a3af408423e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DirtyMaskTex:
+        m_Texture: {fileID: 2800000, guid: d98217fc17a41f443b8f59b41acefb23, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DirtyTex:
+        m_Texture: {fileID: 2800000, guid: 72dc08ad6684821408ef3ecbbfab40da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OceanNoiseStagesTex:
+        m_Texture: {fileID: 2800000, guid: 696d9ed0c22d8f749b6fb54ebaf5d4bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _WaterGradientTex:
+        m_Texture: {fileID: 2800000, guid: 7b8f6724d74e2dc4891ca1e26a557204, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DirtinessStage: -1
+      _DstBlend: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Intensity: 1
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _SmoothingDiff: 0.44
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _WaterMovementParameters: {r: 0, g: 0, b: 1, a: 1}
+  m_BuildTextureStacks: []

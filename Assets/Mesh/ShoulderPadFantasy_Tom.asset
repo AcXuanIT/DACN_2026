@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!43 &4300000
 Mesh:
-  serializedVersion: 10
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ShoulderPadFantasy_Tom
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -34,7 +34,7 @@ Mesh:
     e12: 0.07530854
     e13: -0.27615517
     e20: -0.39926484
-    e21: -2.898877E-09
+    e21: -0.000000002898877
     e22: 0.91683567
     e23: -0.0197749
     e30: 0
@@ -50,14 +50,14 @@ Mesh:
     e12: -0.07530854
     e13: 0.27615517
     e20: -0.39926484
-    e21: 8.385792E-10
+    e21: 8.385792e-10
     e22: -0.91683567
     e23: 0.0197749
     e30: 0
     e31: 0
     e32: 0
     e33: 1
-  m_BoneNameHashes: c98ec9.358c047-4
+  m_BoneNameHashes: c98ec9e358c047d4
   m_RootBoneNameHash: 3561472088
   m_BonesAABB:
   - m_Min: {x: -0.079251006, y: -0.03373167, z: -0.05087515}
@@ -65,13 +65,13 @@ Mesh:
   - m_Min: {x: -0.03439878, y: -0.07077071, z: -0.06544331}
     m_Max: {x: 0.079167366, y: 0.033715606, z: 0.050700605}
   m_VariableBoneCountWeights:
-    m_Data:
+    m_Data: 
   m_MeshCompression: 3
   m_IsReadable: 0
   m_KeepVertices: 0
   m_KeepIndices: 0
   m_IndexFormat: 0
-  m_IndexBuffer:
+  m_IndexBuffer: 
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 0
@@ -133,7 +133,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 0
-    _typelessdata:
+    _typelessdata: 
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 2778
@@ -145,19 +145,19 @@ Mesh:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Normals:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Tangents:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Weights:
       m_NumItems: 926
@@ -165,11 +165,11 @@ Mesh:
       m_BitSize: 5
     m_NormalSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_TangentSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_FloatColors:
       m_NumItems: 3704
@@ -190,8 +190,9 @@ Mesh:
     m_Center: {x: 0, y: 0.31720316, z: -0.018420575}
     m_Extent: {x: 0.17205507, y: 0.054066956, z: 0.057363547}
   m_MeshUsageFlags: 1
-  m_BakedConvexCollisionMesh:
-  m_BakedTriangleCollisionMesh:
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
   m_MeshOptimizationFlags: -1
@@ -199,4 +200,4 @@ Mesh:
     serializedVersion: 2
     offset: 0
     size: 0
-    path:
+    path: 

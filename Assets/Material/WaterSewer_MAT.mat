@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterSewer_MAT
+  m_Shader: {fileID: 4800000, guid: 82fd0637aeaa58e4dad454f2fa236aaa, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Mask:
+        m_Texture: {fileID: 2800000, guid: 1cf234451573f434d8d86452d5ee6f49, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Texture2D:
+        m_Texture: {fileID: 2800000, guid: 00789018b8e79e74baee0f07b8589c42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Texture2D_copy:
+        m_Texture: {fileID: 2800000, guid: 00789018b8e79e74baee0f07b8589c42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Cutoff: 0.5
+    m_Colors:
+      _Tint: {r: 0, g: 0.9150943, b: 0.8613863, a: 1}
+  m_BuildTextureStacks: []

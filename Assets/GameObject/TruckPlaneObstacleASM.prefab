@@ -1,0 +1,532 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: TruckPlaneObstacleASM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2444758, y: -1.4901161E-07, z: 10.989206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1270679060, guid: 57608e885eb51e446ff486f5ae575708, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Version: 1
+  UserDefinedCallbackMonoBehaviours: []
+  Layers:
+  - Name: Base
+    Comment:
+    AnimationBlendMode: 0
+    Weight: 1
+    States:
+    - Name: Any State
+      Comment:
+      Transitions: []
+      EditorPosition: {x: 200, y: 50}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath:
+              EditorAssetGUID:
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: -1
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: Idle
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 2
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 1
+          ValueFloat: 1
+          ValueInt: 1
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      - Name:
+        DestinationStateIndex: 3
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 2
+          ValueFloat: 1
+          ValueInt: 1
+          ValueIndex: -1
+          ConditionMode: 2
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: 200, y: 200}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/obstacleBossFightSmall_obstacleBossFightSmall_tPose
+              EditorAssetGUID: d2d66c1d5cc6fba49bd4b865a648e6b1
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/obstacleBossFightBarrel_obstacleBossFightBarrel_tPose
+              EditorAssetGUID: 93b4bdb600468294fb9641d75f527a38
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/obstacleBossFightBig_obstacleBossFightBig_tPose
+              EditorAssetGUID: 43a622add816bc94da4608287a7d7741
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: 3
+      UseNormalizedTime: 0
+      Loop: 1
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: Start
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: 60, y: 310}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/obstacleBossFightSmall_obstacleBossFightSmall_Start
+              EditorAssetGUID: 5881251608e0e784abb16d324b7b0d06
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/obstacleBossFightBarrel_obstacleBossFightBarrel_Start
+              EditorAssetGUID: d8bcd9a4678d2004a98b840cedaa28a0
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/obstacleBossFightBig_obstacleBossFightBig_Start
+              EditorAssetGUID: 952d002e10cd42c42af05dfeac176870
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: 3
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    - Name: AirStart
+      Comment:
+      Transitions:
+      - Name:
+        DestinationStateIndex: 1
+        Enabled: 1
+        Atomic: 1
+        UpdateTime: 1
+        Duration: 0
+        AnimationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Conditions:
+        - ParameterIndex: 0
+          ValueFloat: 1
+          ValueInt: 0
+          ValueIndex: -1
+          ConditionMode: 3
+        PrePlayEvents: []
+        PostPlayEvents: []
+      EditorPosition: {x: 330, y: 310}
+      BlendTreePoints:
+      - Position: {x: 0, y: 0}
+        AnimationSetClipInfos:
+        - ClipInfos:
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/obstacleBossFightSmall_obstacleBossFightSmall_Start
+              EditorAssetGUID: 5881251608e0e784abb16d324b7b0d06
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/obstacleBossFightBarrel_obstacleBossFightBarrelAir_Start
+              EditorAssetGUID: 09ae6bcbe5da264409c42a23d6b9f292
+          - AnimationClipReference:
+              PrefabPath: Characters/Animations/obstacleBossFightBig_obstacleBossFightBig_Start
+              EditorAssetGUID: 952d002e10cd42c42af05dfeac176870
+      BlendTreeAreas: []
+      TimeAnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ParameterXIndex: -1
+      ParameterYIndex: -1
+      ParameterIndexIndex: 3
+      UseNormalizedTime: 0
+      Loop: 0
+      RestartOnLoopEnd: 0
+      CanStopLoop: 0
+      PlayRange: {x: 0, y: 1}
+      LoopRange: {x: 0, y: 1}
+      Switch: 0
+      TimeInSeconds: 0
+      AttributeMask: 0
+      EnterEvents: []
+      ExitEvents: []
+      Speed: 1
+      Weight: 1
+      Priority: 1
+    DefaultStateIndex: 1
+    MixTransforms: []
+    EditorPositionOffset: {x: -25, y: 105}
+    Enabled: 1
+    NormalizedTime: 0
+    PreviousNormalizedTime: 0
+    CurrentNormalizedTime: 0
+    PreviousNormalizedSpeed: 1
+    CurrentNormalizedSpeed: 1
+    Speed: 1
+    TransitionSpeed: 1
+    CurrentStateWeight: 1
+    MaxPreviousStateWeight: 0
+    MaxCurrentStateWeight: 0
+    AnimationIndex: 0
+    LoopCount: 0
+    Transitions: []
+  Parameters:
+  - Name: Base Time
+    ParameterType: 1
+    ParameterIndex: 0
+    ValueFloat: 0
+    ValueInt: 0
+  - Name: Start
+    ParameterType: 4
+    ParameterIndex: 0
+    ValueFloat: 0
+    ValueInt: 0
+  - Name: AirStart
+    ParameterType: 4
+    ParameterIndex: 0
+    ValueFloat: 0
+    ValueInt: 0
+  - Name: ObstacleIndex
+    ParameterType: 0
+    ParameterIndex: 0
+    ValueFloat: 0
+    ValueInt: 0
+  AttributeNames:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  AnimationSets:
+  - Name: Default
+  Enums: []
+  TargetAnimation: {fileID: 0}
+  Speed: 1
+  CurrentAnimationSetIndex: 0
+  SmoothDeltaTimeEnabled: 1
+  UpdateTime: 0
+  UpdateIfPaused: 1
+  EditorLayerIndex: 0
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1639418233, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  AudioEnabled: 1
+  ObstacleASM: {fileID: 114724804207875695}
