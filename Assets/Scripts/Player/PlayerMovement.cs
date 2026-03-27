@@ -1,27 +1,165 @@
-﻿using Unity.Netcode;
+﻿using DG.Tweening;
+using Unity.Netcode;
 using UnityEngine;
 
+public enum Direction
+{
+    Left, Right, Up, Down
+}
 public class PlayerMovement : NetworkBehaviour
 {
+    [SerializeField] private Rigidbody rb;
+
     public float speed = 5f;
     private Vector3 targetPos;
+    private float distanceMoveX = 1.25f;
+
+    private Vector2 targetCurrent;
+    private Direction targetDir;
+
+    private bool IsProcessing;
+    private bool IsMove;
+
+    private int indexPlayer = 0;
+    private void Awake()
+    {
+        IsProcessing = false;
+        IsMove = false;
+    }
 
     void Update()
     {
-        if (IsOwner)
+        MovePlayer();
+        /*if (IsOwner)
         {
-            float x = Input.GetAxis("Horizontal");
-            float z = Input.GetAxis("Vertical");
-
-            Vector3 move = new Vector3(x, 0, z);
-            transform.Translate(move * speed * Time.deltaTime);
-
-            SendPositionServerRpc(transform.position);
+            MovePlayer();
         }
         else
         {
-            // smooth
             transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * 10);
+        }*/
+    }
+
+    public void MovePlayer()
+    {
+        //pc
+        InputMovePC();
+
+        //mobile
+        InputMoveMobile();
+
+        SendPositionServerRpc(transform.position);
+    }
+    public void InputMoveMobile()
+    {
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            if(touch.phase == TouchPhase.Began)
+            {
+                targetCurrent = touch.position;
+            }
+            else if(touch.phase == TouchPhase.Moved)
+            {
+                ProcessingPositionInput(touch.position);
+            }
+            else if(touch.phase == TouchPhase.Ended)
+            {
+                IsProcessing = false;
+            }
+        }
+    }
+    public void InputMovePC()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            targetCurrent = Input.mousePosition;
+        }
+        if(Input.GetMouseButton(0))
+        {
+            ProcessingPositionInput(Input.mousePosition);
+        }
+        if(Input.GetMouseButtonUp(0))
+        {
+            IsProcessing = false;
+        }
+    }
+
+    public void ProcessingPositionInput(Vector2 pos)
+    {
+        if (IsProcessing) return;
+
+        Vector2 dir = pos - targetCurrent;
+
+        float distance = Vector2.Distance(targetCurrent, pos);
+
+        if (distance < 5f) return;
+
+        dir = dir.normalized;
+        IsProcessing = true;
+
+        if (Mathf.Abs(dir.y) > Mathf.Abs(dir.x))
+        {
+            if (dir.y > 0)
+                targetDir = Direction.Up;
+            else
+                targetDir = Direction.Down;
+        }
+        else
+        {
+            if (dir.x > 0)
+                targetDir = Direction.Right;
+            else
+                targetDir = Direction.Left;
+        }
+        Debug.Log(targetDir);
+        ProcessingMove(targetDir);
+    }
+    public void ProcessingMove(Direction dir)
+    {
+        switch(dir)
+        {
+            case Direction.Right:
+                MoveLeftAndRight(1);
+                break;
+            case Direction.Left:
+                MoveLeftAndRight(-1);
+                break;
+            case Direction.Up:
+                MoveUpAndDown(1);
+                break;
+            case Direction.Down:
+                MoveUpAndDown(-1);
+                break;
+        }
+    }
+    public void MoveLeftAndRight(int dir)
+    {
+        if (IsMove) return;
+        if (dir == -1 && indexPlayer == -1) return;
+        if (dir == 1 && indexPlayer == 1) return;
+
+        Vector3 movePos = transform.position;
+        indexPlayer += dir;
+        movePos.x += dir * 1.25f;
+      
+        transform.DOMove(movePos, 0.25f).OnComplete(() =>
+        {
+            Vector3 pos = transform.position;
+            if (indexPlayer == 1) pos.x = 1.25f;
+            else if (indexPlayer == 0) pos.x = 0f;
+            else if (indexPlayer == -1) pos.x = -1.25f;
+            transform.position = pos;
+            IsMove = false;
+        });
+    }
+    public void MoveUpAndDown(int dir)
+    {
+        if(dir == 1)
+        {
+            rb.AddForce(Vector3.up * 10f, ForceMode.Impulse);
+            Debug.Log(rb.velocity);
         }
     }
 

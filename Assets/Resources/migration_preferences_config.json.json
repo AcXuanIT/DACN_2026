@@ -1,0 +1,1224 @@
+﻿{
+    "PreferencesNamespace": "com.outfit7.talkingtomgoldrun.game",
+    "VersionId": 1,
+    "MigrationList": [
+        {
+            "Type": "Int",
+            "Key": "RobberFastIntroCount",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "YardRobberRootAnimationController.cs",
+            "PreferenceKeyName": "FastIntroCountUserPrefs"
+        },
+        {
+            "Type": "String",
+            "Key": "WebMeshManagerUrls",
+            "SearchText": "UserPrefs.GetCollectionAsList",
+            "FileName": "WebMeshManager.cs",
+            "PreferenceKeyName": "UrlsPref"
+        },
+        {
+            "Type": "String",
+            "Key": "LastRareEvent",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "RareEventSelector.cs",
+            "PreferenceKeyName": "LastRareEventKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "GameController.WinStreakKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "GameController.cs",
+            "PreferenceKeyName": "WinStreakKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "GameController.LooseStreakKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "GameController.cs",
+            "PreferenceKeyName": "LooseStreakKey"
+        },
+        {
+            "Type": "String",
+            "Key": "GameController.AverageRunRankList",
+            "SearchText": "UserPrefs.GetCollectionAsList;UserPrefs.GetCollectionAsList",
+            "FileName": "GameController.cs",
+            "PreferenceKeyName": "AverageRunRankKey"
+        },
+        {
+            "Type": "Long",
+            "Key": "VideoDurationSum",
+            "SearchText": "UserPrefs.GetLong",
+            "FileName": "TtgrAdManager.cs",
+            "PreferenceKeyName": "VideoDurationSumPref"
+        },
+        {
+            "Type": "Long",
+            "Key": "InterstitialDurationSum",
+            "SearchText": "UserPrefs.GetLong",
+            "FileName": "TtgrAdManager.cs",
+            "PreferenceKeyName": "InterstitialDurationSumPref"
+        },
+        {
+            "Type": "Int",
+            "Key": "THRVideoClipManager.NumOfVideosForRandomRewardLeft",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "TtgrVideoClipManager.cs",
+            "PreferenceKeyName": "NumOfVideosForRandomRewardLeftKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "THRVideoClipManager.VideoForRandomRewardTimeoutEnd",
+            "SearchText": "UserPrefs.GetDateTime",
+            "FileName": "TtgrVideoClipManager.cs",
+            "PreferenceKeyName": "VideoForRandomRewardTimeoutEndKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "LastSessionStateDuration",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "AnalyticsHelper.cs",
+            "PreferenceKeyName": "LastSessionStateDurationKey"
+        },
+        {
+            "Type": "String",
+            "Key": "LastSessionStateName",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "AnalyticsHelper.cs",
+            "PreferenceKeyName": "LastSessionStateNameKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "FreeVaultAvailableSent",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "SharedEventsManager.cs",
+            "PreferenceKeyName": "key"
+        },
+        {
+            "Type": "Bool",
+            "Key": "O7.GameAudio.Mute.Sfx",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "GameAudioEventManager.cs",
+            "PreferenceKeyName": "SettingsMuteSfxName"
+        },
+        {
+            "Type": "Bool",
+            "Key": "O7.GameAudio.Mute.MusicSongs",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "GameAudioEventManager.cs",
+            "PreferenceKeyName": "SettingsMuteMusicName"
+        },
+        {
+            "Type": "String",
+            "Key": "AssetBundleManager.UnlockedBundleNames",
+            "SearchText": "UserPrefs.GetCollectionAsList",
+            "FileName": "AssetBundleManager.cs",
+            "PreferenceKeyName": "UnlockedBundleNamesKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionData.SuccessfulActions",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "ActionMissionController.cs",
+            "PreferenceKeyName": "SuccessfulActionsKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionData.RewardAmount",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "BaseMissionController.cs",
+            "PreferenceKeyName": "RewardAmountKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionData.RewardType",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "BaseMissionController.cs",
+            "PreferenceKeyName": "RewardTypeKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionData.FinalTargetAmount",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "BoosterFetchMissionController.cs",
+            "PreferenceKeyName": "FinalTargetAmountKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionData.CurrentCollectedAmount",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "BoosterFetchMissionController.cs",
+            "PreferenceKeyName": "CurrentCollectedAmountKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionData.RewardAmount",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "DontMissionController.cs",
+            "PreferenceKeyName": "RewardAmountKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionData.RewardType",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "DontMissionController.cs",
+            "PreferenceKeyName": "RewardTypeKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionData.FinalTargetGoldAmount",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "GoldBarsMissionController.cs",
+            "PreferenceKeyName": "FinalTargetGoldAmountKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionData.CurrentCollectedGoldAmount",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "GoldBarsMissionController.cs",
+            "PreferenceKeyName": "CurrentCollectedGoldAmountKey"
+        },
+        {
+            "Type": "String",
+            "Key": "MissionData.ItemsToFetch",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "ItemFetchMissionController.cs",
+            "PreferenceKeyName": "ItemsToFetchKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "MissionManager.FreshMissionButtonPressed",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "FreshMissionReadyKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "MissionManager.StreakContinuedKey",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "StreakContinuedKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "MissionManager.AutoOpenMissionsPanelKey",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "AutoOpenMissionsPanelKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "MissionManager.MissionCompletedKey",
+            "SearchText": "UserPrefs.GetBool;UserPrefs.GetBool",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "MissionCompletedKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionManager.ActiveMissionIndexKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "ActivePredefinedMissionIndexKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionManager.SuccessfullyCompletedMissionCountKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "SuccessfullyCompletedMissionCountKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionManager.StreakDayKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "StreakDayKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionManager.StreakContinueIndexKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "StreakContinueIndexKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionManager.DiamondVaultsReceivedKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "DiamondVaultsReceivedKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionManager.LastMissedDaysKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "LastMissedDaysKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionManager.NumOfAppRestartDaysMissedKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "NumOfAppRestartDaysMissedKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "LastLoadedMissionConfigId",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "LastLoadedMissionConfigIdKey"
+        },
+        {
+            "Type": "Long",
+            "Key": "MissionManager.StreakStateKey",
+            "SearchText": "UserPrefs.GetLong",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "StreakStateKey"
+        },
+        {
+            "Type": "Long",
+            "Key": "MissionManager.StreakKeptDays",
+            "SearchText": "UserPrefs.GetLong",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "StreakKeptDaysKey"
+        },
+        {
+            "Type": "String",
+            "Key": "BannedMissionActivationIndexes",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "BannedMissionActivationIndexesKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "MissionManager.MissionEndTimeKey",
+            "SearchText": "UserPrefs.GetDateTime",
+            "FileName": "MissionManager.cs",
+            "PreferenceKeyName": "MissionEndTimeKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionData.CurrentVaultsToOpen",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "OpenVaultsMissionController.cs",
+            "PreferenceKeyName": "CurrentVaultsToOpenKey"
+        },
+        {
+            "Type": "Long",
+            "Key": "MissionData.ScoreTreshold",
+            "SearchText": "UserPrefs.GetLong",
+            "FileName": "ScoreMissionController.cs",
+            "PreferenceKeyName": "ScoreTresholdKey"
+        },
+        {
+            "Type": "Long",
+            "Key": "MissionData.TimeLimit",
+            "SearchText": "UserPrefs.GetLong",
+            "FileName": "StayAliveMissionController.cs",
+            "PreferenceKeyName": "TimeLimitKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "SpecialOfferManager.LastAutoOpenTime",
+            "SearchText": "UserPrefs.GetDateTime",
+            "FileName": "TtgrSpecialOfferManager.cs",
+            "PreferenceKeyName": "PrefLastAutoOpenTimeKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "FullGameUnlocked",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "TtgrPurchasingManager.cs",
+            "PreferenceKeyName": "FullGameUnlockedPrefKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "MegaSaleUnlocked",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "TtgrPurchasingManager.cs",
+            "PreferenceKeyName": "MegaSaleUnlockedPrefKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "WRRewardStateKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "WeeklyRacingManager.cs",
+            "PreferenceKeyName": "RewardStateKey"
+        },
+        {
+            "Type": "String",
+            "Key": "WRActiveWeeklyRacingConfigKey",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "WeeklyRacingManager.cs",
+            "PreferenceKeyName": "ActiveWeeklyRacingConfigKey"
+        },
+        {
+            "Type": "String",
+            "Key": "WRRewardToClaimKey",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "WeeklyRacingManager.cs",
+            "PreferenceKeyName": "RewardToClaimKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "LongIntroCount",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "RunnerManager.cs",
+            "PreferenceKeyName": "LongIntroCountUserPrefs"
+        },
+        {
+            "Type": "Bool",
+            "Key": "TokenEventIntro",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "IntroKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "TokenEventRouletteTokenReward",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "RouletteTokenRewardKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "TokenEventSendStartEventKey",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "SendStartEventKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "ProgressionTokenEventTutorialDone",
+            "SearchText": "UserPrefs.GetBool;UserPrefs.GetBool",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "ProgressionEventTutorialDoneKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "ProgressionTokenEventMaxMilestoneReached",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "ProgressionEventMaxMilestoneReachedKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "ProgressionTokenEventFlowersColoredKey",
+            "SearchText": "UserPrefs.GetBool;UserPrefs.GetBool",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "FlowersColoredKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "ProgressionTokenEventTutorialRewardReadyEventSent",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "TutorialRewardReadyEventSentKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "TokenEventProgressionCurrentMilestone",
+            "SearchText": "UserPrefs.GetInt;UserPrefs.GetInt",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "CurrentMilestoneKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "ProgressionTokenEventMaterialSetKey",
+            "SearchText": "UserPrefs.GetInt;UserPrefs.GetInt",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "MaterialSetKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "ProgressionTokenEventLastRewardClaimedMilestoneIndex",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "LastRewardClaimedMilestoneIndexKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "TokenEventHashId",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "EventHashIdKey"
+        },
+        {
+            "Type": "Long",
+            "Key": "ProgressionTokenEventCachedProgressionEventStartDate",
+            "SearchText": "UserPrefs.GetLong",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "CachedProgressionEventStartDateKey"
+        },
+        {
+            "Type": "Long",
+            "Key": "TokenEventUserStartDate",
+            "SearchText": "UserPrefs.GetLong;UserPrefs.GetDateTime",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "EventUserStartDate"
+        },
+        {
+            "Type": "String",
+            "Key": "TokenEventTokenId",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "TokenIdKey"
+        },
+        {
+            "Type": "String",
+            "Key": "TokenEventId",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "TokenEventManager.cs",
+            "PreferenceKeyName": "EventIdKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "UserManager.NumOfSkippedStateSends",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "UserManager.cs",
+            "PreferenceKeyName": "NumOfSkippedStateSendsKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "NumOfAllRunsKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "UserManager.cs",
+            "PreferenceKeyName": "\"NumOfAllRunsKey\""
+        },
+        {
+            "Type": "Int",
+            "Key": "O7.Tutorial.NumberOfAllRunsWhenVaultCompleted",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "UserManager.cs",
+            "PreferenceKeyName": "\"O7.Tutorial.NumberOfAllRunsWhenVaultCompleted\""
+        },
+        {
+            "Type": "String",
+            "Key": "UserManager.RemotePlayerId",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "UserManager.cs",
+            "PreferenceKeyName": "RemotePlayerIdKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "LocalState.{0}",
+            "Multipliers0": "m;cPu;cCu;nOAR;nORWVC",
+            "FileName": "UserStateWorker.cs"
+        },
+        {
+            "Type": "Long",
+            "Key": "LocalState.{0}",
+            "Multipliers0": "hS;rPs;wRPs;tS",
+            "FileName": "UserStateWorker.cs"
+        },
+        {
+            "Type": "String",
+            "Key": "LocalState.{0}",
+            "Multipliers0": "n;cS",
+            "FileName": "UserStateWorker.cs"
+        },
+        {
+            "Type": "Int",
+            "Key": "BackendState.{0}",
+            "Multipliers0": "m;gBB;sB;vB;dB;mB;rB;hB;dBa;ts;cPu;cCu;nOAR;nORWVC",
+            "FileName": "UserStateWorker.cs"
+        },
+        {
+            "Type": "Long",
+            "Key": "BackendState.{0}",
+            "Multipliers0": "hS;rPs;wRPs;tS",
+            "FileName": "UserStateWorker.cs"
+        },
+        {
+            "Type": "String",
+            "Key": "BackendState.{0}",
+            "Multipliers0": "n;fcSe",
+            "FileName": "UserStateWorker.cs"
+        },
+        {
+            "Type": "String",
+            "Key": "UserState.CurrencyState",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "UserStateWorker.cs",
+            "PreferenceKeyName": "CurrencyStateKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "userIsLootHater",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "VaultInfoDialogManager.cs",
+            "PreferenceKeyName": "\"userIsLootHater\""
+        },
+        {
+            "Type": "String",
+            "Key": "MetalVaultItemsKey",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "VaultInfoDialogManager.cs",
+            "PreferenceKeyName": "key"
+        },
+        {
+            "Type": "String",
+            "Key": "DiamondVaultItemsKey",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "VaultInfoDialogManager.cs",
+            "PreferenceKeyName": "key"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "LastTimeItemsUpdatedKey",
+            "SearchText": "UserPrefs.GetDateTime",
+            "FileName": "VaultInfoDialogManager.cs",
+            "PreferenceKeyName": "LastTimeItemsUpdatedKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "VaultManager.OpenVaultCount",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "VaultManager.cs",
+            "PreferenceKeyName": "OpenVaultCountKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "VaultManager.OpenVaultSinceLastWatchVideoCount",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "VaultManager.cs",
+            "PreferenceKeyName": "OpenVaultSinceLastWatchVideoCountKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "CouponManager.PendingVaultsKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "VaultManager.cs",
+            "PreferenceKeyName": "PendingVaultsKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "VaultManager.VaultCrackTimestamp",
+            "SearchText": "UserPrefs.GetDateTime",
+            "FileName": "VaultManager.cs",
+            "PreferenceKeyName": "VaultCrackTimestampKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "VaultManager.FreeVaultReceivedTimestamp",
+            "SearchText": "UserPrefs.GetDateTime",
+            "FileName": "VaultManager.cs",
+            "PreferenceKeyName": "FreeVaultReceivedTimestampKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "YardManager.GoldBarsSpentForUpgrade",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "YardManager.cs",
+            "PreferenceKeyName": "GoldBarsSpentForUpgradeKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "YardManager.DiamondsSpentForUpgradeKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "YardManager.cs",
+            "PreferenceKeyName": "DiamondsSpentForUpgradeKey"
+        },
+        {
+            "Type": "String",
+            "Key": "YardManager.PlayYardUnlockAnimations",
+            "SearchText": "UserPrefs.GetCollectionAsList",
+            "FileName": "YardManager.cs",
+            "PreferenceKeyName": "PlayYardUnlockAnimationsKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "DoublerRouletteIntro",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "DoublerRouletteEventManager.cs",
+            "PreferenceKeyName": "IntroKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "DoublerHashId",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "DoublerRouletteEventManager.cs",
+            "PreferenceKeyName": "EventHashIdKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "ReminderPlugin.SoundEnabled",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "LocalReminderManager.cs",
+            "PreferenceKeyName": "TtgrLocalNotificationManager.SoundEnabledPref"
+        },
+        {
+            "Type": "String",
+            "Key": "PerformanceManager.QualitySetting",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "PerformanceManager.cs",
+            "PreferenceKeyName": "QualitySettingKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "PREFreeSpin",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "PremiumRouletteEventManager.cs",
+            "PreferenceKeyName": "FreeSpinKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "PRETutorial",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "PremiumRouletteEventManager.cs",
+            "PreferenceKeyName": "TutorialKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "PREHashId",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "PremiumRouletteEventManager.cs",
+            "PreferenceKeyName": "EventHashIdKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "RateThisAppDialogState.HasRated",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "RateThisAppManager.cs",
+            "PreferenceKeyName": "HasRatedKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "RateThisAppDialogState.NumberOfShowed",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "RateThisAppManager.cs",
+            "PreferenceKeyName": "NumberOfShowedKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "TGRPushManager.subscribed",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "TtgrPushManager.cs",
+            "PreferenceKeyName": "SubscribedKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "NumberOfRunsOnLastCoonChaseFinishKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "RunnerData.cs",
+            "PreferenceKeyName": "NumberOfRunsOnLastCoonChaseFinishKey"
+        },
+        {
+            "Type": "Long",
+            "Key": "RunnerStateData.CumulativeRunDuration",
+            "SearchText": "UserPrefs.GetLong",
+            "FileName": "RunnerData.cs",
+            "PreferenceKeyName": "CumulativeRunDurationKey"
+        },
+        {
+            "Type": "Float",
+            "Key": "MaxSpeedReachedKey",
+            "SearchText": "UserPrefs.GetFloat",
+            "FileName": "RunnerData.cs",
+            "PreferenceKeyName": "MaxSpeedReachedKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "TimeOnLastCoonChaseFinishKey",
+            "SearchText": "UserPrefs.GetDateTime",
+            "FileName": "RunnerData.cs",
+            "PreferenceKeyName": "TimeOnLastCoonChaseFinishKey"
+        },
+        {
+            "Type": "String",
+            "Key": "SpecialOfferManager.TestData",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "SpecialOfferManager.cs",
+            "PreferenceKeyName": "TestDataPrefKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "SpecialOffers.LastCompletedOfferSessionId",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "SpecialOfferWorker.cs",
+            "PreferenceKeyName": "LastCompletedOfferSessionIdPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "SpecialOffers.UsedSpecialOfferIds",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "SpecialOfferWorker.cs",
+            "PreferenceKeyName": "UsedOfferIdsPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "SpecialOffers.ActivatedSpecialOffer",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "SpecialOfferWorker.cs",
+            "PreferenceKeyName": "ActiveOffersPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "LocalState.{0}",
+            "Multipliers0": "vP;vM;vBN;vBP;vOT;vOV;vOF;vOD;sMFVs;sMDs;dR;dRT",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "UserData.cs",
+            "PreferenceKeyName": "string.Format(keyPrefix"
+        },
+        {
+            "Type": "String",
+            "Key": "BackendState.{0}",
+            "Multipliers0": "vP;vM;vBN;vBP;vOT;vOV;vOF;vOD;sMFVs;sMDs;dR;dRT",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "UserData.cs",
+            "PreferenceKeyName": "string.Format(keyPrefix"
+        },
+        {
+            "Type": "String",
+            "Key": "Achievements.Achievement.{0}",
+            "Multipliers0": "0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "AchievementPersister.cs TODO",
+            "PreferenceKeyName": "PrefKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "AdManager.CanStartShowingInterstitials",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "ObsoleteInterstitialAdManager.cs",
+            "PreferenceKeyName": "CanStartShowingAdsKey"
+        },
+        {
+            "Type": "Long",
+            "Key": "AdManager.TimeSpentInApp",
+            "SearchText": "UserPrefs.GetLong",
+            "FileName": "ObsoleteInterstitialAdManager.cs",
+            "PreferenceKeyName": "TicksSpentInAppKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "MasterPopUpManager.Debug.Enabled",
+            "SearchText": "preferences.GetBool",
+            "FileName": "MasterPopUpManager.config.cs",
+            "PreferenceKeyName": "DebugEnabledPrefKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "MasterPopUpManager.Debug.BlockadeSuspended",
+            "SearchText": "preferences.GetBool",
+            "FileName": "MasterPopUpManager.config.cs",
+            "PreferenceKeyName": "DebugBlockadeSuspendedPrefKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MasterPopUpManager.Debug.StartSessionTimeWindowDuration",
+            "SearchText": "preferences.GetInt",
+            "FileName": "MasterPopUpManager.config.cs",
+            "PreferenceKeyName": "DebugStartSessionTimeWindowDurationPrefKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MasterPopUpManager.Debug.StartSessionPopUpCountLimit",
+            "SearchText": "preferences.GetInt",
+            "FileName": "MasterPopUpManager.config.cs",
+            "PreferenceKeyName": "DebugStartSessionPopUpCountLimitPrefKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MasterPopUpManager.Debug.MidSessionTimeWindowDuration",
+            "SearchText": "preferences.GetInt",
+            "FileName": "MasterPopUpManager.config.cs",
+            "PreferenceKeyName": "DebugMidSessionTimeWindowDurationPrefKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "PopUpLogic.{0}.Debug.Enabled",
+            "Multipliers0": "AutoNews;GdprConsent;Interstitial",
+            "SearchText": "preferences.GetBool;UserPrefs.GetBool",
+            "FileName": "PopUpLogic.config.cs",
+            "PreferenceKeyName": "DebugEnabledPrefKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "PopUpLogic.{0}.TodayShowCount",
+            "Multipliers0": "AutoNews;GdprConsent;Interstitial",
+            "SearchText": "preferences.GetInt",
+            "FileName": "PopUpLogic.cs",
+            "PreferenceKeyName": "TodayShowCountPrefKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "PopUpLogic.{0}.SinceAppUpdateShowCount",
+            "Multipliers0": "AutoNews;GdprConsent;Interstitial",
+            "SearchText": "preferences.GetInt",
+            "FileName": "PopUpLogic.cs",
+            "PreferenceKeyName": "SinceAppUpdateShowCountPrefKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "PopUpLogic.{0}.TotalShowCount",
+            "Multipliers0": "AutoNews;GdprConsent;Interstitial",
+            "SearchText": "preferences.GetInt",
+            "FileName": "PopUpLogic.cs",
+            "PreferenceKeyName": "TotalShowCountPrefKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "PopUpLogic.{0}.LastShowSessionId",
+            "Multipliers0": "AutoNews;GdprConsent;Interstitial",
+            "SearchText": "preferences.GetInt",
+            "FileName": "PopUpLogic.cs",
+            "PreferenceKeyName": "LastShowSessionIdPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "PopUpLogic.{0}.LastShowAppVersion",
+            "Multipliers0": "AutoNews;GdprConsent;Interstitial",
+            "SearchText": "preferences.GetString",
+            "FileName": "PopUpLogic.cs",
+            "PreferenceKeyName": "LastShowAppVersionPrefKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "PopUpLogic.{0}.LastShowDay",
+            "Multipliers0": "AutoNews;GdprConsent;Interstitial",
+            "SearchText": "preferences.GetDateTime",
+            "FileName": "PopUpLogic.cs",
+            "PreferenceKeyName": "LastShowDayPrefKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "{0}",
+            "Multipliers0": "DreamingOfManager.LastLanConnectivityTime;UpdateBannerManager.LastLanConnectivityTime",
+            "SearchText": "UserPrefs.GetDateTime",
+            "FileName": "PromoManager.cs",
+            "PreferenceKeyName": "LastLanConnectivityTimePrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "{0}",
+            "Multipliers0": "DreamingOfManager.CampaignHistory;UpdateBannerManager.CampaignHistory",
+            "SearchText": "UserPrefs.GetCollectionAsList",
+            "FileName": "PromoManager.cs",
+            "PreferenceKeyName": "CampaignHistoryPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "SpecialOffers.ProcessingSpecialOffers",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "PurchasingWorker.cs",
+            "PreferenceKeyName": "OldProcessingSpecialOffers"
+        },
+        {
+            "Type": "String",
+            "Key": "PurchasingWorker.ProcessingPurchases",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "PurchasingWorker.cs",
+            "PreferenceKeyName": "ProcessingPurchasesPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "ShopItemManager.TestData",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "ShopItemManager.cs",
+            "PreferenceKeyName": "TestDataPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "Adjuster.AdjustedIds",
+            "SearchText": "UserPrefs.GetCollectionAsList;UserPrefs.GetCollectionAsList;preferences.GetString",
+            "FileName": "Adjuster.cs",
+            "PreferenceKeyName": "AdjustmentIdsPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "Repository.{0}",
+            "Multipliers0": "AssetBundle;DailyContestOffer;VideoWatch;Yard",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "BaseUserPrefsRepository.cs",
+            "PreferenceKeyName": "CollectionSaveKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "ReminderPlugin.SoundEnabled",
+            "SearchText": "UserPrefs.GetBool;UserPrefs.GetBool",
+            "FileName": "SettingsState.cs",
+            "PreferenceKeyName": "TtgrLocalNotificationManager.SoundEnabledPref"
+        },
+        {
+            "Type": "String",
+            "Key": "WhatsNewState.ShownVersion",
+            "SearchText": "UserPrefs.GetString",
+            "FileName": "WhatsNewState.cs",
+            "PreferenceKeyName": "PrefsKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "HomeState.BemobiDynamiteRewardKey",
+            "SearchText": "UserPrefs.GetDateTime",
+            "FileName": "HomeState.cs",
+            "PreferenceKeyName": "BemobiDynamiteRewardKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "InterstitialHackKey",
+            "SearchText": "UserPrefs.GetBool",
+            "FileName": "RunnerState.cs",
+            "PreferenceKeyName": "InterstitialHackKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "MissionDialogController.FirstBatchStreakDayIndexKey",
+            "SearchText": "UserPrefs.GetInt",
+            "FileName": "MissionDialogController.cs",
+            "PreferenceKeyName": "FirstBatchStreakDayIndexKey"
+        },
+        {
+            "Type": "String",
+            "Key": "FilePersistentCacheIndex",
+            "SearchText": "UserPrefs.GetJson",
+            "FileName": "FilePersistentCacheIndex.cs",
+            "PreferenceKeyName": "_saveKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "vid-placement-VideoAdPlacementType-shown-count--1-",
+            "SearchText": "preferences.GetInt",
+            "FileName": "VideoAdPlacement.cs",
+            "PreferenceKeyName": "GetPrefsTag(ShownCountKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "vid-placement-VideoAdPlacementType-shown-time--1-",
+            "SearchText": "preferences.GetDateTime",
+            "FileName": "VideoAdPlacement.cs",
+            "PreferenceKeyName": "GetPrefsTag(ShownTimeKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "vid-placement-VideoAdPlacementType-next-show-time--1-",
+            "SearchText": "preferences.GetDateTime",
+            "FileName": "VideoAdPlacement.cs",
+            "PreferenceKeyName": "GetPrefsTag(NextShownTimeKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "AdManager.AdInterestBasedTrackingDisabledKey",
+            "SearchText": "preferences.GetBool",
+            "FileName": "AdManager.cs",
+            "PreferenceKeyName": "AdInterestBasedTrackingDisabledKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "VideoAdManager.DailyCapDayKey",
+            "SearchText": "preferences.GetDateTime",
+            "FileName": "VideoAdManager.cs",
+            "PreferenceKeyName": "DailyCapDayKey"
+        },
+        {
+            "Type": "String",
+            "Key": "DownloadManager::StoredDownloads",
+            "SearchText": "preferences.GetString",
+            "FileName": "DownloadManager.cs",
+            "PreferenceKeyName": "DownloadManagerPrefsKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "ComplianceManager.InitialCollected",
+            "SearchText": "preferences.GetBool",
+            "FileName": "ComplianceManager.cs",
+            "PreferenceKeyName": "InitialCollectedPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "NotificationBannerManager::UpdateBannerItems",
+            "SearchText": "preferences.GetString",
+            "FileName": "NotificationBannerManager.cs",
+            "PreferenceKeyName": "PrefsUpdateBannerKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "performancetracker.PerformanceTestSent",
+            "SearchText": "preferences.GetBool",
+            "FileName": "PerformanceTracker.cs",
+            "PreferenceKeyName": "PerformanceTestSentPrefsKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "performancetracker.DeviceInfoSent",
+            "SearchText": "preferences.GetBool",
+            "FileName": "PerformanceTracker.cs",
+            "PreferenceKeyName": "DeviceInfoSentPrefsKey"
+        },
+        {
+            "Type": "String",
+            "Key": "Adjuster.PendingAdjustments",
+            "SearchText": "preferences.GetString",
+            "FileName": "Adjuster.cs",
+            "PreferenceKeyName": "PendingAdjustmentIdsPrefKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "PersistenceManager::OldStoreState",
+            "SearchText": "preferences.GetBool;preferences.GetBool",
+            "FileName": "PersistenceManager.cs",
+            "PreferenceKeyName": "OldCloudStateKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "PersistenceManager::RestoredAutomaticallyFromCloud",
+            "SearchText": "preferences.GetBool",
+            "FileName": "PersistenceManager.cs",
+            "PreferenceKeyName": "RestoredAutomaticallyFromCloudKey"
+        },
+        {
+            "Type": "String",
+            "Key": "PopUpManager::PopUpPrefs",
+            "SearchText": "preferences.GetString",
+            "FileName": "PopUpManager.cs",
+            "PreferenceKeyName": "PrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "BackendIapPackManager.CachedIapPacks",
+            "SearchText": "preferences.GetString",
+            "FileName": "BackendIapPackManager.cs",
+            "PreferenceKeyName": "CachedIapPacksKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "CouponManager.UsedCouponsKey",
+            "SearchText": "preferences.GetInt",
+            "FileName": "CouponManager.cs",
+            "PreferenceKeyName": "RedeemedCouponCountPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "SubscriptionRewardScheduler.Preferences",
+            "SearchText": "preferences.GetString",
+            "FileName": "SubscriptionRewardScheduler.cs",
+            "PreferenceKeyName": "SubscriptionPreferencesKey"
+        },
+        {
+            "Type": "String",
+            "Key": "PurchaseManager.DebugOldIapPackIds",
+            "SearchText": "preferences.GetString",
+            "FileName": "PurchaseManager.cs",
+            "PreferenceKeyName": "oldIapPackIdsKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "PushManager.DidAutoSubscribe",
+            "SearchText": "preferences.GetBool",
+            "FileName": "PushManager.cs",
+            "PreferenceKeyName": "AutoSubscribedKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "PushManager.ManuallySubscribedKey",
+            "SearchText": "preferences.GetBool",
+            "FileName": "PushManager.cs",
+            "PreferenceKeyName": "ManuallySubscribedKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "AppSession.SessionId",
+            "SearchText": "preferences.GetInt",
+            "FileName": "AppSession.cs",
+            "PreferenceKeyName": "SessionIdPref"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "AppSession.StartTime",
+            "SearchText": "preferences.GetDateTime",
+            "FileName": "AppSession.cs",
+            "PreferenceKeyName": "StartTimePref"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "AppSession.PauseTime",
+            "SearchText": "preferences.GetDateTime",
+            "FileName": "AppSession.cs",
+            "PreferenceKeyName": "PauseTimePref"
+        },
+        {
+            "Type": "Long",
+            "Key": "AdManager.TimeSpentInApp",
+            "SearchText": "preferences.GetLong",
+            "FileName": "AppTiming.cs",
+            "PreferenceKeyName": "FirstStartTicksPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "AppTiming.RunningTimes",
+            "SearchText": "preferences.GetString",
+            "FileName": "AppTiming.cs",
+            "PreferenceKeyName": "RunningTimesPrefKey"
+        },
+        {
+            "Type": "String",
+            "Key": "AppTiming.LastAppVersion",
+            "SearchText": "preferences.GetString",
+            "FileName": "AppTiming.cs",
+            "PreferenceKeyName": "LastAppVersionPrefKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "GameState.FirstStartDateTime",
+            "SearchText": "preferences.GetDateTime",
+            "FileName": "AppTiming.cs",
+            "PreferenceKeyName": "FirstStartTimePrefKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "AppTiming.AppUpdateTime",
+            "SearchText": "preferences.GetDateTime",
+            "FileName": "AppTiming.cs",
+            "PreferenceKeyName": "AppUpdateTimePrefKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "AppSession.PauseTime",
+            "SearchText": "preferences.GetDateTime",
+            "FileName": "AppTiming.cs",
+            "PreferenceKeyName": "PauseTimePrefKey"
+        },
+        {
+            "Type": "Int",
+            "Key": "AppTiming.ActiveDaysSinceInstall",
+            "SearchText": "preferences.GetInt",
+            "FileName": "AppTiming.cs",
+            "PreferenceKeyName": "ActiveDaysSinceInstallPerfKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "AppTiming.LastActiveDayTimePrefKey",
+            "SearchText": "preferences.GetDateTime",
+            "FileName": "AppTiming.cs",
+            "PreferenceKeyName": "LastActiveDayTimePrefKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "CurrencyABTest::currencyAdjustmentApplied",
+            "SearchText": "prefs.GetBool",
+            "FileName": "CurrencyABTest.cs",
+            "PreferenceKeyName": "CurrencyAdjustmentAppliedKey"
+        },
+        {
+            "Type": "DateTime",
+            "Key": "MissionDialogLastOpened",
+            "SearchText": "UserPrefs.GetDateTime",
+            "FileName": "AutoOpenMissionDialogState.cs",
+            "PreferenceKeyName": "LastOpenedPrefKey"
+        },
+        {
+            "Type": "Bool",
+            "Key": "immersive-ads-supported",
+            "SearchText": "preferences.GetBool",
+            "FileName": "GoogleAdsManager.cs",
+            "PreferenceKeyName": "AreImmersiveAdsSupportedOnDevicePref"
+        },
+        {
+            "Type": "Bool",
+            "Key": "was-shop-entered",
+            "SearchText": "UserPrefs.SetBool",
+            "FileName": "ShopState.cs",
+            "PreferenceKeyName": "ShopManager.WasShopEnteredKey"
+        }
+    ]
+}

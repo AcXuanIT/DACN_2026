@@ -1,0 +1,2032 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -699137806, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: Configuration
+  m_EditorClassIdentifier:
+  SaveMeConfig:
+    SaveMeOptions:
+    - ShowWatchVideo: 1
+      SaveMePrice: 5
+      IapId:
+    - ShowWatchVideo: 1
+      SaveMePrice: 10
+      IapId:
+    - ShowWatchVideo: 1
+      SaveMePrice: 20
+      IapId:
+    - ShowWatchVideo: 1
+      SaveMePrice: 40
+      IapId:
+    - ShowWatchVideo: 1
+      SaveMePrice: 80
+      IapId:
+    - ShowWatchVideo: 1
+      SaveMePrice: 160
+      IapId:
+    - ShowWatchVideo: 1
+      SaveMePrice: 320
+      IapId:
+    - ShowWatchVideo: 1
+      SaveMePrice: 640
+      IapId:
+    - ShowWatchVideo: 1
+      SaveMePrice: 1280
+      IapId:
+    Timer: 3
+    ContinueRunLocalizedTextEnabled: 0
+    DisableSaveMeDynamites: 1
+  VaultRewardConfig:
+    VaultItems:
+      VaultItems:
+      - CurrencyType: 0
+        Amount: 400
+        RelativeProbability: 20
+      - CurrencyType: 0
+        Amount: 600
+        RelativeProbability: 30
+      - CurrencyType: 0
+        Amount: 800
+        RelativeProbability: 10
+      - CurrencyType: 0
+        Amount: 1000
+        RelativeProbability: 3
+      - CurrencyType: 0
+        Amount: 2000
+        RelativeProbability: 2
+      - CurrencyType: 2
+        Amount: 2
+        RelativeProbability: 40
+      - CurrencyType: 2
+        Amount: 4
+        RelativeProbability: 60
+      - CurrencyType: 2
+        Amount: 6
+        RelativeProbability: 15
+      - CurrencyType: 2
+        Amount: 10
+        RelativeProbability: 3
+      - CurrencyType: 2
+        Amount: 20
+        RelativeProbability: 2
+      - CurrencyType: 1
+        Amount: 20
+        RelativeProbability: 120
+      - CurrencyType: 1
+        Amount: 30
+        RelativeProbability: 180
+      - CurrencyType: 1
+        Amount: 40
+        RelativeProbability: 30
+      - CurrencyType: 1
+        Amount: 50
+        RelativeProbability: 3
+      - CurrencyType: 1
+        Amount: 60
+        RelativeProbability: 2
+      - CurrencyType: 7
+        Amount: 20
+        RelativeProbability: 40
+      - CurrencyType: 7
+        Amount: 30
+        RelativeProbability: 60
+      - CurrencyType: 7
+        Amount: 40
+        RelativeProbability: 15
+      - CurrencyType: 7
+        Amount: 50
+        RelativeProbability: 3
+      - CurrencyType: 7
+        Amount: 60
+        RelativeProbability: 2
+      - CurrencyType: 5
+        Amount: 20
+        RelativeProbability: 40
+      - CurrencyType: 5
+        Amount: 30
+        RelativeProbability: 60
+      - CurrencyType: 5
+        Amount: 40
+        RelativeProbability: 15
+      - CurrencyType: 5
+        Amount: 50
+        RelativeProbability: 3
+      - CurrencyType: 5
+        Amount: 60
+        RelativeProbability: 2
+      - CurrencyType: 6
+        Amount: 20
+        RelativeProbability: 40
+      - CurrencyType: 6
+        Amount: 30
+        RelativeProbability: 60
+      - CurrencyType: 6
+        Amount: 40
+        RelativeProbability: 15
+      - CurrencyType: 6
+        Amount: 50
+        RelativeProbability: 3
+      - CurrencyType: 6
+        Amount: 60
+        RelativeProbability: 2
+      - CurrencyType: 4
+        Amount: 20
+        RelativeProbability: 40
+      - CurrencyType: 4
+        Amount: 30
+        RelativeProbability: 60
+      - CurrencyType: 4
+        Amount: 40
+        RelativeProbability: 15
+      - CurrencyType: 4
+        Amount: 50
+        RelativeProbability: 3
+      - CurrencyType: 4
+        Amount: 60
+        RelativeProbability: 2
+  FreeVaultRewardConfig:
+    VaultItems:
+      VaultItems:
+      - CurrencyType: 0
+        Amount: 100
+        RelativeProbability: 20
+      - CurrencyType: 0
+        Amount: 150
+        RelativeProbability: 30
+      - CurrencyType: 0
+        Amount: 200
+        RelativeProbability: 10
+      - CurrencyType: 0
+        Amount: 250
+        RelativeProbability: 3
+      - CurrencyType: 0
+        Amount: 500
+        RelativeProbability: 2
+      - CurrencyType: 2
+        Amount: 1
+        RelativeProbability: 40
+      - CurrencyType: 2
+        Amount: 2
+        RelativeProbability: 60
+      - CurrencyType: 2
+        Amount: 3
+        RelativeProbability: 15
+      - CurrencyType: 2
+        Amount: 4
+        RelativeProbability: 3
+      - CurrencyType: 2
+        Amount: 5
+        RelativeProbability: 2
+      - CurrencyType: 1
+        Amount: 5
+        RelativeProbability: 120
+      - CurrencyType: 1
+        Amount: 7
+        RelativeProbability: 180
+      - CurrencyType: 1
+        Amount: 10
+        RelativeProbability: 30
+      - CurrencyType: 1
+        Amount: 12
+        RelativeProbability: 3
+      - CurrencyType: 1
+        Amount: 15
+        RelativeProbability: 2
+      - CurrencyType: 7
+        Amount: 5
+        RelativeProbability: 40
+      - CurrencyType: 7
+        Amount: 7
+        RelativeProbability: 60
+      - CurrencyType: 7
+        Amount: 10
+        RelativeProbability: 15
+      - CurrencyType: 7
+        Amount: 12
+        RelativeProbability: 3
+      - CurrencyType: 7
+        Amount: 15
+        RelativeProbability: 2
+      - CurrencyType: 5
+        Amount: 5
+        RelativeProbability: 40
+      - CurrencyType: 5
+        Amount: 7
+        RelativeProbability: 60
+      - CurrencyType: 5
+        Amount: 10
+        RelativeProbability: 15
+      - CurrencyType: 5
+        Amount: 12
+        RelativeProbability: 3
+      - CurrencyType: 5
+        Amount: 15
+        RelativeProbability: 2
+      - CurrencyType: 6
+        Amount: 5
+        RelativeProbability: 40
+      - CurrencyType: 6
+        Amount: 7
+        RelativeProbability: 60
+      - CurrencyType: 6
+        Amount: 10
+        RelativeProbability: 15
+      - CurrencyType: 6
+        Amount: 12
+        RelativeProbability: 3
+      - CurrencyType: 6
+        Amount: 15
+        RelativeProbability: 2
+      - CurrencyType: 4
+        Amount: 5
+        RelativeProbability: 40
+      - CurrencyType: 4
+        Amount: 7
+        RelativeProbability: 60
+      - CurrencyType: 4
+        Amount: 10
+        RelativeProbability: 15
+      - CurrencyType: 4
+        Amount: 12
+        RelativeProbability: 3
+      - CurrencyType: 4
+        Amount: 15
+        RelativeProbability: 2
+  PremiumVaultRewardConfig:
+    VaultItems:
+      VaultItems:
+      - CurrencyType: 0
+        Amount: 800
+        RelativeProbability: 50
+      - CurrencyType: 0
+        Amount: 1000
+        RelativeProbability: 60
+      - CurrencyType: 0
+        Amount: 1500
+        RelativeProbability: 25
+      - CurrencyType: 0
+        Amount: 2000
+        RelativeProbability: 8
+      - CurrencyType: 0
+        Amount: 3000
+        RelativeProbability: 4
+      - CurrencyType: 2
+        Amount: 4
+        RelativeProbability: 50
+      - CurrencyType: 2
+        Amount: 8
+        RelativeProbability: 60
+      - CurrencyType: 2
+        Amount: 12
+        RelativeProbability: 15
+      - CurrencyType: 2
+        Amount: 20
+        RelativeProbability: 5
+      - CurrencyType: 2
+        Amount: 30
+        RelativeProbability: 2
+      - CurrencyType: 1
+        Amount: 80
+        RelativeProbability: 25
+      - CurrencyType: 1
+        Amount: 100
+        RelativeProbability: 50
+      - CurrencyType: 1
+        Amount: 120
+        RelativeProbability: 35
+      - CurrencyType: 1
+        Amount: 140
+        RelativeProbability: 18
+      - CurrencyType: 1
+        Amount: 160
+        RelativeProbability: 5
+      - CurrencyType: 7
+        Amount: 20
+        RelativeProbability: 50
+      - CurrencyType: 7
+        Amount: 25
+        RelativeProbability: 60
+      - CurrencyType: 7
+        Amount: 30
+        RelativeProbability: 25
+      - CurrencyType: 7
+        Amount: 35
+        RelativeProbability: 8
+      - CurrencyType: 7
+        Amount: 40
+        RelativeProbability: 4
+      - CurrencyType: 5
+        Amount: 20
+        RelativeProbability: 50
+      - CurrencyType: 5
+        Amount: 25
+        RelativeProbability: 60
+      - CurrencyType: 5
+        Amount: 30
+        RelativeProbability: 25
+      - CurrencyType: 5
+        Amount: 35
+        RelativeProbability: 8
+      - CurrencyType: 5
+        Amount: 40
+        RelativeProbability: 4
+      - CurrencyType: 6
+        Amount: 20
+        RelativeProbability: 50
+      - CurrencyType: 6
+        Amount: 25
+        RelativeProbability: 60
+      - CurrencyType: 6
+        Amount: 30
+        RelativeProbability: 25
+      - CurrencyType: 6
+        Amount: 35
+        RelativeProbability: 8
+      - CurrencyType: 6
+        Amount: 40
+        RelativeProbability: 4
+      - CurrencyType: 4
+        Amount: 20
+        RelativeProbability: 50
+      - CurrencyType: 4
+        Amount: 25
+        RelativeProbability: 60
+      - CurrencyType: 4
+        Amount: 30
+        RelativeProbability: 25
+      - CurrencyType: 4
+        Amount: 35
+        RelativeProbability: 8
+      - CurrencyType: 4
+        Amount: 40
+        RelativeProbability: 4
+  VideoRewardConfig:
+    VideoRewards:
+    - Probability: 26
+      Value: 100
+      Rank: 0
+      CurrencyType: 0
+      TokenAmount: 50
+    - Probability: 54
+      Value: 150
+      Rank: 0
+      CurrencyType: 0
+      TokenAmount: 25
+    - Probability: 18
+      Value: 200
+      Rank: 0
+      CurrencyType: 0
+      TokenAmount: 75
+    - Probability: 18
+      Value: 1
+      Rank: 0
+      CurrencyType: 2
+      TokenAmount: 75
+    - Probability: 4
+      Value: 2
+      Rank: 0
+      CurrencyType: 2
+      TokenAmount: 200
+    - Probability: 2
+      Value: 3
+      Rank: 0
+      CurrencyType: 2
+      TokenAmount: 200
+    - Probability: 46
+      Value: 2
+      Rank: 0
+      CurrencyType: 1
+      TokenAmount: 30
+    - Probability: 96
+      Value: 3
+      Rank: 0
+      CurrencyType: 1
+      TokenAmount: 15
+    - Probability: 30
+      Value: 4
+      Rank: 0
+      CurrencyType: 1
+      TokenAmount: 45
+    - Probability: 4
+      Value: 5
+      Rank: 0
+      CurrencyType: 1
+      TokenAmount: 200
+    - Probability: 46
+      Value: 2
+      Rank: 0
+      CurrencyType: 5
+      TokenAmount: 30
+    - Probability: 96
+      Value: 3
+      Rank: 0
+      CurrencyType: 5
+      TokenAmount: 15
+    - Probability: 30
+      Value: 4
+      Rank: 0
+      CurrencyType: 5
+      TokenAmount: 45
+    - Probability: 4
+      Value: 5
+      Rank: 0
+      CurrencyType: 5
+      TokenAmount: 200
+    - Probability: 46
+      Value: 2
+      Rank: 0
+      CurrencyType: 4
+      TokenAmount: 30
+    - Probability: 96
+      Value: 3
+      Rank: 0
+      CurrencyType: 4
+      TokenAmount: 15
+    - Probability: 30
+      Value: 4
+      Rank: 0
+      CurrencyType: 4
+      TokenAmount: 45
+    - Probability: 4
+      Value: 5
+      Rank: 0
+      CurrencyType: 4
+      TokenAmount: 200
+    - Probability: 46
+      Value: 2
+      Rank: 0
+      CurrencyType: 6
+      TokenAmount: 30
+    - Probability: 96
+      Value: 3
+      Rank: 0
+      CurrencyType: 6
+      TokenAmount: 15
+    - Probability: 30
+      Value: 4
+      Rank: 0
+      CurrencyType: 6
+      TokenAmount: 45
+    - Probability: 4
+      Value: 5
+      Rank: 0
+      CurrencyType: 6
+      TokenAmount: 200
+    - Probability: 46
+      Value: 2
+      Rank: 0
+      CurrencyType: 7
+      TokenAmount: 30
+    - Probability: 94
+      Value: 3
+      Rank: 0
+      CurrencyType: 7
+      TokenAmount: 15
+    - Probability: 30
+      Value: 4
+      Rank: 0
+      CurrencyType: 7
+      TokenAmount: 45
+    - Probability: 4
+      Value: 5
+      Rank: 0
+      CurrencyType: 7
+      TokenAmount: 200
+  PremiumVideoRewardConfig:
+    VideoRewards:
+    - Probability: 26
+      Value: 200
+      Rank: 0
+      CurrencyType: 0
+      TokenAmount: 50
+    - Probability: 54
+      Value: 300
+      Rank: 0
+      CurrencyType: 0
+      TokenAmount: 25
+    - Probability: 18
+      Value: 400
+      Rank: 0
+      CurrencyType: 0
+      TokenAmount: 75
+    - Probability: 18
+      Value: 2
+      Rank: 0
+      CurrencyType: 2
+      TokenAmount: 75
+    - Probability: 4
+      Value: 4
+      Rank: 0
+      CurrencyType: 2
+      TokenAmount: 200
+    - Probability: 2
+      Value: 6
+      Rank: 0
+      CurrencyType: 2
+      TokenAmount: 200
+    - Probability: 46
+      Value: 4
+      Rank: 0
+      CurrencyType: 1
+      TokenAmount: 30
+    - Probability: 96
+      Value: 6
+      Rank: 0
+      CurrencyType: 1
+      TokenAmount: 15
+    - Probability: 30
+      Value: 8
+      Rank: 0
+      CurrencyType: 1
+      TokenAmount: 45
+    - Probability: 4
+      Value: 10
+      Rank: 0
+      CurrencyType: 1
+      TokenAmount: 200
+    - Probability: 46
+      Value: 4
+      Rank: 0
+      CurrencyType: 5
+      TokenAmount: 30
+    - Probability: 96
+      Value: 6
+      Rank: 0
+      CurrencyType: 5
+      TokenAmount: 15
+    - Probability: 30
+      Value: 8
+      Rank: 0
+      CurrencyType: 5
+      TokenAmount: 45
+    - Probability: 4
+      Value: 10
+      Rank: 0
+      CurrencyType: 5
+      TokenAmount: 200
+    - Probability: 46
+      Value: 4
+      Rank: 0
+      CurrencyType: 4
+      TokenAmount: 30
+    - Probability: 96
+      Value: 6
+      Rank: 0
+      CurrencyType: 4
+      TokenAmount: 15
+    - Probability: 30
+      Value: 8
+      Rank: 0
+      CurrencyType: 4
+      TokenAmount: 45
+    - Probability: 4
+      Value: 10
+      Rank: 0
+      CurrencyType: 4
+      TokenAmount: 200
+    - Probability: 46
+      Value: 4
+      Rank: 0
+      CurrencyType: 6
+      TokenAmount: 30
+    - Probability: 96
+      Value: 6
+      Rank: 0
+      CurrencyType: 6
+      TokenAmount: 15
+    - Probability: 30
+      Value: 8
+      Rank: 0
+      CurrencyType: 6
+      TokenAmount: 45
+    - Probability: 4
+      Value: 10
+      Rank: 0
+      CurrencyType: 6
+      TokenAmount: 200
+    - Probability: 46
+      Value: 4
+      Rank: 0
+      CurrencyType: 7
+      TokenAmount: 30
+    - Probability: 94
+      Value: 6
+      Rank: 0
+      CurrencyType: 7
+      TokenAmount: 15
+    - Probability: 30
+      Value: 8
+      Rank: 0
+      CurrencyType: 7
+      TokenAmount: 45
+    - Probability: 4
+      Value: 10
+      Rank: 0
+      CurrencyType: 7
+      TokenAmount: 200
+  JackpotVideoReward:
+    Probability: 0.01
+    Value: 200
+    Rank: 0
+    CurrencyType: 2
+    TokenAmount: 300
+  PremiumJackpotVideoReward:
+    Probability: 0.01
+    Value: 200
+    Rank: 0
+    CurrencyType: 2
+    TokenAmount: 300
+  CharacterUpgradeConfig:
+    UpgradeData:
+    - Id: tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 0a000000140000001e00000028000000320000003c00000046000000500000005a000000640000006e00000078000000820000008c000000
+      - Currency: 6
+        UpgradePrices: 0a000000140000001e000000
+      - Currency: 5
+        UpgradePrices: 0a000000140000001e00000028000000
+      - Currency: 7
+        UpgradePrices: 0a000000140000001e00000028000000
+    - Id: angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 00000000000000001e00000028000000
+      - Currency: 6
+        UpgradePrices: 0a000000140000001e00000028000000
+      - Currency: 5
+        UpgradePrices: 0a000000140000001e00000028000000
+      - Currency: 7
+        UpgradePrices: 00000000000000001e00000028000000320000003c00000046000000500000005a000000640000006e00000078000000820000008c000000
+    - Id: hank
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 0000000000000000000000002800000032000000
+      - Currency: 6
+        UpgradePrices: 00000000000000001e00000028000000320000003c00000046000000500000005a000000640000006e00000078000000820000008c000000
+      - Currency: 5
+        UpgradePrices: 00000000000000001e0000002800000032000000
+      - Currency: 7
+        UpgradePrices: 00000000000000001e00000028000000320000003c000000
+    - Id: ginger
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 00000000000000000000000000000000320000003c000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000320000003c000000
+      - Currency: 5
+        UpgradePrices: 00000000000000000000000028000000320000003c00000046000000500000005a000000640000006e00000078000000820000008c000000
+      - Currency: 7
+        UpgradePrices: 00000000000000000000000028000000320000003c000000
+    - Id: ben
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 00000000000000000000000000000000320000003c00000046000000500000005a000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000320000003c0000004600000050000000
+      - Currency: 5
+        UpgradePrices: 00000000000000000000000000000000320000003c00000046000000500000005a000000
+      - Currency: 7
+        UpgradePrices: 00000000000000000000000000000000320000003c0000004600000050000000
+    - Id: tom2
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 00000000000000000000000000000000000000003c00000046000000500000005a000000640000006e00000078000000820000008c000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000000000003c00000046000000
+      - Currency: 5
+        UpgradePrices: 00000000000000000000000000000000000000003c00000046000000
+      - Currency: 7
+        UpgradePrices: 00000000000000000000000000000000000000003c00000046000000500000005a000000640000006e00000078000000
+    - Id: becca
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 00000000000000000000000000000000000000000000000046000000500000005a000000640000006e0000007800000082000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000000000000000000046000000500000005a000000640000006e0000007800000082000000
+      - Currency: 5
+        UpgradePrices: 00000000000000000000000000000000000000000000000046000000500000005a000000640000006e0000007800000082000000
+      - Currency: 7
+        UpgradePrices: 00000000000000000000000000000000000000000000000046000000500000005a000000640000006e0000007800000082000000
+    - Id: angela2
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 0000000000000000000000000000000000000000000000004600000050000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000000000003c00000046000000500000005a000000640000006e00000078000000820000008c000000
+      - Currency: 5
+        UpgradePrices: 00000000000000000000000000000000000000003c0000004600000050000000
+      - Currency: 7
+        UpgradePrices: 00000000000000000000000000000000000000003c00000046000000500000005a000000640000006e00000078000000820000008c00000096000000
+    - Id: police_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+    - Id: police_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+    - Id: police_hank
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+    - Id: super_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+    - Id: super_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+    - Id: king_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+    - Id: hyper_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+    - Id: cyber_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+    - Id: agent_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: hawaiian_hank
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 00000000000000000000000000000000320000003c00000046000000500000005a000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000000000000000000046000000500000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 00000000000000000000000000000000000000000000000046000000500000005a000000640000006e00000078000000820000008c000000
+      - Currency: 7
+        UpgradePrices: 00000000000000000000000000000000000000003c00000046000000500000005a000000
+    - Id: cowboy_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: valkyrie_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+    - Id: pirate_ginger
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: cowboy_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: fireman_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: zombie_ben
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+    - Id: splashy_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: elf_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 00000000000000000000000000000000000000000000000000000000000000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+    - Id: kungfu_hank
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+    - Id: princess_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - Id: astronaut_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+    - Id: football_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: iron_ben
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+    - Id: skater_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: witch_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+    - Id: farming_ginger
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 00000000000000000000000000000000000000000000000046000000500000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000320000003c00000046000000500000005a000000
+      - Currency: 5
+        UpgradePrices: 00000000000000000000000000000000000000000000000000000000500000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 00000000000000000000000000000000000000003c00000046000000500000005a000000
+    - Id: santa_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+    - Id: general_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+    - Id: super_ginger
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: shark_hank
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: genie_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+    - Id: mummy_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: lucky_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+    - Id: unicorn_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+    - Id: carnival_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+    - Id: jkfortun_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+    - Id: dino_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 00000000000000000000000000000000000000000000000000000000500000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000000000000000000000000000000000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+    - Id: stone_age_hank
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000000000000000000000000000500000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 00000000000000000000000000000000000000000000000000000000000000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: champion_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 00000000000000000000000000000000000000000000000000000000500000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000000000000000000046000000500000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+    - Id: gymnast_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000000000000000000000000000500000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 00000000000000000000000000000000000000000000000000000000000000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+    - Id: recycling_angela
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000640000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 00000000000000000000000000000000000000000000000000000000000000005a000000640000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+    - Id: snakeoff_tom
+      UpgradeTracks:
+      - Currency: 4
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 6
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+      - Currency: 5
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000820000008c00000096000000
+      - Currency: 7
+        UpgradePrices: 000000000000000000000000000000000000000000000000000000000000000000000000000000006e00000078000000820000008c00000096000000
+  YardUpgradeConfig:
+    UpgradeData:
+    - Id: yard_tom
+      UpgradeTracks:
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 55
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 2
+        - UpgradeCost: 95
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 4
+        - UpgradeCost: 150
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 6
+        - UpgradeCost: 250
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 8
+        - UpgradeCost: 375
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 75
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 1
+        - UpgradeCost: 85
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 3
+        - UpgradeCost: 100
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 5
+        - UpgradeCost: 175
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 7
+        - UpgradeCost: 275
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+    - Id: yard_angela
+      UpgradeTracks:
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 150
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 2
+        - UpgradeCost: 275
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 4
+        - UpgradeCost: 425
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 6
+        - UpgradeCost: 700
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 8
+        - UpgradeCost: 1100
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 125
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 1
+        - UpgradeCost: 200
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 3
+        - UpgradeCost: 325
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 5
+        - UpgradeCost: 500
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 7
+        - UpgradeCost: 800
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 2
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 9
+        - UpgradeCost: 3
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 10
+        - UpgradeCost: 6
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 11
+        - UpgradeCost: 10
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 12
+        - UpgradeCost: 14
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 13
+    - Id: yard_hank
+      UpgradeTracks:
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 325
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 2
+        - UpgradeCost: 500
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 4
+        - UpgradeCost: 800
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 6
+        - UpgradeCost: 1400
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 8
+        - UpgradeCost: 2300
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 250
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 1
+        - UpgradeCost: 425
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 3
+        - UpgradeCost: 600
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 5
+        - UpgradeCost: 1100
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 7
+        - UpgradeCost: 1700
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 6
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 9
+        - UpgradeCost: 10
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 10
+        - UpgradeCost: 14
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 11
+        - UpgradeCost: 19
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 12
+        - UpgradeCost: 25
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 13
+    - Id: yard_ginger
+      UpgradeTracks:
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 500
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 2
+        - UpgradeCost: 900
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 4
+        - UpgradeCost: 1400
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 6
+        - UpgradeCost: 2300
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 8
+        - UpgradeCost: 3600
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 8
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 10
+        - UpgradeCost: 10
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 12
+        - UpgradeCost: 14
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 14
+        - UpgradeCost: 17
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 16
+        - UpgradeCost: 23
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 18
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 425
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 1
+        - UpgradeCost: 700
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 3
+        - UpgradeCost: 1100
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 5
+        - UpgradeCost: 1800
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 7
+        - UpgradeCost: 2800
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 4
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 9
+        - UpgradeCost: 6
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 11
+        - UpgradeCost: 10
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 13
+        - UpgradeCost: 14
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 15
+        - UpgradeCost: 19
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 17
+    - Id: yard_ben
+      UpgradeTracks:
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 700
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 2
+        - UpgradeCost: 1200
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 4
+        - UpgradeCost: 1900
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 6
+        - UpgradeCost: 3200
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 8
+        - UpgradeCost: 5100
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 14
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 9
+        - UpgradeCost: 19
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 10
+        - UpgradeCost: 29
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 11
+        - UpgradeCost: 41
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 12
+        - UpgradeCost: 56
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 600
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 1
+        - UpgradeCost: 900
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 3
+        - UpgradeCost: 1500
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 5
+        - UpgradeCost: 2400
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 7
+        - UpgradeCost: 3900
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+    - Id: yard_tom2
+      UpgradeTracks:
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 800
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 2
+        - UpgradeCost: 1400
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 4
+        - UpgradeCost: 2300
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 6
+        - UpgradeCost: 3600
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 8
+        - UpgradeCost: 5800
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 600
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 1
+        - UpgradeCost: 1100
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 3
+        - UpgradeCost: 1700
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 5
+        - UpgradeCost: 2800
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 7
+        - UpgradeCost: 4500
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 15
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 9
+        - UpgradeCost: 23
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 10
+        - UpgradeCost: 34
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 11
+        - UpgradeCost: 47
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 12
+        - UpgradeCost: 66
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+    - Id: yard_angela2
+      UpgradeTracks:
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 900
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 2
+        - UpgradeCost: 1600
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 4
+        - UpgradeCost: 2400
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 6
+        - UpgradeCost: 4100
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 8
+        - UpgradeCost: 6600
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 11
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 10
+        - UpgradeCost: 15
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 12
+        - UpgradeCost: 21
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 14
+        - UpgradeCost: 29
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 16
+        - UpgradeCost: 40
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 18
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 8
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 9
+        - UpgradeCost: 11
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 11
+        - UpgradeCost: 17
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 13
+        - UpgradeCost: 25
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 15
+        - UpgradeCost: 36
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 17
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 700
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 1
+        - UpgradeCost: 1200
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 3
+        - UpgradeCost: 1900
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 5
+        - UpgradeCost: 3200
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 7
+        - UpgradeCost: 5100
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+    - Id: yard_hank2
+      UpgradeTracks:
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 1100
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 2
+        - UpgradeCost: 1900
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 4
+        - UpgradeCost: 2900
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 6
+        - UpgradeCost: 5000
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 8
+        - UpgradeCost: 7900
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 14
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 10
+        - UpgradeCost: 17
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 12
+        - UpgradeCost: 25
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 14
+        - UpgradeCost: 34
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 16
+        - UpgradeCost: 47
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 18
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 900
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 1
+        - UpgradeCost: 1400
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 3
+        - UpgradeCost: 2300
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 5
+        - UpgradeCost: 3800
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 7
+        - UpgradeCost: 6100
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 8
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 9
+        - UpgradeCost: 14
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 11
+        - UpgradeCost: 19
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 13
+        - UpgradeCost: 30
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 15
+        - UpgradeCost: 41
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 17
+    - Id: yard_ginger2
+      UpgradeTracks:
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 7100
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 2
+        - UpgradeCost: 16500
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 4
+        - UpgradeCost: 33800
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 6
+        - UpgradeCost: 60000
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 8
+        - UpgradeCost: 97500
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 26
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 9
+        - UpgradeCost: 53
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+        - UpgradeCost: 105
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+        - UpgradeCost: 180
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+        - UpgradeCost: 295
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 1
+        UpgradeConfig:
+        - UpgradeCost: 38
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 10
+        - UpgradeCost: 75
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+        - UpgradeCost: 140
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+        - UpgradeCost: 235
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+        - UpgradeCost: 360
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+      - Currency: 0
+        UpgradeConfig:
+        - UpgradeCost: 6000
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 1
+        - UpgradeCost: 10500
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 3
+        - UpgradeCost: 24000
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 5
+        - UpgradeCost: 45800
+          Multiplier: 1
+          VideoEnabled: 1
+          VideoPriority: 7
+        - UpgradeCost: 75000
+          Multiplier: 1
+          VideoEnabled: 0
+          VideoPriority: 0
+  VaultConfig:
+    VaultCrackTimeInMinutes: 360
+    MinTimeInSeconds: 0
+    FreeVaultCrackTimeInMinutes: 360
+    FreeVaultCrackTimeInMinutesPaidUsers: 1440
+    VaultBuyPrice: 2000
+    DiamontVaultOriginalPrice: 149
+    SpeedUpPrice: 72
+    ModifiedSpeedUpPrice: 0
+    ProbabilityPerVault: 4
+    ProbabilityPerMin: 60
+    IsFreeVaultEnabled: 1
+  RaccoonFightRewardConfig:
+    FightRewards:
+    - GoldBars: 200
+      Dynamites: 0
+      Diamonds: 0
+    - GoldBars: 300
+      Dynamites: 0
+      Diamonds: 1
+    - GoldBars: 500
+      Dynamites: 0
+      Diamonds: 2
+  RaceRewardConfig:
+    RaceRewards:
+    - CurrencyRewards:
+      - _currencyId: bar-gold
+        _amount: 300
+      - _currencyId: vault
+        _amount: 1
+      RacePoints: 3
+    - CurrencyRewards:
+      - _currencyId: bar-gold
+        _amount: 200
+      RacePoints: 2
+    - CurrencyRewards:
+      - _currencyId: bar-gold
+        _amount: 100
+      RacePoints: 1
+  BotDifficultyConfig:
+    BotDifficulties:
+    - Chance: 15
+      FromOffset: 4
+      ToOffset: 1
+    - Chance: 30
+      FromOffset: 3
+      ToOffset: 0.5
+    - Chance: 90
+      FromOffset: 2
+      ToOffset: 0
+    - Chance: 96
+      FromOffset: 1
+      ToOffset: -1
+    - Chance: 100
+      FromOffset: 0
+      ToOffset: -2
+  WatchVideoConfig:
+    Vault:
+      CooldownTime: 0
+      DailyCap: -1
+      Enabled: 1
+      NumberOfVaultsOpened: 3
+      VaultOpenTimeLeft: 1
+    FreeVault:
+      CooldownTime: 0
+      DailyCap: -1
+      Enabled: 1
+    ContinueRun:
+      CooldownTime: 0
+      DailyCap: 999
+      Enabled: 1
+    Character:
+      CooldownTime: 30
+      DailyCap: 2
+      Enabled: 1
+      UpgradeCostIndex: 1
+      MaximumUpgradeIndex: 14
+    Yard:
+      CooldownTime: 360
+      DailyCap: 2
+      Enabled: 1
+      MinimumGoldBarSpent: -1
+      MinimumDiamondsSpent: -1
+      MaximumBalanceRatioGoldBars: 0
+      MaximumBalanceRatioGoldBarsDynamites: 0
+      MinimumDynamiteBalance: 0
+      MaximumBalanceRatioDiamonds: 0
+      SuccessiveVideoBlock: 9999
+      CooldownBetweenVideoBlocks: 0
+    DoubleBars:
+      CooldownTime: 0
+      DailyCap: 999
+      Enabled: 1
+      MinimumGoldBarsEarned: 1
+      MaximumGoldBarsEarned: 999999
+    DailyContestRetry:
+      CooldownTime: 0
+      DailyCap: 999
+      Enabled: 1
+      NumberRetriesEasy: 999
+      NumberRetriesMedium: 999
+      NumberRetriesHard: 999
+      NumberRetriesSurvival: 999
+  DailyContestConfig:
+    OfferEnableAtHour: 9
+    Enabled: 1
+    EasyDifficulty:
+      _priceAmount: 5
+      _priceCurrencyId: dynamite
+      _rewardsList:
+      - _currencyId: dynamite
+        _amount: 7
+      _difficulty: 0
+      _times:
+      - 50
+      - 50
+      - 50
+    MediumDifficulty:
+      _priceAmount: 10
+      _priceCurrencyId: dynamite
+      _rewardsList:
+      - _currencyId: dynamite
+        _amount: 16
+      _difficulty: 1
+      _times:
+      - 48
+      - 48
+      - 48
+    HardDifficulty:
+      _priceAmount: 15
+      _priceCurrencyId: dynamite
+      _rewardsList:
+      - _currencyId: dynamite
+        _amount: 23
+      - _currencyId: diamond
+        _amount: 2
+      _difficulty: 2
+      _times:
+      - 46
+      - 46
+      - 46
+    SurvivalDifficulty:
+      _priceAmount: 5
+      _priceCurrencyId: dynamite
+      _rewardsList:
+      - _currencyId: bar-gold
+        _amount: 150
+      - _currencyId: dynamite
+        _amount: 15
+      - _currencyId: diamond
+        _amount: 2
+  SendRateConfig:
+    GameOverUserSendStateRate: 4
+  VideoClipConfig:
+    VideoForRandomRewardTimeSpanInHours: 1
+    VideoForRandomRewardsAmount: 100
+  DefaultPriceConfig:
+    BricksForDynamite: 44
+    DoubleItRatio: 54
+    FastStartPrice: 500
+  LuckyCardsConfig: {fileID: 4900000, guid: 1fcfdf57b0063944ebb7a6cf3940e264, type: 3}
+  MultiplierLootConfig: {fileID: 4900000, guid: 16fac68ba96b9f54eb8f550632c2fcf6, type: 3}
+  TokenEventsDataConfig:
+    TokenEvents:
+    - {fileID: 11400000, guid: 34a76d6359a077749b3101d2facea8c5, type: 2}
+    - {fileID: 11400000, guid: f9a3bc4d536ca40448f15658d86ded8c, type: 2}
+    - {fileID: 11400000, guid: d78cced627207fe48a4444e79edda38b, type: 2}
+    - {fileID: 11400000, guid: 3d11447199761e5419bb5ff39d82c32e, type: 2}
+    - {fileID: 11400000, guid: de968ed90a9f44840beb5d1c7bf348ef, type: 2}
+    - {fileID: 11400000, guid: 81e4c30292cb3a44d8e03117417c2ec4, type: 2}
+    - {fileID: 11400000, guid: ddc2e35e1f44c70449258806fff8da80, type: 2}
+    - {fileID: 11400000, guid: 5628094da717a22439c832a74fd01cfd, type: 2}
+    - {fileID: 11400000, guid: d8f945c23fe4b9542bcf88d2bebcb999, type: 2}
+    - {fileID: 11400000, guid: a11b641334b618841b5f814c65f40a9d, type: 2}
+    - {fileID: 11400000, guid: 3fcd61333bed77e42bddb75ebf77f521, type: 2}
+    - {fileID: 11400000, guid: 3f204091e3a86d8469a6d7ad7bba4073, type: 2}
+    - {fileID: 11400000, guid: 38ba20b1d1aa5764090bf83921d5c082, type: 2}
+    - {fileID: 11400000, guid: 5263a16734f161945a39f4c03bb546be, type: 2}
+    - {fileID: 11400000, guid: f35118b0c67980e469d114322c37168d, type: 2}
+    - {fileID: 11400000, guid: 50ddeb99669c16f48847740b6913df6a, type: 2}
+    - {fileID: 11400000, guid: 2626a11b1f53a714e8d971bab8ea2c6f, type: 2}
+    - {fileID: 11400000, guid: b88f53e7c421c89469bc125f422b3ec3, type: 2}
+    - {fileID: 11400000, guid: f49c1fe248c86be439fba6cf98b1e177, type: 2}
+    - {fileID: 11400000, guid: 5cdaf610ff0de104d8080eccf3a27971, type: 2}
+    - {fileID: 11400000, guid: ca4e6df437b303f4eb55d8fce36dd77f, type: 2}
+    - {fileID: 11400000, guid: 0f6b44e18b8f99c4486a9e2cc0ddbd7f, type: 2}
+    - {fileID: 11400000, guid: 294ff3c9a98aa3149877f382a3a92b45, type: 2}
+    - {fileID: 11400000, guid: 62bb5774c41be994b9344c1a5aa77107, type: 2}
+    - {fileID: 11400000, guid: 5289eebdf79b922458886d0d98ffd7d5, type: 2}
+  TokenEventRewardPrices:
+    firstCharacter: 52030000b0040000dc05000002080000
+    secondCharacter: bc020000b6030000b004000072060000
+    diamondVault: ae01000058020000ee02000006040000
+    luckyCards: c8000000c8000000c8000000c8000000
+    diamonds: be000000be000000be000000be000000
+    goldBars: 01000000010000000100000001000000
+    largeTokenPack: 500000007800000078000000a0000000
+    smallTokenPack: 28000000280000002800000028000000
+  TokenEventRewardAmount:
+    largeTokenPack: 270100009f01000008020000c6020000
+    smallTokenPack: 1e000000280000003200000046000000
+  CascadeOffersDataConfig:
+    cascadeOffers:
+    - {fileID: 11400000, guid: bd72657ef21de6e4391a543985aa4832, type: 2}

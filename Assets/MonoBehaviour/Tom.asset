@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 710779990, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: Tom
+  m_EditorClassIdentifier:
+  _customization:
+    _id: tom
+    _isDefault: 1
+    _isLocked: 0
+    _customizationIndex: 0
+  _airplaneReference:
+    PrefabPath: Customization/Characters/AddOns/Airplane
+    EditorAssetGUID: 2ba24324858b6c7489caddd3a9a4bc75
+  _airplanePickupMesh: {fileID: 4300000, guid: e93dbde4689b47f4fa52c84c31b12a74, type: 2}
+  _airplaneSpriteName: Rocket_UI_TEX
+  _magnetReference:
+    PrefabPath: Customization/Characters/AddOns/Magnet
+    EditorAssetGUID: 5334f1c48bff03744895b55ad3cf0415
+  _helmetReference:
+    PrefabPath: Customization/Characters/AddOns/DefaultHelmet
+    EditorAssetGUID: a5f62c271d4c40b42aa3459b76c962d7
+  _helmetPickupMesh: {fileID: 4300000, guid: 9197f9a861631fa41b01bfed93655325, type: 2}
+  _helmetSpriteName: Shield_UI_TEX
+  _helmetYOffset: 0
+  _earsHidden: 0
+  _iapPack: {fileID: 0}
+  SpecialOfferPacks: []
+  _dynamitePrice: 0
+  _chinaDynamitePrice: 0
+  _extraLives: 0
+  _botOverlayColor: {r: 0.4862745, g: 0.52156866, b: 0.76862746, a: 1}
+  _showDuringEventOnly: 0
+  _showTokenIconInUnlock: 0
+  _boundTokenEventId:
+  _character:
+    PrefabPath: Customization/Characters/Tom
+    EditorAssetGUID: 49e943f8cc769694295d2860c699e102
+  _addons: []

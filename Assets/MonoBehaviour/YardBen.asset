@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1292809652, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: YardBen
+  m_EditorClassIdentifier:
+  _customization:
+    _id: yard_ben
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 3
+  Yard:
+    PrefabPath: Customization/Yards/Yard05/Yard05
+    EditorAssetGUID: 09f87bb07bb57a1459a9af6ee4b92d72
+  UIAsset:
+    PrefabPath: Builder/UI/ruinsYardUI
+    EditorAssetGUID: 5df9e3750792d59409da3aac2ff44df5
+  YardPrefabs:
+  - PrefabPath: Yards/ben1world/Yard/Prefabs/yard06_Tent
+    EditorAssetGUID: bceb352aa5c83fb41b71af3d96c8a01d
+  - PrefabPath: Yards/ben1world/Yard/Prefabs/yard06_ChillingPlace
+    EditorAssetGUID: ac0df2f071814e444afadee7500401c3
+  - PrefabPath: Yards/ben1world/Yard/Prefabs/yard06_Balloon
+    EditorAssetGUID: 2e677e76aac771046874bda72f636507
+  - PrefabPath: Yards/ben1world/Yard/Prefabs/yard06_Static
+    EditorAssetGUID: 184205136528ba14d9ac14654d4df054
+  - PrefabPath: Yards/ben1world/Yard/Prefabs/yard06_Background
+    EditorAssetGUID: 062b09d135747af4bbc1ad3745897b8c
+  YardASMs:
+  - PrefabPath: Yards/ben1world/Yard/Prefabs/yard06_TentASM
+    EditorAssetGUID: 141ef93e1a4118944b503e587bacb80b
+  - PrefabPath: Yards/ben1world/Yard/Prefabs/yard06_ChillingPlaceASM
+    EditorAssetGUID: 5efb851aaba39184b9f0c2589f916df4
+  - PrefabPath: Yards/ben1world/Yard/Prefabs/yard06_BalloonASM
+    EditorAssetGUID: a9577ed4ef1727341a8daa3b8fd1e5d4
+  InvertDownloadSizeColor: 1
+  AssetBundleName:
+  DynamiteUnlockPrice: 1999
+  CharacterUnlockID: tom2
+  YardUnlockID: yard_tom2
+  BuildIaps:
+  - {fileID: 11400000, guid: b8134d2f8d9d22a4cbe1b1f0dd608991, type: 2}
+  UnlockIaps:
+  - {fileID: 11400000, guid: ee4926c07dce2a749bf62641cfec8b34, type: 2}
+  - {fileID: 11400000, guid: 32100aee151eb1945b4e2a51de0c8e63, type: 2}
+  YardElementImages:
+    PrefabPath: Yards/ben1world/Yard/Icons/YardBenImages
+    EditorAssetGUID: 21cce38895249644fbda0b3fa36caa1e

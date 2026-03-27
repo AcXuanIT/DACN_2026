@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2053768004, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: Hank2_stage_van
+  m_EditorClassIdentifier:
+  LevelBlockItems:
+    SelectionItems:
+    - ItemValueInternal: {fileID: 11400000, guid: 7baaf7d73134a5943be00e5a60e2c4cf, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: a2ca6fd9da33674429e77991f0b11539, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 402d4f4520140704f96e5d1e085f9ba9, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 19ca9d00322fdca4ea6f27b444cdb4f2, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    SelectionMode: 4
+  SpecialLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  TransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  SuccessorsLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  CoonChaseTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  BossFightTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  SpecialWorldsTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  FinishLineLevelBlock:
+    SelectionItems: []
+    SelectionMode: 1
+  ChangeCurve: []

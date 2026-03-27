@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2053768004, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: Chase_stage20
+  m_EditorClassIdentifier:
+  LevelBlockItems:
+    SelectionItems:
+    - ItemValueInternal: {fileID: 11400000, guid: 7e13171e5347bc642b89be9d701617a1, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: b78ccae66cf9cb741bbb1727a5239236, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: e4a43e1d5d216a74395aff41b695b467, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: b45b0108790d4714db5122e42c8cc659, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 74e5567ee25285e4096ccfc4a88bc3e1, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 77547d68cfdb94149a4551e28ad8c825, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 89ea2e07d35e78d4f9379bdd0ded1956, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 33768686fc0134343987f739faef66e4, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 183f8686f26268e4e8fb1dbb5de98911, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 9018e333b14f39e4c8f0849aa0151500, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 25ee4b736bd7544449ff6f892b774d3b, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: d61d8d55970bc9d418bd3ed7b845e5ac, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 7304c5f53ed1cc248b9f105272349e1b, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 7a041dd4b7792d446b6a16a9caad8644, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: b6b462a5fd6cb9048bd5f6555bf49ff3, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: c0b38cb61689af0458e5bed671efbbff, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 2606fc25ce8ee0e4a834091098b14806, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: ef89e15fc66762740a2cc518bd347cf9, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 15d70644ccd86534b94368d563b1f7a6, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 8c611b82aab900548b59f103950d97c0, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: cec2a909db9fc004f88decbfc8ecc6b7, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 58f539a79ac3ecc40949e8328e952224, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 1afe8ebec5292b54194728271a4be29e, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 30293b080f9524b4fba5014fe6d3d1ff, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 1f235ad1ba4474d4b9be4a573a052846, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    SelectionMode: 4
+  SpecialLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  TransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  SuccessorsLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  CoonChaseTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  BossFightTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  SpecialWorldsTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  FinishLineLevelBlock:
+    SelectionItems: []
+    SelectionMode: 1
+  ChangeCurve: []

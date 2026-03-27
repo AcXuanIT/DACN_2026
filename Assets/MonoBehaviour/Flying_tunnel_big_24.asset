@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2053768004, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: Flying_tunnel_big_24
+  m_EditorClassIdentifier:
+  LevelBlockItems:
+    SelectionItems:
+    - ItemValueInternal: {fileID: 11400000, guid: 78a9d481c4de7104fbe82182286433f1, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 702e7d89c449cb449805caf2d563d1b0, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 7f3e235009ca2c744a95c352fe06a2e6, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 655bf216f92e9d44bb38c1f9be3953d0, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    SelectionMode: 4
+  SpecialLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  TransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  SuccessorsLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  CoonChaseTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  BossFightTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  SpecialWorldsTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  FinishLineLevelBlock:
+    SelectionItems: []
+    SelectionMode: 1
+  ChangeCurve: []

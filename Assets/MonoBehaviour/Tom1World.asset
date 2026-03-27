@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2132359839, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: Tom1World
+  m_EditorClassIdentifier:
+  WorldName: tom1world
+  Music: {fileID: 11400000, guid: 197df99d74d894b4aaff37e33583f718, type: 2}
+  PlayMusicOnEnter: 1
+  StartWorldStages: []
+  Stages:
+  - PlayerSpeed: 12
+    NumberOfLevels: 5
+    LevelBlock: {fileID: 11400000, guid: 69e409840ec2634498509367a0a9058b, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 14
+    NumberOfLevels: 5
+    LevelBlock: {fileID: 11400000, guid: fde50985303368047a8230bb5be6c6a1, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 16
+    NumberOfLevels: 6
+    LevelBlock: {fileID: 11400000, guid: 4b771ad8488587945a2c99a03f947a16, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 18
+    NumberOfLevels: 6
+    LevelBlock: {fileID: 11400000, guid: a285d30af2626cc44bbda2cd2f21a219, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 20
+    NumberOfLevels: 6
+    LevelBlock: {fileID: 11400000, guid: ebbb4e1f494496c42bedbe48e9249077, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 22
+    NumberOfLevels: 6
+    LevelBlock: {fileID: 11400000, guid: ccdb19fc7cf7642439afbda37ae3f085, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 24
+    NumberOfLevels: 6
+    LevelBlock: {fileID: 11400000, guid: 3b39da86e01ebd74c845edfed643aa04, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  SpecialLevelBlockGroups: []
+  SmallTransitionStage:
+    PlayerSpeed: 0
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: 177a7b8742ceccb498c4978a7701940c, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  CheckpointStages:
+  - PlayerSpeed: 12
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: af5c394adc357c145937c388eca7940e, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 14
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: 5ec7fb0d17ae37347b0ed03f7440ed2f, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 16
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: 5db1d50cbc593644093d8cdb51fbd401, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 18
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: 26183afbcfcdd4642bab6e728158ac60, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 20
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: 10bd0efe4a7d1ec4b86a113f36e24af8, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 22
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: f2bdcd6d537a65b4891aa3ada392809d, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 24
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: 95cb8c59981e4f640b676bcc199c85fc, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  BigTransitionStages: []
+  TutorialStages:
+    PlayerSpeed: 12
+    NumberOfLevels: 2
+    LevelBlock: {fileID: 11400000, guid: e1b1620cc0c367f46adde6bdb72cb755, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  VanStage:
+    PlayerSpeed: 12
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: ad02c3c5eb6a46c48b66b0a4bd258333, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  PredeterminedStages:
+  - PlayerSpeed: 12
+    NumberOfLevels: 5
+    LevelBlock: {fileID: 11400000, guid: daa669d8f150fa74aa7132c92a4fce57, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 14
+    NumberOfLevels: 3
+    LevelBlock: {fileID: 11400000, guid: 93b8181239972e441a063817f7fb4ec5, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 16
+    NumberOfLevels: 3
+    LevelBlock: {fileID: 11400000, guid: 250f026b73b311747b58086a2d72b6aa, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 18
+    NumberOfLevels: 3
+    LevelBlock: {fileID: 11400000, guid: ada0a86a7e771944aae598282e80480d, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  EnvironmentConfig:
+    NearFogColor: {r: 0.62352943, g: 0.86274517, b: 0.9294118, a: 1}
+    FogStartDistance: 24
+    FirstFogEndDistance: 80
+    SecondFogEndDistance: 80
+    WorldCurvatureFactor: {x: 5.5, y: 7.3, z: 0, w: 0}
+    WorldCurvatureDistance: 100
+    BackgroundPanSpeed: 0.04
+    TilableBackground: 1
+    CameraFarClipPlane: 88
+    HorizonElements:
+    - HorizonPrefab: {fileID: 1709254077376921, guid: 4276c339766bf8b4caa58921401a4b53, type: 2}
+      ElementOffset: 0.013
+      ElementAirplaneOffset: -5
+    - HorizonPrefab: {fileID: 1709254077376921, guid: fe3593c6ecfa6604393f378888e8e8ef, type: 2}
+      ElementOffset: 0
+      ElementAirplaneOffset: 0
+    - HorizonPrefab: {fileID: 1709254077376921, guid: 9c0894e390ef49440a08f57dc772914c, type: 2}
+      ElementOffset: 0
+      ElementAirplaneOffset: 0
+  WorldSignRendererIndex: 7
+  ExtrudeMeshData: {fileID: 11400000, guid: e550af19154c34d45b2d0d9503cb67b4, type: 2}
+  CameraFollowPlayerConfig:
+    NormalConfig:
+      Fov: 35
+      LookAtOffset: {x: 0, y: -1.7, z: 15.5}
+      PositionOffset: {x: 0, y: 2.4, z: -5.5}
+      CameraClamp: {x: -0.8, y: 0.8}
+    FlyingConfig:
+      Fov: 35
+      LookAtOffset: {x: 0, y: 0.84, z: 0.4927}
+      PositionOffset: {x: 0, y: 1.92, z: -5.86}
+      CameraClamp: {x: -0.8, y: 0.8}
+  JetPackStages:
+  - PlayerSpeed: 30
+    NumberOfLevels: 10
+    LevelBlock: {fileID: 11400000, guid: ddbc494c20fdaef43bb00a1587ab6b97, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  NumberOfLanes: 3
+  IntroIndex: 0
+  CharacterIntroZOffset: 30
+  CanUseCrashCameraAnimations: 1
+  BlendingConfig:
+    glowBegin: 0
+    glowEnd: -25
+    environmentBegin: 10
+    environmentEnd: -11
+    cameraBegin: 30
+    cameraEnd: -11
+  DespawnDistance: 4
+  WorldRoadMaterial: {fileID: 2100000, guid: 35e0496402849de468c5d76bacb857a6, type: 2}
+  SummerSportsRoadMaterial: {fileID: 2100000, guid: 296a59b743750014397c8dc709d3e2d8, type: 2}
+  FastStageTresholdSpeed: 22
+  RoadIsHidden: 0
+  CanClearSubways: 0
+  SupportLookBackAnimation: 1
+  RobberActive: 1
+  BoardingWorldType: 0
+  LargeCrashOffset: {x: 0, y: 0, z: 0}
+  BotRuns: []
+  MaxViewDistance: 90
+  StartWorldLevelSkips: 0
+  DefaultWorldController: {fileID: 11400000, guid: a93cbfa04b6c6b7418c0baebb4db143d, type: 2}
+  WidestHorizonElement: {fileID: 1709254077376921, guid: 4276c339766bf8b4caa58921401a4b53, type: 2}
+  SpecialEntranceMesh: {fileID: 0}

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2053768004, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: TimeTrial_stage2
+  m_EditorClassIdentifier:
+  LevelBlockItems:
+    SelectionItems:
+    - ItemValueInternal: {fileID: 11400000, guid: 2c4a851a5c8792649a0cf64fd5617674, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 59590ab32a4575e459e1368bfa618798, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 689f0513f81469a4f9476d7697578949, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: f91251054deb50b4b8138602fd1fc752, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: fcc49d47d6a6ed04580a80f8344c6a73, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 1a6a1a99e4d1bb8438e74b2816891ac1, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 801095e2e99bb1348936609655a9a9f3, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 721488c26b90e954289970bfbb0e9e45, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 0f29a65dd22576f49b2d91ec1e3d6b7e, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: fd6e75235bb7ab84ba155f7b0d92cb6a, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: ed51b302ec0afc047928bb31bc790dce, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    - ItemValueInternal: {fileID: 11400000, guid: 470280351002e8249b5debd1a570fc04, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    SelectionMode: 0
+  SpecialLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  TransitionLevelBlockItems:
+    SelectionItems:
+    - ItemValueInternal: {fileID: 11400000, guid: 18bd4d194fdd5644caa3448e50dc6929, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    SelectionMode: 1
+  SuccessorsLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  CoonChaseTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  BossFightTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  SpecialWorldsTransitionLevelBlockItems:
+    SelectionItems: []
+    SelectionMode: 1
+  FinishLineLevelBlock:
+    SelectionItems:
+    - ItemValueInternal: {fileID: 11400000, guid: fd6e75235bb7ab84ba155f7b0d92cb6a, type: 2}
+      NumRepeats: 1
+      RandomWeight: 10
+    SelectionMode: 1
+  ChangeCurve:
+  - {x: 9, y: -2, z: 0, w: 0}
+  - {x: -12, y: 6, z: 0, w: 0}
+  - {x: 20, y: -4, z: 0, w: 0}
+  - {x: -15, y: 3, z: 0, w: 0}
+  - {x: 5, y: 5, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 710779990, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: PirateGinger
+  m_EditorClassIdentifier:
+  _customization:
+    _id: pirate_ginger
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 19
+  _airplaneReference:
+    PrefabPath: Customization/Characters/AddOns/GingerPirateAirplane
+    EditorAssetGUID: 07d79fc9a3b1d43f3b6a8252399acfbb
+  _airplanePickupMesh: {fileID: 4300000, guid: 0a344539538e5884d8a82c11565fda4f, type: 2}
+  _airplaneSpriteName: Pirateship_plane_UI_TEX
+  _magnetReference:
+    PrefabPath: Customization/Characters/AddOns/Magnet
+    EditorAssetGUID: 5334f1c48bff03744895b55ad3cf0415
+  _helmetReference:
+    PrefabPath: Customization/Characters/AddOns/GingerPirateHelmet
+    EditorAssetGUID: badb9c79206e84c28af1d2422c52360c
+  _helmetPickupMesh: {fileID: 4300000, guid: 8cd1b7b2c90dba4458f081908f6b017b, type: 2}
+  _helmetSpriteName: Pirate_helmet_UI_TEX
+  _helmetYOffset: 0
+  _earsHidden: 1
+  _iapPack: {fileID: 11400000, guid: f50508d9ebd3c6842a34864c228e6ab9, type: 2}
+  SpecialOfferPacks: []
+  _dynamitePrice: 439
+  _chinaDynamitePrice: 0
+  _extraLives: 1
+  _botOverlayColor: {r: 0, g: 0.44705883, b: 0.6666667, a: 1}
+  _showDuringEventOnly: 0
+  _showTokenIconInUnlock: 0
+  _boundTokenEventId:
+  _character:
+    PrefabPath: Customization/Characters/Ginger
+    EditorAssetGUID: cd391aa657971a54eac6f34b74b99fd3
+  _addons:
+  - PrefabPath: Customization/Characters/AddOns/GingerPirateDress
+    EditorAssetGUID: 0c84c609ead1b4b848f3e27c4006c027
+  - PrefabPath: Customization/Characters/AddOns/GingerPirateHat
+    EditorAssetGUID: d0ed97020c67f4f73a67716ff7f84aee
+  - PrefabPath: Customization/Characters/AddOns/GingerPirateEyepatch
+    EditorAssetGUID: e2e60dca96c574a26aec3dd9f8242993

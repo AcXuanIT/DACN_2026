@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 710779990, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: JKFortuneTom
+  m_EditorClassIdentifier:
+  _customization:
+    _id: jkfortun_tom
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 42
+  _airplaneReference:
+    PrefabPath: Customization/Characters/AddOns/JKFortuneTomAirplane
+    EditorAssetGUID: 80238280aad85d54ab40435337e0be8a
+  _airplanePickupMesh: {fileID: 4300000, guid: 3e753352b4f2fc54290dc4bac77dae65, type: 2}
+  _airplaneSpriteName: lanternPlane_UI_TEX
+  _magnetReference:
+    PrefabPath: Customization/Characters/AddOns/Magnet
+    EditorAssetGUID: 5334f1c48bff03744895b55ad3cf0415
+  _helmetReference:
+    PrefabPath: Customization/Characters/AddOns/JKFortuneHelmet
+    EditorAssetGUID: fdcdc00954b25b846a4047f30134f11f
+  _helmetPickupMesh: {fileID: 4300000, guid: 27a69ab88d7b621478c87b6e3d61da1c, type: 2}
+  _helmetSpriteName: lanternHelmet_UI_TEX
+  _helmetYOffset: 0
+  _earsHidden: 0
+  _iapPack: {fileID: 11400000, guid: 22279b5d720bf594b805fc90630c169b, type: 2}
+  SpecialOfferPacks: []
+  _dynamitePrice: 199
+  _chinaDynamitePrice: 199
+  _extraLives: 1
+  _botOverlayColor: {r: 0, g: 0.44705883, b: 0.6666667, a: 1}
+  _showDuringEventOnly: 0
+  _showTokenIconInUnlock: 0
+  _boundTokenEventId:
+  _character:
+    PrefabPath: Customization/Characters/Tom
+    EditorAssetGUID: 49e943f8cc769694295d2860c699e102
+  _addons:
+  - PrefabPath: Customization/Characters/AddOns/JKFortuneTomPaladinDress
+    EditorAssetGUID: cfd4c3099d172b544bf54924df321410
+  - PrefabPath: Customization/Characters/AddOns/JKFortuneTomHat
+    EditorAssetGUID: 33b6c471ef743244493f3b7dc1f31e09
+  - PrefabPath: Customization/Characters/AddOns/JKFortuneTomSkirt
+    EditorAssetGUID: 5d8a0cba5b6db52428a1dfa521a5f6b5

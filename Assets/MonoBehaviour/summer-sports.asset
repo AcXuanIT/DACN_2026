@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1297574256, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: summer-sports
+  m_EditorClassIdentifier:
+  id: summer-sports
+  tokenId: summer-sports-trophy
+  spawnProbability: 1
+  gachaConfig:
+    gachaCardBackTextureUrl: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/Olympic_Card.png
+    gachaCardBackIconUrl:
+    gachaGlowColor: '#00000000'
+    gachaTitleTextColorPair:
+      foregroundColor: '#FFFFFFFF'
+      backgroundColor: '#2F0564FF'
+  deals:
+  - dealName: LargeTokenPack
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/ImgTokensMany.png
+    priceAmount: 160
+    priceCurrency: dynamite
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: token
+      amount: 1130
+  - dealName: SmallTokenPack
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/ImgTokensSome.png
+    priceAmount: 40
+    priceCurrency: dynamite
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: token
+      amount: 110
+  - dealName: Roulette
+    icon:
+    priceAmount: 1
+    priceCurrency: video
+    title:
+    exclamationMark: 0
+    reward:
+      type: ADDON
+      value: roulette
+      amount: 1
+  dealsVariation5DaysLength: []
+  notificationEventStart: localreminder.summersports.start
+  notificationEventEnding: localreminder.summersports.end
+  notificationDoubleUp: localreminder.summersports.double
+  doubleUpTitleTextColorPair:
+    foregroundColor: '#F6DC02FF'
+    backgroundColor: '#2F0564FF'
+  doubleUpDescriptionTextColorPair:
+    foregroundColor: '#FEFEFEFF'
+    backgroundColor: '#2F0564FF'
+  doubleUpMultiplierIconColorPair:
+    foregroundColor: '#F6DC02FF'
+    backgroundColor: '#2F0564FF'
+  tokenDealButtonColorPair:
+    foregroundColor: '#78D600FF'
+    backgroundColor: '#FFFD08FF'
+  tokenDealButtonTextColorPair:
+    foregroundColor: '#04664Fff'
+    backgroundColor: '#FFF460FF'
+  moreTextColorPair:
+    foregroundColor: '#FFFFFFFF'
+    backgroundColor: '#2F0564FF'
+  eventButtonColorPair:
+    foregroundColor: '#00000000'
+    backgroundColor: '#38FFFF'
+  eventFinishedTextColorPair:
+    foregroundColor: '#FFFFFFFF'
+    backgroundColor: '#2F0564FF'
+  headerColor:
+  tileColorHex: '#3957F2'
+  tokenUrl: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/IcnTokenLarge.png
+  tokenIconUrl: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/IcnTokenSmall.png
+  headerUrlValues:
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_ar.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_de.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_en.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_es.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_fr.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_it.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_ja.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_ko.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_pt.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_ru.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_tr.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_zh-hant.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_zh.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/headers/Olimpicevent_OlympicEventTitle_vi.png
+  backgroundUrl: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/EventGradient.png
+  backgroundPatternUrl: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/img_OlympicEvent_pattern.png
+  placeableMeshUrl: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/summerSportsToken_outline.msh
+  chestPropMeshUrl: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/summerSportsToken.msh
+  propGlowColor: '#38FFFF'
+  type: 5
+  milestones:
+  - progressionStage: 0
+    icon:
+    priceAmount: 10
+    reward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 10
+    fallbackReward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1
+  - progressionStage: 1
+    icon:
+    priceAmount: 20
+    reward:
+      type: CURRENCY
+      value: diamond
+      amount: 5
+    fallbackReward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1
+  - progressionStage: 2
+    icon:
+    priceAmount: 60
+    reward:
+      type: CURRENCY
+      value: dynamite
+      amount: 10
+    fallbackReward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1
+  - progressionStage: 3
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/earth-day/IcnRewardCards.png
+    priceAmount: 130
+    reward:
+      type: ADDON
+      value: lucky-cards
+      amount: 1
+    fallbackReward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1000
+  - progressionStage: 4
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/ImgEventCharacterGymnastAngela.png
+    priceAmount: 260
+    reward:
+      type: ADDON
+      value: gymnast_angela
+      amount: 1
+    fallbackReward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1000
+  - progressionStage: 5
+    icon:
+    priceAmount: 450
+    reward:
+      type: ADDON
+      value: diamond-vault
+      amount: 1
+    fallbackReward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1
+  - progressionStage: 6
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/ImgEventCharacterChampionTom.png
+    priceAmount: 720
+    reward:
+      type: ADDON
+      value: champion_tom
+      amount: 1
+    fallbackReward:
+      type: CURRENCY
+      value: dynamite
+      amount: 20
+  - progressionStage: 7
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/earth-day/IcnRewardCards.png
+    priceAmount: 1100
+    reward:
+      type: ADDON
+      value: lucky-cards
+      amount: 1
+    fallbackReward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1000
+  - progressionStage: 8
+    icon:
+    priceAmount: 1540
+    reward:
+      type: CURRENCY
+      value: diamond
+      amount: 20
+    fallbackReward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1
+  - progressionStage: 9
+    icon:
+    priceAmount: 2120
+    reward:
+      type: ADDON
+      value: diamond-vault
+      amount: 1
+    fallbackReward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1
+  milestonesVariation2: []
+  mainScreenIcon: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/IcnTokenLarge.png
+  tokenFillImage: https://cdn.outfit7.com/apps/goldrun/token-event/earth-day/ImgGradientProgress.png
+  tokenGradientTexture: https://cdn.outfit7.com/apps/goldrun/token-event/summer-sports/img_OlympicEvent_progressPattern.png
+  progressBarTextColorPair:
+    foregroundColor: '#FFF441'
+    backgroundColor: '#541E03'
+  headerBackgroundColor:
+  lastUniqueMilestoneIndex: 7
+  partnershipIcon:
+  loaded: 1

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 710779990, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: PoliceHank
+  m_EditorClassIdentifier:
+  _customization:
+    _id: police_hank
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 9
+  _airplaneReference:
+    PrefabPath: Customization/Characters/AddOns/PoliceAirplane
+    EditorAssetGUID: e8fe8bfcd7ebb164eb1f3b5bbf0f1d51
+  _airplanePickupMesh: {fileID: 4300000, guid: 0be645591b2bb6d4098b9b31bb70bcd5, type: 2}
+  _airplaneSpriteName: policePlane_UI_TEX
+  _magnetReference:
+    PrefabPath: Customization/Characters/AddOns/Magnet
+    EditorAssetGUID: 5334f1c48bff03744895b55ad3cf0415
+  _helmetReference:
+    PrefabPath: Customization/Characters/AddOns/PoliceHelmet
+    EditorAssetGUID: b104504b61df2a44c96c4c3f80e9e2a5
+  _helmetPickupMesh: {fileID: 4300000, guid: c0717393581df144f950aea2c3b653e5, type: 2}
+  _helmetSpriteName: policeHelmet_UI_TEX
+  _helmetYOffset: 0
+  _earsHidden: 0
+  _iapPack: {fileID: 11400000, guid: ba34ef22f2d59504dbaf622af0f651b3, type: 2}
+  SpecialOfferPacks: []
+  _dynamitePrice: 439
+  _chinaDynamitePrice: 0
+  _extraLives: 1
+  _botOverlayColor: {r: 0, g: 0.4509804, b: 0.7764706, a: 1}
+  _showDuringEventOnly: 0
+  _showTokenIconInUnlock: 0
+  _boundTokenEventId:
+  _character:
+    PrefabPath: Customization/Characters/Hank
+    EditorAssetGUID: 6d6a25783d34e7b4c9c048b400449177
+  _addons:
+  - PrefabPath: Customization/Characters/AddOns/HankPoliceDress
+    EditorAssetGUID: 1bd88ef7d51613c479567d069194a39c
+  - PrefabPath: Customization/Characters/AddOns/PoliceGlassesHank
+    EditorAssetGUID: 7331ca0514ba54a49a362bafa45a1e38

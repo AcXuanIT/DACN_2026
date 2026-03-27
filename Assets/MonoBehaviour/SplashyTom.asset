@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 710779990, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: SplashyTom
+  m_EditorClassIdentifier:
+  _customization:
+    _id: splashy_tom
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 23
+  _airplaneReference:
+    PrefabPath: Customization/Characters/AddOns/SplashyTomAirplane
+    EditorAssetGUID: 5f4c4be32bed845d3af43778ee68af6e
+  _airplanePickupMesh: {fileID: 4300000, guid: 7bbd5267058d0a94db131091a2cc1575, type: 2}
+  _airplaneSpriteName: SplashyTom_plane_UI_TEX
+  _magnetReference:
+    PrefabPath: Customization/Characters/AddOns/Magnet
+    EditorAssetGUID: 5334f1c48bff03744895b55ad3cf0415
+  _helmetReference:
+    PrefabPath: Customization/Characters/AddOns/SplashyTomHelmet
+    EditorAssetGUID: 4d609f51b18e04a6ea89535e46268a5f
+  _helmetPickupMesh: {fileID: 4300000, guid: 9d2fef322c39fbc4192f8156aefd26e3, type: 2}
+  _helmetSpriteName: SplashyTom_helmet_UI_TEX
+  _helmetYOffset: 0
+  _earsHidden: 0
+  _iapPack: {fileID: 11400000, guid: 18a134b7c132a0b4a83766daf403ed28, type: 2}
+  SpecialOfferPacks: []
+  _dynamitePrice: 399
+  _chinaDynamitePrice: 0
+  _extraLives: 1
+  _botOverlayColor: {r: 0, g: 0.44705883, b: 0.6666667, a: 1}
+  _showDuringEventOnly: 0
+  _showTokenIconInUnlock: 0
+  _boundTokenEventId:
+  _character:
+    PrefabPath: Customization/Characters/Tom
+    EditorAssetGUID: 49e943f8cc769694295d2860c699e102
+  _addons:
+  - PrefabPath: Customization/Characters/AddOns/SplashyTomDress
+    EditorAssetGUID: 266df2bad795142f3989b9ccef9b564f
+  - PrefabPath: Customization/Characters/AddOns/SplashyTomGlasses
+    EditorAssetGUID: 8fd298481133f47c48441ab1b45a5e50

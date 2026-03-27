@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 710779990, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: SharkHank
+  m_EditorClassIdentifier:
+  _customization:
+    _id: shark_hank
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 36
+  _airplaneReference:
+    PrefabPath: Customization/Characters/AddOns/SharkHankAirplane
+    EditorAssetGUID: db56f2b2fa1064917ae6c76cce4beadf
+  _airplanePickupMesh: {fileID: 4300000, guid: 88fc8cf19284f5f41ae97af5a8d24ca3, type: 2}
+  _airplaneSpriteName: SharkHankPlane_UI_TEX
+  _magnetReference:
+    PrefabPath: Customization/Characters/AddOns/Magnet
+    EditorAssetGUID: 5334f1c48bff03744895b55ad3cf0415
+  _helmetReference:
+    PrefabPath: Customization/Characters/AddOns/SharkHankHelmet
+    EditorAssetGUID: 09129f086131041b396c5a7f36845cb7
+  _helmetPickupMesh: {fileID: 4300000, guid: 23fa17da215b950488188290608c89dc, type: 2}
+  _helmetSpriteName: SharkHankHelmet_UI_TEX
+  _helmetYOffset: 0
+  _earsHidden: 1
+  _iapPack: {fileID: 11400000, guid: 89de2222a1a2e1746a7b6a73ef4e5c0c, type: 2}
+  SpecialOfferPacks: []
+  _dynamitePrice: 439
+  _chinaDynamitePrice: 0
+  _extraLives: 1
+  _botOverlayColor: {r: 0, g: 0.4509804, b: 0.7764706, a: 1}
+  _showDuringEventOnly: 0
+  _showTokenIconInUnlock: 0
+  _boundTokenEventId:
+  _character:
+    PrefabPath: Customization/Characters/Hank
+    EditorAssetGUID: 6d6a25783d34e7b4c9c048b400449177
+  _addons:
+  - PrefabPath: Customization/Characters/AddOns/SharkHankDress
+    EditorAssetGUID: ed7b2380869f2447ab2e3a9fb3c29c67
+  - PrefabPath: Customization/Characters/AddOns/SharkHankHands
+    EditorAssetGUID: 7a03803f0ec3c48c4b976e45bfe6a054
+  - PrefabPath: Customization/Characters/AddOns/SharkHankHat
+    EditorAssetGUID: 793d9eb25cc7b4685b0ada9d19633d07

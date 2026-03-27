@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1177086903, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: neon-rush
+  m_EditorClassIdentifier:
+  id: neon-rush
+  tokenId: neon
+  spawnProbability: 1
+  gachaConfig:
+    gachaCardBackTextureUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v2/cyber-rush/BgCard.png
+    gachaCardBackIconUrl:
+    gachaGlowColor: '#F600FFFF'
+    gachaTitleTextColorPair:
+      foregroundColor: '#FFFFFFFF'
+      backgroundColor: '#A8036CFF'
+  deals:
+  - dealName: FirstCharacter
+    icon: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v2/cyber-rush/ImgEventCharacter01.png
+    priceAmount: 850
+    priceCurrency: token
+    title: tokenevent.character_cyber_angela
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: cyber_angela
+      amount: 1
+  - dealName: SecondCharacter
+    icon: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v2/cyber-rush/ImgEventCharacter02.png
+    priceAmount: 700
+    priceCurrency: token
+    title: tokenevent.character_hyper_tom
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: hyper_tom
+      amount: 1
+  - dealName: DiamondVault
+    icon:
+    priceAmount: 430
+    priceCurrency: token
+    title:
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: diamond-vault
+      amount: 1
+  - dealName: LuckyCards
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/general/ImgCardsGacha.png
+    priceAmount: 200
+    priceCurrency: token
+    title:
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: lucky-cards
+      amount: 1
+  - dealName: LootHatersReward
+    icon:
+    priceAmount: 7
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1000
+  - dealName: Diamond
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/general/ImgDiamondMany.png
+    priceAmount: 190
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: diamond
+      amount: 5
+  - dealName: GoldBar
+    icon:
+    priceAmount: 1
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 100
+  - dealName: LargeTokenPack
+    icon: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v2/cyber-rush/ImgTokensMany.png
+    priceAmount: 80
+    priceCurrency: dynamite
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: token
+      amount: 295
+  - dealName: SmallTokenPack
+    icon: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v2/cyber-rush/ImgTokensSome.png
+    priceAmount: 40
+    priceCurrency: dynamite
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: token
+      amount: 30
+  - dealName: Roulette
+    icon:
+    priceAmount: 1
+    priceCurrency: video
+    title:
+    exclamationMark: 0
+    reward:
+      type: ADDON
+      value: roulette
+      amount: 1
+  dealsVariation5DaysLength: []
+  notificationEventStart: notification.tokenevent_start_neon
+  notificationEventEnding: notification.tokenevent_ending_neon
+  notificationDoubleUp: notification.tokenevent_double_up_neon
+  doubleUpTitleTextColorPair:
+    foregroundColor: '#FFE744FF'
+    backgroundColor: '#310883FF'
+  doubleUpDescriptionTextColorPair:
+    foregroundColor: '#FDFDFCFF'
+    backgroundColor: '#310883FF'
+  doubleUpMultiplierIconColorPair:
+    foregroundColor: '#F6DC02'
+    backgroundColor: '#2f0564'
+  tokenDealButtonColorPair:
+    foregroundColor: '#79FF45FF'
+    backgroundColor: '#FFFF64FF'
+  tokenDealButtonTextColorPair:
+    foregroundColor: '#04664Fff'
+    backgroundColor: '#FFF460FF'
+  moreTextColorPair:
+    foregroundColor: '#FFFFFFFF'
+    backgroundColor: '#310883FF'
+  eventButtonColorPair:
+    foregroundColor: '#00000000'
+    backgroundColor: '#DEF8EDD8'
+  eventFinishedTextColorPair:
+    foregroundColor: '#FFFFFFFF'
+    backgroundColor: '#310883FF'
+  headerColor: '#0D0A69FF'
+  tileColorHex: '#3C4BFFFF'
+  tokenUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v2/cyber-rush/IcnTokenLarge.png
+  tokenIconUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v2/cyber-rush/IcnTokenSmall.png
+  headerUrlValues:
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_ar.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_de.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_en.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_es.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_fr.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_it.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_ja.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_ko.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_pt.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_ru.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_tr.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_zh-hant.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v4/cyber-rush/ImgEventHeader_zh.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cyber-rush/headers/ImgEventHeader_vi.png
+  backgroundUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v2/cyber-rush/EventGradient.png
+  backgroundPatternUrl:
+  placeableMeshUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v2/cyber-rush/battery_outline.msh
+  chestPropMeshUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v2/cyber-rush/battery.msh
+  propGlowColor: '#00D2FFFF'

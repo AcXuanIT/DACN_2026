@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1292809652, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: YardGinger
+  m_EditorClassIdentifier:
+  _customization:
+    _id: yard_ginger
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 2
+  Yard:
+    PrefabPath: Customization/Yards/Yard04/Yard04
+    EditorAssetGUID: 1914b086a5519cd4baaa8a5985b62643
+  UIAsset:
+    PrefabPath: Builder/UI/forestYardUI
+    EditorAssetGUID: 236e5c95f992b744fac1c952fd1281f3
+  YardPrefabs:
+  - PrefabPath: Yards/ginger1world/Yard/Prefabs/yard04_House
+    EditorAssetGUID: 6aacfa56692ff0f4faf3e561a1278ea4
+  - PrefabPath: Yards/ginger1world/Yard/Prefabs/yard04_Ladder
+    EditorAssetGUID: 8687bbec3bc766d4a881b0068f690a25
+  - PrefabPath: Yards/ginger1world/Yard/Prefabs/yard04_ChillingPlace
+    EditorAssetGUID: 830cae7e8eb7c2a459d7e41c4abbd77a
+  - PrefabPath: Yards/ginger1world/Yard/Prefabs/yard04_Playground
+    EditorAssetGUID: 8d7b70691f15fcc40acf65753da7dc32
+  - PrefabPath: Yards/ginger1world/Yard/Prefabs/yard04_Static
+    EditorAssetGUID: 7859379190824b24682cf11df762bbe7
+  - PrefabPath: Yards/ginger1world/Yard/Prefabs/yard04_Background
+    EditorAssetGUID: 5dcce781be7ecfd4cb0921d54888d6b5
+  YardASMs:
+  - PrefabPath: Yards/ginger1world/Yard/Prefabs/yard04_HouseASM
+    EditorAssetGUID: bf1be3c278970f840bcbc99a118bbe26
+  - PrefabPath: Yards/ginger1world/Yard/Prefabs/yard04_LadderASM
+    EditorAssetGUID: eb907118bad3a56498b4820610026e78
+  - PrefabPath: Yards/ginger1world/Yard/Prefabs/yard04_ChillingPlaceASM
+    EditorAssetGUID: 11920a13381da154c98a575bb05149ea
+  - PrefabPath: Yards/ginger1world/Yard/Prefabs/yard04_PlaygroundASM
+    EditorAssetGUID: 2fa00c60b0bb0ee4fb55cac470dcea7b
+  InvertDownloadSizeColor: 1
+  AssetBundleName:
+  DynamiteUnlockPrice: 1599
+  CharacterUnlockID: ben
+  YardUnlockID: yard_ben
+  BuildIaps:
+  - {fileID: 11400000, guid: def60a87660f6bc43a6615c0f97967c1, type: 2}
+  UnlockIaps:
+  - {fileID: 11400000, guid: babc0265c4308824aaf86582bb4d47ec, type: 2}
+  - {fileID: 11400000, guid: 0d300244832e2754fa19ee295ec80774, type: 2}
+  YardElementImages:
+    PrefabPath: Yards/ginger1world/Yard/Icons/YardGingerImages
+    EditorAssetGUID: 88c2d1ffc658716489cee0d7f0e28e3f

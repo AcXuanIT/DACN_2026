@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1267187721, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: Mis06_CollectWithJetplane
+  m_EditorClassIdentifier:
+  LocalizationKey: missions.plane_alternative
+  LocalizationKeySingle:
+  Icon: {fileID: 2800000, guid: 7ed2b4a28edd83348b911aa59ae77891, type: 3}
+  IconAlpha: {fileID: 2800000, guid: 4a3f57e96ffe32a44910077238c971cf, type: 3}
+  HashId: 22625599
+  BoostType: 1
+  EasyDifficulty:
+    MinTargetAmount: 150
+    MaxTargetAmount: 250
+  HardDifficulty:
+    MinTargetAmount: 450
+    MaxTargetAmount: 600
+  AlternativeMode: 1

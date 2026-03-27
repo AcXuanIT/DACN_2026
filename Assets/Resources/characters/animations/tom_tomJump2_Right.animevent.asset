@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 518741173, guid: 57608e885eb51e446ff486f5ae575708, type: 3}
+  m_Name: tom_tomJump2_Right.animevent
+  m_EditorClassIdentifier:
+  Events:
+  - Time: 0.0002330433
+    Method: PlayOneShotAudioEvent
+    Parameters:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 39d188e94398ab54faa1e415955fc10a, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+  - Time: 0.002563477
+    Method: PlayCharacterAudioEvent
+    Parameters:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: ce031269d3f2ed441b030e85aa9d005d, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: bbf8bff723143a7499ef0aae76ca4cde, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 2c6a0364efee26e44b24a56072c0c697, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 4ed99d04c4a7ced4b81b113db71b709f, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: d4d9e209cab855341abbf6bbc6aa4d71, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 0208bbc0a89ba5243b9a23df935681d2, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+  EnterEvents: []
+  ExitEvents: []

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 710779990, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: AstronautTom
+  m_EditorClassIdentifier:
+  _customization:
+    _id: astronaut_tom
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 27
+  _airplaneReference:
+    PrefabPath: Customization/Characters/AddOns/AstronautTomAirplane
+    EditorAssetGUID: 2e3e22b3bef9045e696734e0d4e91650
+  _airplanePickupMesh: {fileID: 4300000, guid: 9c30e1f2f0404f44a8e7b91872e7366c, type: 2}
+  _airplaneSpriteName: Astronaut_Tom_plane_UI_TEX
+  _magnetReference:
+    PrefabPath: Customization/Characters/AddOns/Magnet
+    EditorAssetGUID: 5334f1c48bff03744895b55ad3cf0415
+  _helmetReference:
+    PrefabPath: Customization/Characters/AddOns/AstronautTomHelmet
+    EditorAssetGUID: 035bfda77b880411683a7c445066c1cc
+  _helmetPickupMesh: {fileID: 4300000, guid: 75b2b63d0fa992b4a98cd45fc239c158, type: 2}
+  _helmetSpriteName: Astronaut_tom_helmet_UI_TEX
+  _helmetYOffset: 0
+  _earsHidden: 0
+  _iapPack: {fileID: 11400000, guid: 358cab6e7b5bb7e429f7434463a2f85a, type: 2}
+  SpecialOfferPacks: []
+  _dynamitePrice: 439
+  _chinaDynamitePrice: 0
+  _extraLives: 1
+  _botOverlayColor: {r: 0, g: 0.44705883, b: 0.6666667, a: 1}
+  _showDuringEventOnly: 0
+  _showTokenIconInUnlock: 0
+  _boundTokenEventId:
+  _character:
+    PrefabPath: Customization/Characters/Tom
+    EditorAssetGUID: 49e943f8cc769694295d2860c699e102
+  _addons:
+  - PrefabPath: Customization/Characters/AddOns/AstronautTomDress
+    EditorAssetGUID: 5f9b1f67b2b3e4b189347fc34501cf29
+  - PrefabPath: Customization/Characters/AddOns/AstronautTomHands
+    EditorAssetGUID: f7e824d6346d644dc982abb6c1cd6e4a

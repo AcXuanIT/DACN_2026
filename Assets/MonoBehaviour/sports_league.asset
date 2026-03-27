@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1177086903, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: sports_league
+  m_EditorClassIdentifier:
+  id: sports_league
+  tokenId: whistle
+  spawnProbability: 1
+  gachaConfig:
+    gachaCardBackTextureUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/BgCard.png
+    gachaCardBackIconUrl:
+    gachaGlowColor: '#00000000'
+    gachaTitleTextColorPair:
+      foregroundColor:
+      backgroundColor:
+  deals:
+  - dealName: FirstCharacter
+    icon: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v9/sports-league/ImgEventCharacter01.png
+    priceAmount: 850
+    priceCurrency: token
+    title: tokenevent.character_kung_fu_hank
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: kungfu_hank
+      amount: 1
+  - dealName: SecondCharacter
+    icon: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v9/sports-league/ImgEventCharacter02.png
+    priceAmount: 700
+    priceCurrency: token
+    title: tokenevent.character_football_tom
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: football_tom
+      amount: 1
+  - dealName: DiamondVault
+    icon:
+    priceAmount: 430
+    priceCurrency: token
+    title:
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: diamond-vault
+      amount: 1
+  - dealName: LuckyCards
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/general/ImgCardsGacha.png
+    priceAmount: 200
+    priceCurrency: token
+    title:
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: lucky-cards
+      amount: 1
+  - dealName: LootHatersReward
+    icon:
+    priceAmount: 7
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1000
+  - dealName: Diamond
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/general/ImgDiamondMany.png
+    priceAmount: 190
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: diamond
+      amount: 5
+  - dealName: GoldBar
+    icon:
+    priceAmount: 1
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 100
+  - dealName: LargeTokenPack
+    icon: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgTokensMany.png
+    priceAmount: 80
+    priceCurrency: dynamite
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: token
+      amount: 295
+  - dealName: SmallTokenPack
+    icon: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgTokensSome.png
+    priceAmount: 40
+    priceCurrency: dynamite
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: token
+      amount: 30
+  - dealName: Roulette
+    icon:
+    priceAmount: 1
+    priceCurrency: video
+    title:
+    exclamationMark: 0
+    reward:
+      type: ADDON
+      value: roulette
+      amount: 1
+  dealsVariation5DaysLength: []
+  notificationEventStart: notification.tokenevent_start_sports
+  notificationEventEnding: notification.tokenevent_ending_sports
+  notificationDoubleUp: notification.tokenevent_double_up_sports
+  doubleUpTitleTextColorPair:
+    foregroundColor: '#FFE400FF'
+    backgroundColor: '#102E00FF'
+  doubleUpDescriptionTextColorPair:
+    foregroundColor: '#FDFDFCFF'
+    backgroundColor: '#1B4F00FF'
+  doubleUpMultiplierIconColorPair:
+    foregroundColor: '#FFE400FF'
+    backgroundColor: '#1B4F00FF'
+  tokenDealButtonColorPair:
+    foregroundColor: '#79FF45FF'
+    backgroundColor: '#FFF159FF'
+  tokenDealButtonTextColorPair:
+    foregroundColor: '#04664Fff'
+    backgroundColor: '#FFF460FF'
+  moreTextColorPair:
+    foregroundColor: '#FFFFFFFF'
+    backgroundColor: '#1B4F00FF'
+  eventButtonColorPair:
+    foregroundColor: '#FFFFFFFF'
+    backgroundColor: '#A2FF00B4'
+  eventFinishedTextColorPair:
+    foregroundColor: '#FFE400FF'
+    backgroundColor: '#102E00B4'
+  headerColor: '#169C00FF'
+  tileColorHex: '#BEFF31FF'
+  tokenUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/IcnTokenLarge.png
+  tokenIconUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/IcnTokenSmall.png
+  headerUrlValues:
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_ar.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_de.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_en.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_es.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_fr.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_it.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_ja.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_ko.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_pt.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_ru.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_tr.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_zh-hant.png
+  - https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/ImgEventHeader_zh.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/sports-league/headers/ImgEventHeader_vi.png
+  backgroundUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v8/sports-league/EventGradient.png
+  backgroundPatternUrl:
+  placeableMeshUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v11/sports-league/whistleShape.msh
+  chestPropMeshUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v12/sports-league/whistleShape.msh
+  propGlowColor: '#A2FF00FF'

@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: VCObstaclesCubeMap_MAT
   m_Shader: {fileID: 4800000, guid: 70fdc3ea23f866149b2686c0beda7f52, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 5
@@ -17,48 +19,49 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _TextureSample0:
+    - _TextureSample0:
         m_Texture: {fileID: 2800000, guid: 9dc90ef733a3d0d42b475e5d78cf5f40, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: {}
+    m_Ints: []
     m_Floats:
-      CUBEMAP_TOGGLE: 0
-      Saturation: 0.3
-      UNDERWATER: 0
-      _BumpScale: 1
-      _CubeMapIntensity: 0.14
-      _Cull: 2
-      _Cutoff: 0.5
-      _DetailNormalMapScale: 1
-      _DstBlend: 0
-      _FlipX: 1
-      _Glossiness: 0.5
-      _HighlightIntensity: 0.167
-      _HighlightInverseSize: 0.16
-      _HighlightSize: 1
-      _MaxHighlightIntensity: 0.137
-      _Metallic: 0
-      _Mode: 0
-      _OcclusionStrength: 1
-      _Offset1: 0.3
-      _Offset2: 0.15
-      _Parallax: 0.02
-      _Saturation: 0.3
-      _Speed: 0.5
-      _SrcBlend: 1
-      _Tiling: 0.1
-      _UVSec: 0
-      _ZTest: 0
-      _ZWrite: 1
+    - CUBEMAP_TOGGLE: 0
+    - Saturation: 0.3
+    - UNDERWATER: 0
+    - _BumpScale: 1
+    - _CubeMapIntensity: 0.14
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FlipX: 1
+    - _Glossiness: 0.5
+    - _HighlightIntensity: 0.167
+    - _HighlightInverseSize: 0.16
+    - _HighlightSize: 1
+    - _MaxHighlightIntensity: 0.137
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Offset1: 0.3
+    - _Offset2: 0.15
+    - _Parallax: 0.02
+    - _Saturation: 0.3
+    - _Speed: 0.5
+    - _SrcBlend: 1
+    - _Tiling: 0.1
+    - _UVSec: 0
+    - _ZTest: 0
+    - _ZWrite: 1
     m_Colors:
-      _AdditiveColor: {r: 0, g: 0, b: 0, a: 0}
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _DotColor: {r: 0.3, g: 0.59, b: 0.11, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-      _NightColor: {r: 0.34, g: 0.28, b: 0.65, a: 1}
-      _Tint: {r: 0, g: 0.112, b: 0.114, a: 0}
+    - _AdditiveColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DotColor: {r: 0.3, g: 0.59, b: 0.11, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NightColor: {r: 0.34, g: 0.28, b: 0.65, a: 1}
+    - _Tint: {r: 0, g: 0.112, b: 0.114, a: 0}
   m_BuildTextureStacks: []

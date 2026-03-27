@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1177086903, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: lunar-celebrations
+  m_EditorClassIdentifier:
+  id: lunar-celebrations
+  tokenId: rabbit-lantern
+  spawnProbability: 1
+  gachaConfig:
+    gachaCardBackTextureUrl: https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/BgCard.png
+    gachaCardBackIconUrl:
+    gachaGlowColor: '#f1d1fb'
+    gachaTitleTextColorPair:
+      foregroundColor: '#FFFFFF'
+      backgroundColor: '#620700'
+  deals:
+  - dealName: FirstCharacter
+    icon: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v9/sports-league/ImgEventCharacter01.png
+    priceAmount: 850
+    priceCurrency: token
+    title: tokenevent.character_kung_fu_hank
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: kungfu_hank
+      amount: 1
+  - dealName: SecondCharacter
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/chinese-new-year-token-event/ImgEventCharacter02.png
+    priceAmount: 700
+    priceCurrency: token
+    title: tokenevent.character_general_tom
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: general_tom
+      amount: 1
+  - dealName: DiamondVault
+    icon:
+    priceAmount: 430
+    priceCurrency: token
+    title:
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: diamond-vault
+      amount: 1
+  - dealName: LuckyCards
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/general/ImgCardsGacha.png
+    priceAmount: 200
+    priceCurrency: token
+    title:
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: lucky-cards
+      amount: 1
+  - dealName: LootHatersReward
+    icon:
+    priceAmount: 7
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1000
+  - dealName: Diamond
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/general/ImgDiamondMany.png
+    priceAmount: 190
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: diamond
+      amount: 5
+  - dealName: GoldBar
+    icon:
+    priceAmount: 1
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 100
+  - dealName: LargeTokenPack
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/ImgTokensMany.png
+    priceAmount: 80
+    priceCurrency: dynamite
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: token
+      amount: 295
+  - dealName: SmallTokenPack
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/ImgTokensSome.png
+    priceAmount: 40
+    priceCurrency: dynamite
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: token
+      amount: 30
+  - dealName: Roulette
+    icon:
+    priceAmount: 1
+    priceCurrency: video
+    title:
+    exclamationMark: 0
+    reward:
+      type: ADDON
+      value: roulette
+      amount: 1
+  dealsVariation5DaysLength: []
+  notificationEventStart: token-event-cny.notification-start
+  notificationEventEnding: token-event-cny.notification-end
+  notificationDoubleUp: token-event-cny.notification-doubleup
+  doubleUpTitleTextColorPair:
+    foregroundColor: '#FFDE25FF'
+    backgroundColor: '#2C0E14FF'
+  doubleUpDescriptionTextColorPair:
+    foregroundColor: '#FDFFFFFF'
+    backgroundColor: '#390514FF'
+  doubleUpMultiplierIconColorPair:
+    foregroundColor: '#FEFF3AFF'
+    backgroundColor: '#510001FF'
+  tokenDealButtonColorPair:
+    foregroundColor: '#79ff45ff'
+    backgroundColor: '#ffff64ff'
+  tokenDealButtonTextColorPair:
+    foregroundColor: '#04664Fff'
+    backgroundColor: '#FFF460FF'
+  moreTextColorPair:
+    foregroundColor: '#ffffff'
+    backgroundColor: '#011821'
+  eventButtonColorPair:
+    foregroundColor:
+    backgroundColor: '#fcff00B4'
+  eventFinishedTextColorPair:
+    foregroundColor: '#ffffff'
+    backgroundColor: '#011821'
+  headerColor: '#900707'
+  tileColorHex: '#ffde00'
+  tokenUrl: https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/IcnTokenLarge.png
+  tokenIconUrl: https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/IcnTokenSmall.png
+  headerUrlValues:
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_ar.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_de.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_en.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_es.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_fr.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_it.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_ja.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_ko.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_pt.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_ru.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_tr.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_zh-hant.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_zh.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/headers/ImgEventHeader_vi.png
+  backgroundUrl: https://cdn.outfit7.com/apps/goldrun/token-event/lunar-celebrations/EventGradient.png
+  backgroundPatternUrl:
+  placeableMeshUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v1//tokenShapeTwo_01.msh
+  chestPropMeshUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v1//tokenShapeTwo_02.msh
+  propGlowColor: '#FF8E00FF'

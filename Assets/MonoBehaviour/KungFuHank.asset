@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 710779990, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: KungFuHank
+  m_EditorClassIdentifier:
+  _customization:
+    _id: kungfu_hank
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 25
+  _airplaneReference:
+    PrefabPath: Customization/Characters/AddOns/KungFuHankAirplane
+    EditorAssetGUID: a0554b557165d48928634c54524e0692
+  _airplanePickupMesh: {fileID: 4300000, guid: 84b177dfeac35b94fa3878c162f9cdfd, type: 2}
+  _airplaneSpriteName: KungFuHank_plane_UI_TEX
+  _magnetReference:
+    PrefabPath: Customization/Characters/AddOns/Magnet
+    EditorAssetGUID: 5334f1c48bff03744895b55ad3cf0415
+  _helmetReference:
+    PrefabPath: Customization/Characters/AddOns/KungFuHankHelmet
+    EditorAssetGUID: c0364f7f82dd542f79e6ff818cdcf72d
+  _helmetPickupMesh: {fileID: 4300000, guid: 0ea09ec16ff5f464ab71fc93578f29e7, type: 2}
+  _helmetSpriteName: KungFuHank_helmet_UI_TEX
+  _helmetYOffset: 0
+  _earsHidden: 0
+  _iapPack: {fileID: 11400000, guid: 3aeed04fb2d1cd8459d98e579c2d0811, type: 2}
+  SpecialOfferPacks: []
+  _dynamitePrice: 219
+  _chinaDynamitePrice: 0
+  _extraLives: 1
+  _botOverlayColor: {r: 0, g: 0.4509804, b: 0.7764706, a: 1}
+  _showDuringEventOnly: 0
+  _showTokenIconInUnlock: 0
+  _boundTokenEventId:
+  _character:
+    PrefabPath: Customization/Characters/Hank
+    EditorAssetGUID: 6d6a25783d34e7b4c9c048b400449177
+  _addons:
+  - PrefabPath: Customization/Characters/AddOns/KungFuHankDress
+    EditorAssetGUID: 57087814485574d2b8b6edab1c4ffe2b

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1651401031, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: SpawnWorldConfig2
+  m_EditorClassIdentifier:
+  SideWorldsSpawnPoints:
+  - StartSpawn: 11
+    EndSpawn: 11
+    SpawnChance: 100
+    LengthOfRun: 4
+    GCReward: 0
+  - StartSpawn: 19
+    EndSpawn: 19
+    SpawnChance: 100
+    LengthOfRun: 6
+    GCReward: 0
+  - StartSpawn: 31
+    EndSpawn: 31
+    SpawnChance: 100
+    LengthOfRun: 5
+    GCReward: 0
+  - StartSpawn: 41
+    EndSpawn: 41
+    SpawnChance: 100
+    LengthOfRun: 7
+    GCReward: 0
+  - StartSpawn: 45
+    EndSpawn: 45
+    SpawnChance: 100
+    LengthOfRun: 5
+    GCReward: 0
+  - StartSpawn: 53
+    EndSpawn: 53
+    SpawnChance: 100
+    LengthOfRun: 6
+    GCReward: 0
+  - StartSpawn: 63
+    EndSpawn: 63
+    SpawnChance: 100
+    LengthOfRun: 5
+    GCReward: 0
+  RepetableSideWorldSpawnPoint:
+    StartSpawn: 7
+    EndSpawn: 9
+    SpawnChance: 80
+    LengthOfRun: 6
+    GCReward: 0

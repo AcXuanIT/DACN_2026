@@ -1,0 +1,917 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1395483148, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: BotRun3-30
+  m_EditorClassIdentifier:
+  Stage: 3
+  Time: 50364
+  RecordedMoves:
+  - Time: 2.471836
+    Move: 64
+    StartLane: 1
+    Speed: 18
+    ZPos: 19.5224
+  - Time: 2.517749
+    Move: 16
+    StartLane: 1
+    Speed: 30
+    ZPos: 19.5224
+  - Time: 3.110056
+    Move: 4
+    StartLane: 1
+    Speed: 30
+    ZPos: 37.35807
+  - Time: 3.442796
+    Move: 2
+    StartLane: 1
+    Speed: 30
+    ZPos: 47.29915
+  - Time: 3.951097
+    Move: 4
+    StartLane: 2
+    Speed: 30
+    ZPos: 62.25046
+  - Time: 4.376285
+    Move: 1
+    StartLane: 2
+    Speed: 30
+    ZPos: 75.03496
+  - Time: 4.982976
+    Move: 1
+    StartLane: 1
+    Speed: 30
+    ZPos: 93.23882
+  - Time: 5.411759
+    Move: 4
+    StartLane: 0
+    Speed: 30
+    ZPos: 105.7537
+  - Time: 5.895444
+    Move: 2
+    StartLane: 0
+    Speed: 30
+    ZPos: 120.233
+  - Time: 6.484332
+    Move: 16
+    StartLane: 1
+    Speed: 24
+    ZPos: 137.9924
+  - Time: 6.533688
+    Move: 4
+    StartLane: 1
+    Speed: 24
+    ZPos: 139.1314
+  - Time: 6.533688
+    Move: 16
+    StartLane: 1
+    Speed: 28
+    ZPos: 139.1314
+  - Time: 7.248257
+    Move: 1
+    StartLane: 1
+    Speed: 28
+    ZPos: 159.4277
+  - Time: 7.578647
+    Move: 4
+    StartLane: 0
+    Speed: 28
+    ZPos: 168.3361
+  - Time: 7.578647
+    Move: 16
+    StartLane: 0
+    Speed: 24
+    ZPos: 168.3361
+  - Time: 8.336229
+    Move: 8
+    StartLane: 0
+    Speed: 24
+    ZPos: 186.5615
+  - Time: 9.132823
+    Move: 2
+    StartLane: 0
+    Speed: 24
+    ZPos: 205.6395
+  - Time: 12.81374
+    Move: 2
+    StartLane: 1
+    Speed: 24
+    ZPos: 294.0168
+  - Time: 13.67116
+    Move: 1
+    StartLane: 2
+    Speed: 24
+    ZPos: 314.0351
+  - Time: 13.76652
+    Move: 16
+    StartLane: 1
+    Speed: 18
+    ZPos: 316.1548
+  - Time: 13.85792
+    Move: 16
+    StartLane: 1
+    Speed: 22
+    ZPos: 317.8856
+  - Time: 14.81565
+    Move: 1
+    StartLane: 1
+    Speed: 22
+    ZPos: 338.8409
+  - Time: 15.58906
+    Move: 2
+    StartLane: 0
+    Speed: 22
+    ZPos: 355.5356
+  - Time: 16.4365
+    Move: 2
+    StartLane: 1
+    Speed: 22
+    ZPos: 374.2366
+  - Time: 17.14925
+    Move: 8
+    StartLane: 2
+    Speed: 22
+    ZPos: 389.7634
+  - Time: 17.76348
+    Move: 1
+    StartLane: 2
+    Speed: 22
+    ZPos: 403.2336
+  - Time: 20.73985
+    Move: 2
+    StartLane: 1
+    Speed: 22
+    ZPos: 468.7424
+  - Time: 21.48203
+    Move: 4
+    StartLane: 2
+    Speed: 22
+    ZPos: 484.7597
+  - Time: 22.74936
+    Move: 1
+    StartLane: 2
+    Speed: 22
+    ZPos: 511.5164
+  - Time: 22.79196
+    Move: 16
+    StartLane: 1
+    Speed: 16
+    ZPos: 513.7164
+  - Time: 22.87593
+    Move: 16
+    StartLane: 1
+    Speed: 20
+    ZPos: 515.0974
+  - Time: 23.01423
+    Move: 8
+    StartLane: 1
+    Speed: 20
+    ZPos: 517.6258
+  - Time: 23.70944
+    Move: 2
+    StartLane: 1
+    Speed: 20
+    ZPos: 531.6815
+  - Time: 24.20485
+    Move: 16
+    StartLane: 2
+    Speed: 26
+    ZPos: 541.5295
+  - Time: 24.56638
+    Move: 1
+    StartLane: 2
+    Speed: 26
+    ZPos: 550.9424
+  - Time: 25.38712
+    Move: 2
+    StartLane: 1
+    Speed: 26
+    ZPos: 572.2941
+  - Time: 25.43243
+    Move: 16
+    StartLane: 2
+    Speed: 22
+    ZPos: 573.4694
+  - Time: 26.56413
+    Move: 1
+    StartLane: 2
+    Speed: 22
+    ZPos: 598.2557
+  - Time: 27.01927
+    Move: 16
+    StartLane: 1
+    Speed: 28
+    ZPos: 608.17
+  - Time: 27.60726
+    Move: 2
+    StartLane: 1
+    Speed: 28
+    ZPos: 624.6254
+  - Time: 28.08465
+    Move: 64
+    StartLane: 2
+    Speed: 28
+    ZPos: 639.004
+  - Time: 28.1308
+    Move: 16
+    StartLane: 2
+    Speed: 30
+    ZPos: 639.004
+  - Time: 29.77832
+    Move: 4
+    StartLane: 2
+    Speed: 30
+    ZPos: 688.4537
+  - Time: 30.67061
+    Move: 1
+    StartLane: 2
+    Speed: 30
+    ZPos: 715.2132
+  - Time: 31.29532
+    Move: 2
+    StartLane: 1
+    Speed: 30
+    ZPos: 734.0057
+  - Time: 32.01213
+    Move: 32
+    StartLane: 2
+    Speed: 30
+    ZPos: 755.5562
+  - Time: 32.07516
+    Move: 16
+    StartLane: 2
+    Speed: 14
+    ZPos: 755.5562
+  - Time: 32.98135
+    Move: 1
+    StartLane: 2
+    Speed: 14
+    ZPos: 769.6429
+  - Time: 33.02625
+    Move: 16
+    StartLane: 1
+    Speed: 24
+    ZPos: 770.1877
+  - Time: 33.51499
+    Move: 1
+    StartLane: 1
+    Speed: 24
+    ZPos: 781.7776
+  - Time: 33.95063
+    Move: 16
+    StartLane: 0
+    Speed: 20
+    ZPos: 792.3738
+  - Time: 33.99878
+    Move: 2
+    StartLane: 0
+    Speed: 20
+    ZPos: 793.2383
+  - Time: 34.10523
+    Move: 16
+    StartLane: 1
+    Speed: 14
+    ZPos: 795.1221
+  - Time: 34.16158
+    Move: 16
+    StartLane: 1
+    Speed: 18
+    ZPos: 795.8992
+  - Time: 34.65275
+    Move: 16
+    StartLane: 1
+    Speed: 24
+    ZPos: 804.9158
+  - Time: 34.98236
+    Move: 4
+    StartLane: 1
+    Speed: 24
+    ZPos: 812.8343
+  - Time: 35.85872
+    Move: 16
+    StartLane: 1
+    Speed: 20
+    ZPos: 832.5777
+  - Time: 36.55753
+    Move: 1
+    StartLane: 1
+    Speed: 20
+    ZPos: 847.6069
+  - Time: 37.39776
+    Move: 16
+    StartLane: 0
+    Speed: 26
+    ZPos: 863.1791
+  - Time: 38.01051
+    Move: 2
+    StartLane: 0
+    Speed: 26
+    ZPos: 880.44
+  - Time: 38.51481
+    Move: 16
+    StartLane: 1
+    Speed: 22
+    ZPos: 893.6255
+  - Time: 38.65127
+    Move: 2
+    StartLane: 1
+    Speed: 22
+    ZPos: 896.6152
+  - Time: 40.0453
+    Move: 1
+    StartLane: 2
+    Speed: 22
+    ZPos: 927.1569
+  - Time: 41.10527
+    Move: 2
+    StartLane: 1
+    Speed: 22
+    ZPos: 950.3804
+  - Time: 41.2119
+    Move: 16
+    StartLane: 2
+    Speed: 16
+    ZPos: 952.6646
+  - Time: 41.25926
+    Move: 16
+    StartLane: 2
+    Speed: 20
+    ZPos: 953.5467
+  - Time: 42.46431
+    Move: 1
+    StartLane: 2
+    Speed: 20
+    ZPos: 977.5812
+  - Time: 42.56537
+    Move: 16
+    StartLane: 1
+    Speed: 14
+    ZPos: 979.5847
+  - Time: 42.61551
+    Move: 16
+    StartLane: 1
+    Speed: 18
+    ZPos: 980.2161
+  - Time: 43.31774
+    Move: 1
+    StartLane: 1
+    Speed: 18
+    ZPos: 992.7947
+  - Time: 43.31774
+    Move: 16
+    StartLane: 0
+    Speed: 24
+    ZPos: 992.7947
+  - Time: 43.57371
+    Move: 16
+    StartLane: 0
+    Speed: 28
+    ZPos: 998.9059
+  - Time: 44.25097
+    Move: 2
+    StartLane: 0
+    Speed: 28
+    ZPos: 1017.961
+  - Time: 44.81958
+    Move: 2
+    StartLane: 1
+    Speed: 28
+    ZPos: 1033.634
+  - Time: 44.81958
+    Move: 16
+    StartLane: 2
+    Speed: 24
+    ZPos: 1033.634
+  - Time: 45.58447
+    Move: 16
+    StartLane: 2
+    Speed: 28
+    ZPos: 1051.64
+  - Time: 46.14494
+    Move: 4
+    StartLane: 2
+    Speed: 28
+    ZPos: 1067.494
+  - Time: 46.56982
+    Move: 1
+    StartLane: 2
+    Speed: 28
+    ZPos: 1079.341
+  - Time: 46.71858
+    Move: 16
+    StartLane: 1
+    Speed: 24
+    ZPos: 1083.191
+  - Time: 47.03198
+    Move: 16
+    StartLane: 1
+    Speed: 28
+    ZPos: 1090.815
+  - Time: 47.225
+    Move: 2
+    StartLane: 1
+    Speed: 28
+    ZPos: 1096.218
+  - Time: 47.50962
+    Move: 1
+    StartLane: 2
+    Speed: 28
+    ZPos: 1104.113
+  - Time: 48.34984
+    Move: 2
+    StartLane: 1
+    Speed: 28
+    ZPos: 1127.529
+  - Time: 49.20947
+    Move: 1
+    StartLane: 2
+    Speed: 28
+    ZPos: 1151.528
+  - Time: 50.00609
+    Move: 1
+    StartLane: 1
+    Speed: 28
+    ZPos: 1173.826
+  - Time: 50.53342
+    Move: 2
+    StartLane: 0
+    Speed: 28
+    ZPos: 1187.824
+  - Time: 50.83184
+    Move: 16
+    StartLane: 1
+    Speed: 24
+    ZPos: 1196.049
+  - Time: 51.2814
+    Move: 2
+    StartLane: 1
+    Speed: 24
+    ZPos: 1206.837
+  - Time: 52.07731
+    Move: 1
+    StartLane: 2
+    Speed: 24
+    ZPos: 1225.933
+  - Time: 52.17907
+    Move: 16
+    StartLane: 1
+    Speed: 18
+    ZPos: 1228.315
+  - Time: 52.27002
+    Move: 16
+    StartLane: 1
+    Speed: 22
+    ZPos: 1230.054
+  - Time: 53.79391
+    Move: 2
+    StartLane: 1
+    Speed: 22
+    ZPos: 1263.451
+  - Time: 53.89947
+    Move: 16
+    StartLane: 2
+    Speed: 16
+    ZPos: 1265.526
+  - Time: 54.08642
+    Move: 16
+    StartLane: 2
+    Speed: 20
+    ZPos: 1268.609
+  - Time: 54.56879
+    Move: 16
+    StartLane: 2
+    Speed: 26
+    ZPos: 1278.178
+  - Time: 54.87034
+    Move: 1
+    StartLane: 2
+    Speed: 26
+    ZPos: 1286.011
+  - Time: 55.18375
+    Move: 4
+    StartLane: 1
+    Speed: 26
+    ZPos: 1294.06
+  - Time: 55.74958
+    Move: 16
+    StartLane: 1
+    Speed: 22
+    ZPos: 1308.848
+  - Time: 56.0954
+    Move: 1
+    StartLane: 1
+    Speed: 22
+    ZPos: 1316.509
+  - Time: 56.75326
+    Move: 16
+    StartLane: 0
+    Speed: 28
+    ZPos: 1330.984
+  - Time: 56.8961
+    Move: 2
+    StartLane: 0
+    Speed: 28
+    ZPos: 1335.023
+  - Time: 57.79235
+    Move: 4
+    StartLane: 1
+    Speed: 28
+    ZPos: 1360.131
+  - Time: 57.79235
+    Move: 16
+    StartLane: 1
+    Speed: 18
+    ZPos: 1360.131
+  - Time: 57.89249
+    Move: 16
+    StartLane: 1
+    Speed: 22
+    ZPos: 1361.865
+  - Time: 59.00661
+    Move: 64
+    StartLane: 1
+    Speed: 22
+    ZPos: 1387.489
+  - Time: 59.05606
+    Move: 16
+    StartLane: 1
+    Speed: 30
+    ZPos: 1387.489
+  - Time: 59.6991
+    Move: 32
+    StartLane: 1
+    Speed: 30
+    ZPos: 1407.61
+  - Time: 59.76046
+    Move: 16
+    StartLane: 1
+    Speed: 14
+    ZPos: 1407.61
+  - Time: 60.71688
+    Move: 16
+    StartLane: 1
+    Speed: 18
+    ZPos: 1421.816
+  - Time: 60.8178
+    Move: 1
+    StartLane: 1
+    Speed: 18
+    ZPos: 1423.632
+  - Time: 62.0898
+    Move: 16
+    StartLane: 0
+    Speed: 24
+    ZPos: 1446.348
+  - Time: 62.29228
+    Move: 4
+    StartLane: 0
+    Speed: 24
+    ZPos: 1451.243
+  - Time: 63.27771
+    Move: 16
+    StartLane: 0
+    Speed: 20
+    ZPos: 1474.849
+  - Time: 63.89425
+    Move: 2
+    StartLane: 0
+    Speed: 20
+    ZPos: 1487.275
+  - Time: 63.99765
+    Move: 16
+    StartLane: 1
+    Speed: 14
+    ZPos: 1489.258
+  - Time: 64.04983
+    Move: 16
+    StartLane: 1
+    Speed: 24
+    ZPos: 1489.998
+  - Time: 64.25539
+    Move: 2
+    StartLane: 1
+    Speed: 24
+    ZPos: 1494.757
+  - Time: 65.34244
+    Move: 16
+    StartLane: 2
+    Speed: 20
+    ZPos: 1520.669
+  - Time: 66.54036
+    Move: 16
+    StartLane: 2
+    Speed: 26
+    ZPos: 1544.552
+  - Time: 67.27247
+    Move: 4
+    StartLane: 2
+    Speed: 26
+    ZPos: 1563.61
+  - Time: 67.4269
+    Move: 1
+    StartLane: 2
+    Speed: 26
+    ZPos: 1567.586
+  - Time: 67.6745
+    Move: 16
+    StartLane: 1
+    Speed: 22
+    ZPos: 1573.952
+  - Time: 68.07302
+    Move: 4
+    StartLane: 1
+    Speed: 22
+    ZPos: 1582.829
+  - Time: 68.30211
+    Move: 1
+    StartLane: 1
+    Speed: 22
+    ZPos: 1587.862
+  - Time: 69.15327
+    Move: 2
+    StartLane: 0
+    Speed: 22
+    ZPos: 1606.265
+  - Time: 69.246
+    Move: 16
+    StartLane: 1
+    Speed: 16
+    ZPos: 1608.301
+  - Time: 69.4218
+    Move: 16
+    StartLane: 1
+    Speed: 20
+    ZPos: 1611.151
+  - Time: 69.95697
+    Move: 4
+    StartLane: 1
+    Speed: 20
+    ZPos: 1621.81
+  - Time: 70.48969
+    Move: 2
+    StartLane: 1
+    Speed: 20
+    ZPos: 1632.479
+  - Time: 73.18037
+    Move: 1
+    StartLane: 2
+    Speed: 20
+    ZPos: 1686.195
+  - Time: 73.66956
+    Move: 2
+    StartLane: 1
+    Speed: 20
+    ZPos: 1695.944
+  - Time: 73.71842
+    Move: 16
+    StartLane: 2
+    Speed: 26
+    ZPos: 1696.884
+  - Time: 74.54234
+    Move: 4
+    StartLane: 2
+    Speed: 26
+    ZPos: 1718.402
+  - Time: 74.72961
+    Move: 16
+    StartLane: 2
+    Speed: 22
+    ZPos: 1723.329
+  - Time: 75.33816
+    Move: 1
+    StartLane: 2
+    Speed: 22
+    ZPos: 1736.687
+  - Time: 75.43017
+    Move: 16
+    StartLane: 1
+    Speed: 28
+    ZPos: 1738.654
+  - Time: 76.04089
+    Move: 1
+    StartLane: 1
+    Speed: 28
+    ZPos: 1755.826
+  - Time: 76.52119
+    Move: 16
+    StartLane: 0
+    Speed: 24
+    ZPos: 1769.279
+  - Time: 77.9827
+    Move: 16
+    StartLane: 0
+    Speed: 18
+    ZPos: 1804.344
+  - Time: 78.0264
+    Move: 4
+    StartLane: 0
+    Speed: 18
+    ZPos: 1805.148
+  - Time: 78.15979
+    Move: 16
+    StartLane: 0
+    Speed: 22
+    ZPos: 1807.565
+  - Time: 80.67572
+    Move: 2
+    StartLane: 0
+    Speed: 22
+    ZPos: 1862.919
+  - Time: 81.18202
+    Move: 16
+    StartLane: 1
+    Speed: 28
+    ZPos: 1873.802
+  - Time: 81.70071
+    Move: 4
+    StartLane: 1
+    Speed: 28
+    ZPos: 1888.236
+  - Time: 82.33732
+    Move: 16
+    StartLane: 1
+    Speed: 24
+    ZPos: 1906.007
+  - Time: 82.52921
+    Move: 2
+    StartLane: 1
+    Speed: 24
+    ZPos: 1910.63
+  - Time: 83.42395
+    Move: 16
+    StartLane: 2
+    Speed: 28
+    ZPos: 1932.217
+  - Time: 83.73355
+    Move: 4
+    StartLane: 2
+    Speed: 28
+    ZPos: 1940.866
+  - Time: 84.00562
+    Move: 1
+    StartLane: 2
+    Speed: 28
+    ZPos: 1948.282
+  - Time: 84.5919
+    Move: 16
+    StartLane: 1
+    Speed: 24
+    ZPos: 1964.506
+  - Time: 84.68677
+    Move: 16
+    StartLane: 1
+    Speed: 28
+    ZPos: 1966.811
+  - Time: 85.1177
+    Move: 4
+    StartLane: 1
+    Speed: 28
+    ZPos: 1978.923
+  - Time: 85.69579
+    Move: 16
+    StartLane: 1
+    Speed: 24
+    ZPos: 1995.175
+  - Time: 87.06342
+    Move: 2
+    StartLane: 1
+    Speed: 24
+    ZPos: 2027.943
+  - Time: 87.66728
+    Move: 1
+    StartLane: 2
+    Speed: 24
+    ZPos: 2042.044
+  - Time: 87.84081
+    Move: 16
+    StartLane: 1
+    Speed: 28
+    ZPos: 2046.1
+  - Time: 88.43073
+    Move: 2
+    StartLane: 1
+    Speed: 28
+    ZPos: 2062.575
+  - Time: 88.47909
+    Move: 16
+    StartLane: 2
+    Speed: 18
+    ZPos: 2063.796
+  - Time: 88.73657
+    Move: 16
+    StartLane: 2
+    Speed: 22
+    ZPos: 2068.424
+  - Time: 89.50072
+    Move: 4
+    StartLane: 2
+    Speed: 22
+    ZPos: 2085.259
+  - Time: 90.5965
+    Move: 16
+    StartLane: 2
+    Speed: 28
+    ZPos: 2109.335
+  - Time: 90.77133
+    Move: 1
+    StartLane: 2
+    Speed: 28
+    ZPos: 2114.171
+  - Time: 91.59903
+    Move: 2
+    StartLane: 1
+    Speed: 28
+    ZPos: 2137.255
+  - Time: 91.76973
+    Move: 16
+    StartLane: 2
+    Speed: 24
+    ZPos: 2141.917
+  - Time: 92.12195
+    Move: 1
+    StartLane: 2
+    Speed: 24
+    ZPos: 2150.358
+  - Time: 92.38314
+    Move: 16
+    StartLane: 1
+    Speed: 28
+    ZPos: 2156.562
+  - Time: 92.64688
+    Move: 4
+    StartLane: 1
+    Speed: 28
+    ZPos: 2163.983
+  - Time: 93.51331
+    Move: 16
+    StartLane: 1
+    Speed: 24
+    ZPos: 2188.236
+  - Time: 93.7011
+    Move: 1
+    StartLane: 1
+    Speed: 24
+    ZPos: 2191.419
+  - Time: 93.96484
+    Move: 4
+    StartLane: 0
+    Speed: 24
+    ZPos: 2199.081
+  - Time: 94.43156
+    Move: 2
+    StartLane: 0
+    Speed: 24
+    ZPos: 2210.366
+  - Time: 94.89227
+    Move: 4
+    StartLane: 1
+    Speed: 24
+    ZPos: 2221.361
+  - Time: 95.46692
+    Move: 1
+    StartLane: 1
+    Speed: 24
+    ZPos: 2235.195
+  - Time: 95.83998
+    Move: 64
+    StartLane: 0
+    Speed: 24
+    ZPos: 2245.152
+  - Time: 95.8802
+    Move: 16
+    StartLane: 0
+    Speed: 30
+    ZPos: 2245.152
+  - Time: 96.52503
+    Move: 4
+    StartLane: 0
+    Speed: 30
+    ZPos: 2264.433
+  - Time: 97.94605
+    Move: 4
+    StartLane: 0
+    Speed: 30
+    ZPos: 2306.913
+  - Time: 99.17133
+    Move: 4
+    StartLane: 0
+    Speed: 30
+    ZPos: 2343.82
+  - Time: 99.87614
+    Move: 16
+    StartLane: 0
+    Speed: 24
+    ZPos: 2365.082
+  - Time: 100.7073
+    Move: 16
+    StartLane: 0
+    Speed: 18
+    ZPos: 2383.553

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 710779990, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: GymnastAngela
+  m_EditorClassIdentifier:
+  _customization:
+    _id: gymnast_angela
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 47
+  _airplaneReference:
+    PrefabPath: Customization/Characters/AddOns/GymnastAngelaAirplane
+    EditorAssetGUID: 3f4d269161e3e4b8bbf7d1629ae85231
+  _airplanePickupMesh: {fileID: 4300000, guid: 897269d0353e0e94d9cc3b92cec0b93a, type: 2}
+  _airplaneSpriteName: GymnastAngela_plane_UI_TEX
+  _magnetReference:
+    PrefabPath: Customization/Characters/AddOns/Magnet
+    EditorAssetGUID: 5334f1c48bff03744895b55ad3cf0415
+  _helmetReference:
+    PrefabPath: Customization/Characters/AddOns/GymnastAngelaHelmet
+    EditorAssetGUID: ead6fc326a097444c83afed763086a08
+  _helmetPickupMesh: {fileID: 4300000, guid: 8bc34bbbe46b0044e993eb78e96e3230, type: 2}
+  _helmetSpriteName: GymnastAngelaHelmet_UI_TEX
+  _helmetYOffset: 0
+  _earsHidden: 0
+  _iapPack: {fileID: 11400000, guid: 172c4c7f6a067154397a7c51034c4239, type: 2}
+  SpecialOfferPacks: []
+  _dynamitePrice: 200
+  _chinaDynamitePrice: 0
+  _extraLives: 1
+  _botOverlayColor: {r: 0, g: 0.45882353, b: 0.90588236, a: 1}
+  _showDuringEventOnly: 0
+  _showTokenIconInUnlock: 0
+  _boundTokenEventId:
+  _character:
+    PrefabPath: Customization/Characters/Angela
+    EditorAssetGUID: c5fa94ccb5151514b9a63b2b4a354d40
+  _addons:
+  - PrefabPath: Customization/Characters/AddOns/GymnastAngelaDress
+    EditorAssetGUID: 8ec59b3579cab4a27b2fb32635aead80
+  - PrefabPath: Customization/Characters/AddOns/GymnastAngelaSkirt
+    EditorAssetGUID: b3e847905bb50074a9ae99ce9d0e775c

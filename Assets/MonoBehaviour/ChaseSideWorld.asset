@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2132359839, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: ChaseSideWorld
+  m_EditorClassIdentifier:
+  WorldName: chasesideworld
+  Music: {fileID: 11400000, guid: c5014b80fa434f24d87c965b9d8a162d, type: 2}
+  PlayMusicOnEnter: 1
+  StartWorldStages: []
+  Stages:
+  - PlayerSpeed: 20
+    NumberOfLevels: 6
+    LevelBlock: {fileID: 11400000, guid: b9f7a88d255bb9043a3c34479bd91fca, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 20
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: 231dee509ed3eaa44b284ab806a39dc4, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 20
+    NumberOfLevels: 2
+    LevelBlock: {fileID: 11400000, guid: 48eac23b1371c1d45bb1867d87db8788, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  SpecialLevelBlockGroups: []
+  SmallTransitionStage:
+    PlayerSpeed: 20
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: 69ce3d46909f6f74b83c284e0ab8d0dd, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  CheckpointStages: []
+  BigTransitionStages:
+  - PlayerSpeed: 20
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: 6bd702d489bd6ab4883b365edca35da9, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 20
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: 6bd702d489bd6ab4883b365edca35da9, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  - PlayerSpeed: 20
+    NumberOfLevels: 1
+    LevelBlock: {fileID: 11400000, guid: 6bd702d489bd6ab4883b365edca35da9, type: 2}
+    StageRoadMaterial: {fileID: 0}
+  TutorialStages:
+    PlayerSpeed: 0
+    NumberOfLevels: 0
+    LevelBlock: {fileID: 0}
+    StageRoadMaterial: {fileID: 0}
+  VanStage:
+    PlayerSpeed: 0
+    NumberOfLevels: 0
+    LevelBlock: {fileID: 0}
+    StageRoadMaterial: {fileID: 0}
+  PredeterminedStages: []
+  EnvironmentConfig:
+    NearFogColor: {r: 0.68235296, g: 0.94509804, b: 1, a: 1}
+    FogStartDistance: 30
+    FirstFogEndDistance: 80
+    SecondFogEndDistance: 85
+    WorldCurvatureFactor: {x: -13, y: 6.5, z: 0, w: 0}
+    WorldCurvatureDistance: 95
+    BackgroundPanSpeed: 0.02
+    TilableBackground: 0
+    CameraFarClipPlane: 110
+    HorizonElements: []
+  WorldSignRendererIndex: 0
+  ExtrudeMeshData: {fileID: 11400000, guid: 71ce29cbb9ab34c41a6486bdb0dc72bb, type: 2}
+  CameraFollowPlayerConfig:
+    NormalConfig:
+      Fov: 35
+      LookAtOffset: {x: 0, y: -1.7, z: 15.5}
+      PositionOffset: {x: 0, y: 2.4, z: -5.5}
+      CameraClamp: {x: -0.8, y: 0.8}
+    FlyingConfig:
+      Fov: 25
+      LookAtOffset: {x: 0, y: 1, z: 0.5}
+      PositionOffset: {x: 0, y: 2.7, z: -8}
+      CameraClamp: {x: -0.8, y: 0.8}
+  JetPackStages: []
+  NumberOfLanes: 3
+  IntroIndex: 3
+  CharacterIntroZOffset: 40
+  CanUseCrashCameraAnimations: 1
+  BlendingConfig:
+    glowBegin: 0
+    glowEnd: -25
+    environmentBegin: 0
+    environmentEnd: -20
+    cameraBegin: 0
+    cameraEnd: -20
+  DespawnDistance: 4
+  WorldRoadMaterial: {fileID: 2100000, guid: 2da11f81bf57e674eb6edb60c5cc2ce1, type: 2}
+  SummerSportsRoadMaterial: {fileID: 0}
+  FastStageTresholdSpeed: -1
+  RoadIsHidden: 0
+  CanClearSubways: 0
+  SupportLookBackAnimation: 1
+  RobberActive: 1
+  BoardingWorldType: 0
+  LargeCrashOffset: {x: 0, y: 0, z: 0}
+  BotRuns: []
+  MaxViewDistance: 90
+  StartWorldLevelSkips: 2
+  DefaultWorldController: {fileID: 11400000, guid: 0d87504dcf5441443ac9a25810191427, type: 2}
+  WidestHorizonElement: {fileID: 0}
+  SpecialEntranceMesh: {fileID: 0}

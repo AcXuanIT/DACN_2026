@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 710779990, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: MummyTom
+  m_EditorClassIdentifier:
+  _customization:
+    _id: mummy_tom
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 38
+  _airplaneReference:
+    PrefabPath: Customization/Characters/AddOns/MummyTomAirplane
+    EditorAssetGUID: 9c89109cbce394e3da59891e6f048e4b
+  _airplanePickupMesh: {fileID: 4300000, guid: f044576a93ca37c458be1f3352f7344f, type: 2}
+  _airplaneSpriteName: Mummy_Tom_plane_UI_TEX
+  _magnetReference:
+    PrefabPath: Customization/Characters/AddOns/Magnet
+    EditorAssetGUID: 5334f1c48bff03744895b55ad3cf0415
+  _helmetReference:
+    PrefabPath: Customization/Characters/AddOns/MummyTomHelmet
+    EditorAssetGUID: e4a988bb9e38049229fa2f334437fb92
+  _helmetPickupMesh: {fileID: 4300000, guid: 7b3eb5b27f84c5a49b60f231b7148bd4, type: 2}
+  _helmetSpriteName: Mummy_Tom_helmet_UI_TEX
+  _helmetYOffset: 0
+  _earsHidden: 0
+  _iapPack: {fileID: 11400000, guid: 6532420ac74042a45813fcc2aeb5d14f, type: 2}
+  SpecialOfferPacks: []
+  _dynamitePrice: 219
+  _chinaDynamitePrice: 0
+  _extraLives: 1
+  _botOverlayColor: {r: 0, g: 0.44705883, b: 0.6666667, a: 1}
+  _showDuringEventOnly: 0
+  _showTokenIconInUnlock: 0
+  _boundTokenEventId:
+  _character:
+    PrefabPath: Customization/Characters/Tom
+    EditorAssetGUID: 49e943f8cc769694295d2860c699e102
+  _addons:
+  - PrefabPath: Customization/Characters/AddOns/MummyTomDress
+    EditorAssetGUID: 9a47fb0eaa4864443bfb9fd88c9d3698

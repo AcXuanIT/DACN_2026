@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 518741173, guid: 57608e885eb51e446ff486f5ae575708, type: 3}
+  m_Name: yard03_House_level4to5.animevent
+  m_EditorClassIdentifier:
+  Events:
+  - Time: 0
+    Method: PlayIndex
+    Parameters:
+    - ParameterType: 4
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter: HammerBuildLoop
+      ObjectReferenceParameter: {fileID: 0}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 1
+      IntOrBoolParameter: 1
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 0}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+  - Time: 0.8333333
+    Method: PlayIndex
+    Parameters:
+    - ParameterType: 4
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter: HammerBuildLoop
+      ObjectReferenceParameter: {fileID: 0}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 1
+      IntOrBoolParameter: 3
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 0}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+  - Time: 1.3666667
+    Method: PlayIndex
+    Parameters:
+    - ParameterType: 4
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter: HammerBuildLoop
+      ObjectReferenceParameter: {fileID: 0}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+    - ParameterType: 1
+      IntOrBoolParameter: 2
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 0}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+  - Time: 2.1
+    Method: Play
+    Parameters:
+    - ParameterType: 4
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter: HammerCelebration
+      ObjectReferenceParameter: {fileID: 0}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+  - Time: 0.4810395
+    Method: PlayOneShotAudioEvent
+    Parameters:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 0928eec86496aa641a5845f4b15edeaa, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+  - Time: 1.192141
+    Method: PlayOneShotAudioEvent
+    Parameters:
+    - ParameterType: 5
+      IntOrBoolParameter: 0
+      FloatParameter: 0
+      StringParameter:
+      ObjectReferenceParameter: {fileID: 11400000, guid: 0928eec86496aa641a5845f4b15edeaa, type: 2}
+      AnimationCurveParameter:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AssetReferenceParameter:
+        PrefabPath:
+        EditorAssetGUID:
+  EnterEvents: []
+  ExitEvents: []

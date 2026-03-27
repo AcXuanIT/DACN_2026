@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1177086903, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: cops_and_robbers
+  m_EditorClassIdentifier:
+  id: cops_and_robbers
+  tokenId: donut
+  spawnProbability: 1
+  gachaConfig:
+    gachaCardBackTextureUrl: https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/BgCard.png
+    gachaCardBackIconUrl:
+    gachaGlowColor: '#f1d1fb'
+    gachaTitleTextColorPair:
+      foregroundColor: '#fdfefe'
+      backgroundColor: '#431700'
+  deals:
+  - dealName: FirstCharacter
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/ImgEventCharacter01.png
+    priceAmount: 850
+    priceCurrency: token
+    title: tokenevent.character_agent_angela
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: police_angela
+      amount: 1
+  - dealName: SecondCharacter
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/ImgEventCharacter02.png
+    priceAmount: 700
+    priceCurrency: token
+    title: tokenevent.character_deputy_hank
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: police_hank
+      amount: 1
+  - dealName: DiamondVault
+    icon:
+    priceAmount: 430
+    priceCurrency: token
+    title:
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: diamond-vault
+      amount: 1
+  - dealName: LuckyCards
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/general/ImgCardsGacha.png
+    priceAmount: 200
+    priceCurrency: token
+    title:
+    exclamationMark: 1
+    reward:
+      type: ADDON
+      value: lucky-cards
+      amount: 1
+  - dealName: LootHatersReward
+    icon:
+    priceAmount: 7
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 1000
+  - dealName: Diamond
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/general/ImgDiamondMany.png
+    priceAmount: 190
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: diamond
+      amount: 5
+  - dealName: GoldBar
+    icon:
+    priceAmount: 1
+    priceCurrency: token
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: bar-gold
+      amount: 100
+  - dealName: LargeTokenPack
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/ImgTokensMany.png
+    priceAmount: 80
+    priceCurrency: dynamite
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: token
+      amount: 295
+  - dealName: SmallTokenPack
+    icon: https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/ImgTokensSome.png
+    priceAmount: 40
+    priceCurrency: dynamite
+    title:
+    exclamationMark: 0
+    reward:
+      type: CURRENCY
+      value: token
+      amount: 30
+  - dealName: Roulette
+    icon:
+    priceAmount: 1
+    priceCurrency: video
+    title:
+    exclamationMark: 0
+    reward:
+      type: ADDON
+      value: roulette
+      amount: 1
+  dealsVariation5DaysLength: []
+  notificationEventStart: notification.tokenevent_start_cops
+  notificationEventEnding: notification.tokenevent_ending_cops
+  notificationDoubleUp: notification.tokenevent_double_up_cops
+  doubleUpTitleTextColorPair:
+    foregroundColor: '#ffe400'
+    backgroundColor: '#381800'
+  doubleUpDescriptionTextColorPair:
+    foregroundColor: '#fefefc'
+    backgroundColor: '#042f40'
+  doubleUpMultiplierIconColorPair:
+    foregroundColor: '#ffe400'
+    backgroundColor: '#381800'
+  tokenDealButtonColorPair:
+    foregroundColor: '#79ff45ff'
+    backgroundColor: '#ffff64ff'
+  tokenDealButtonTextColorPair:
+    foregroundColor: '#04664Fff'
+    backgroundColor: '#FFF460FF'
+  moreTextColorPair:
+    foregroundColor: '#fefefc'
+    backgroundColor: '#042f40'
+  eventButtonColorPair:
+    foregroundColor:
+    backgroundColor: '#00a8ff'
+  eventFinishedTextColorPair:
+    foregroundColor: '#f8fb0a'
+    backgroundColor: '#011821'
+  headerColor: '#595ec9'
+  tileColorHex: '#419be8'
+  tokenUrl: https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/IcnTokenLarge.png
+  tokenIconUrl: https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/IcnTokenSmall.png
+  headerUrlValues:
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_ar.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_de.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_en.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_es.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_fr.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_it.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_ja.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_ko.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_pt.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_ru.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_tr.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_zh-hant.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_zh.png
+  - https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/headers/ImgEventHeader_vi.png
+  backgroundUrl: https://cdn.outfit7.com/apps/goldrun/token-event/cops-and-robbers/EventGradient.png
+  backgroundPatternUrl:
+  placeableMeshUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v1/cops_and_robbers/donut.msh
+  chestPropMeshUrl: https://cdn-gcs.outfit7.com/app_asset/hr/gdoc/token.events/v2/cops_and_robbers/donutShape.msh
+  propGlowColor: '#00A8FFFF'

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 710779990, guid: 54965edcebbdccd89c7bbb09992ffc3d, type: 3}
+  m_Name: FiremanTom
+  m_EditorClassIdentifier:
+  _customization:
+    _id: fireman_tom
+    _isDefault: 0
+    _isLocked: 1
+    _customizationIndex: 21
+  _airplaneReference:
+    PrefabPath: Customization/Characters/AddOns/FiremanTomAirplane
+    EditorAssetGUID: 590373fe3c18f4171ba11ef9e9b6f1d5
+  _airplanePickupMesh: {fileID: 4300000, guid: 6c3b92b444b2e4042b7a4efae826ee99, type: 2}
+  _airplaneSpriteName: FirePlane_UI_TEX
+  _magnetReference:
+    PrefabPath: Customization/Characters/AddOns/Magnet
+    EditorAssetGUID: 5334f1c48bff03744895b55ad3cf0415
+  _helmetReference:
+    PrefabPath: Customization/Characters/AddOns/FiremanTomHelmet
+    EditorAssetGUID: decf90db258ad4eb19503c675a8b2f1b
+  _helmetPickupMesh: {fileID: 4300000, guid: a7d8473809b48624aa9a174fe994d715, type: 2}
+  _helmetSpriteName: FireHelmet_UI_TEX
+  _helmetYOffset: 0
+  _earsHidden: 0
+  _iapPack: {fileID: 11400000, guid: 8dff4b664032ad74cb8773bdeff121a0, type: 2}
+  SpecialOfferPacks: []
+  _dynamitePrice: 1199
+  _chinaDynamitePrice: 0
+  _extraLives: 1
+  _botOverlayColor: {r: 0, g: 0.44705883, b: 0.6666667, a: 1}
+  _showDuringEventOnly: 0
+  _showTokenIconInUnlock: 0
+  _boundTokenEventId:
+  _character:
+    PrefabPath: Customization/Characters/Tom
+    EditorAssetGUID: 49e943f8cc769694295d2860c699e102
+  _addons:
+  - PrefabPath: Customization/Characters/AddOns/FiremanTomDress
+    EditorAssetGUID: ac6a7d26243824fa7a1b788589baa458
+  - PrefabPath: Customization/Characters/AddOns/FiremanTomHat
+    EditorAssetGUID: eea8868c50f38407c8d598ecd8f75d69
