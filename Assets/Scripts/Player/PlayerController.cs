@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
+public enum StatePlayer
+{
+    Idle, Build, Run,
+}
+public class PlayerController : Singleton<PlayerController>
 {
     [Header("Function Player")]
     [SerializeField] private PlayerMovement _playerMovement;
@@ -16,6 +20,8 @@ public class PlayerController : MonoBehaviour
 
     public InputActionAsset InputActions => inputActions;
 
+
+    public PlayerAnimation PlayerAnim => _playerAnimation;
     private void OnEnable()
     {
         inputActions.Enable();

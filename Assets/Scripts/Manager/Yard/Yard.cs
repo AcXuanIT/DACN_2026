@@ -13,12 +13,12 @@ public class Yard : MonoBehaviour
     Vector2 offSet;
     private void Start()
     {
-        StartOffset();
+        //StartOffset();
     }
 
     private void Update()
     {
-        RunOffsetMaterialInYard();
+        //RunOffsetMaterialInYard();
     }
 
 
