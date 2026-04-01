@@ -12,6 +12,8 @@ public class InGameManager : Singleton<InGameManager>
 {
     [Header("State In Game")]
     [SerializeField] private GameManager gameManager;
+
+    [SerializeField] private CameraManager cameraManager;
     void Start()
     {
         
@@ -30,6 +32,7 @@ public class InGameManager : Singleton<InGameManager>
 
 
         PlayerController.Instance.PlayerAnim.StartRun();
+        cameraManager.StartCameraToRun();
     }
     public void EndGame()
     {

@@ -9,6 +9,9 @@ public class PlayerAnimation : MonoBehaviour
 
     [Header("List AnimationClip")]
     [SerializeField] private List<AnimationState> animationStates = new List<AnimationState>();
+
+    [SerializeField] private AnimationClip _idleClip;
+    
     [SerializeField] private AnimationClip _runClip01;
 
     [SerializeField] private AnimationClip _runIntroClip01;
@@ -24,6 +27,8 @@ public class PlayerAnimation : MonoBehaviour
 
     public void StartAnimation()
     {
+        _anim.Play(_idleClip.name);
+
         foreach (AnimationState state in _anim)
         {
             Debug.Log("Tên clip: " + state.name);
