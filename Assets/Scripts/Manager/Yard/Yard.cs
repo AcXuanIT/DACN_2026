@@ -11,6 +11,7 @@ public class Yard : MonoBehaviour
 
     Material materialCurrent;
     Vector2 offSet;
+
     private void Start()
     {
         //StartOffset();
@@ -18,20 +19,21 @@ public class Yard : MonoBehaviour
 
     private void Update()
     {
-        //RunOffsetMaterialInYard();
+        RunOffsetMaterialInYard();
     }
 
-
-
-    public void StartOffset()
+    public void StartOffset(float s)
     {
         MeshRenderer mr = yard.GetComponent<MeshRenderer>();
         materialCurrent = mr.material;
         offSet = Vector2.zero;
+        speed = s ;
     }
 
     public void RunOffsetMaterialInYard()
     {
+        if (!InGameManager.Instance.IsStartRun) return;
+
         offSet = offSet + new Vector2(0f, Time.deltaTime*speed);
         materialCurrent.mainTextureOffset = offSet;
     }

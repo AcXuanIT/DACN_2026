@@ -17,6 +17,12 @@ public class UiInGameManger : MonoBehaviour
     [SerializeField] private Button btnMultiplayer;
     [SerializeField] private Button btnFire;
     [SerializeField] private Button btnRank;
+    [SerializeField] private GameObject scoreRank;
+
+    [Header("Button In Game")]
+    [SerializeField] private Button btnPause;
+    [SerializeField] private GameObject gold;
+    [SerializeField] private GameObject score;
 
     private void Awake()
     {
@@ -25,6 +31,8 @@ public class UiInGameManger : MonoBehaviour
             Debug.Log("On Click Button Play Game");
 
             InGameManager.Instance.StartGame();
+            TurnOffButton();
+            TurnOnButtonInGame();
         });
     }
 
@@ -46,6 +54,14 @@ public class UiInGameManger : MonoBehaviour
     {
         TurnButton(false);
     }
+    public void TurnOnButtonInGame()
+    {
+        TurnButtonInGame(true);
+    }
+    public void TurnOffButtonInGame()
+    {
+        TurnButtonInGame(false);
+    }
     public void TurnButton(bool val)
     {
         btnPlayGame.gameObject.SetActive(val);
@@ -57,5 +73,12 @@ public class UiInGameManger : MonoBehaviour
         btnMultiplayer.gameObject.SetActive(val);
         btnFire.gameObject.SetActive(val);
         btnRank.gameObject.SetActive(val);
+        scoreRank.gameObject.SetActive(val);
+    }
+    public void TurnButtonInGame(bool val)
+    {
+        btnPause.gameObject.SetActive(val);
+        gold.SetActive(val);
+        score.SetActive(val);
     }
 }

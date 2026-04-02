@@ -11,6 +11,8 @@ public class PlayerAnimation : MonoBehaviour
     [SerializeField] private List<AnimationState> animationStates = new List<AnimationState>();
 
     [SerializeField] private AnimationClip _idleClip;
+    [SerializeField] private AnimationClip _idleClip02;
+    [SerializeField] private AnimationClip _idleClip03;
     
     [SerializeField] private AnimationClip _runClip01;
 
@@ -19,21 +21,27 @@ public class PlayerAnimation : MonoBehaviour
 
 
     private Coroutine _runCoroutine01;
+    private Coroutine _runCoroutineIdle;
 
     private void Start()
     {
-        StartAnimation();
+        //StartAnimation();
     }
 
     public void StartAnimation()
     {
         _anim.Play(_idleClip.name);
-
-        foreach (AnimationState state in _anim)
+        _idleClip.wrapMode = WrapMode.Loop;
+        /*foreach (AnimationState state in _anim)
         {
             Debug.Log("Tên clip: " + state.name);
             animationStates.Add(state);
-        }
+        }*/
+    }
+
+    IEnumerator RunAnimationIdle()
+    {
+        yield return null;
     }
 
     public void StartRun()

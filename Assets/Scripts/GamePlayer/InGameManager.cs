@@ -14,6 +14,18 @@ public class InGameManager : Singleton<InGameManager>
     [SerializeField] private GameManager gameManager;
 
     [SerializeField] private CameraManager cameraManager;
+
+    [SerializeField] private SpawnBackWard spawnBackWard;
+
+    [SerializeField] private YardManager yardManager;
+
+
+    [Header("State")]
+    [SerializeField] private float speedGame = 4f;
+
+    [SerializeField] private bool isStartRun = false;
+    public float SpeedGame => speedGame;
+    public bool IsStartRun => isStartRun;   
     void Start()
     {
         
@@ -30,9 +42,13 @@ public class InGameManager : Singleton<InGameManager>
     {
         Debug.Log("Start Game");
 
-
+        isStartRun = true;
         PlayerController.Instance.PlayerAnim.StartRun();
         cameraManager.StartCameraToRun();
+
+        spawnBackWard.StartSpawnBackWard();
+
+        yardManager.StartYard();
     }
     public void EndGame()
     {

@@ -42,6 +42,7 @@ public class PlayerMovement : NetworkBehaviour
 
     public void MovePlayer()
     {
+        if (!InGameManager.Instance.IsStartRun) return;
         //pc
         InputMovePC();
 
@@ -144,6 +145,7 @@ public class PlayerMovement : NetworkBehaviour
         indexPlayer += dir;
         movePos.x += dir * 1.25f;
       
+
         transform.DOMove(movePos, 0.25f).OnComplete(() =>
         {
             Vector3 pos = transform.position;
@@ -153,6 +155,7 @@ public class PlayerMovement : NetworkBehaviour
             transform.position = pos;
             IsMove = false;
         });
+        ObserverManager<ActionCamera>.PostEven(ActionCamera.LeftRight, dir);
     }
     public void MoveUpAndDown(int dir)
     {
