@@ -19,8 +19,22 @@ public class PlayerMovement : NetworkBehaviour
 
     private bool IsProcessing;
     private bool IsMove;
+    private bool _isJump = false;
+    private bool _isGround = true;
 
     private int indexPlayer = 0;
+
+    public bool IsJump
+    {
+        get { return _isJump; }
+        set { _isJump = value; }
+    }
+    public bool IsGround
+    {
+        get { return _isGround; }
+        set { _isGround = value; }
+    }
+
     private void Awake()
     {
         IsProcessing = false;
@@ -95,7 +109,7 @@ public class PlayerMovement : NetworkBehaviour
 
         float distance = Vector2.Distance(targetCurrent, pos);
 
-        if (distance < 5f) return;
+        if (distance < 20f) return;
 
         dir = dir.normalized;
         IsProcessing = true;
@@ -144,7 +158,15 @@ public class PlayerMovement : NetworkBehaviour
         Vector3 movePos = transform.position;
         indexPlayer += dir;
         movePos.x += dir * 1.25f;
-      
+
+
+        //start animation
+        if(IsJump)
+        {
+            PlayerController.Instance.PlayerAnim.StartJumpLeftRight(dir);
+        } else
+            PlayerController.Instance.PlayerAnim.StartLeftRight(dir);
+
 
         transform.DOMove(movePos, 0.25f).OnComplete(() =>
         {
@@ -161,11 +183,40 @@ public class PlayerMovement : NetworkBehaviour
     {
         if(dir == 1)
         {
+            if (!_isGround) return;
+            _isGround = false;
+            _isJump = true;
+
+            //StartAnimation
+            PlayerController.Instance.PlayerAnim.StartJump();
+
             rb.AddForce(Vector3.up * 10f, ForceMode.Impulse);
             Debug.Log(rb.velocity);
         }
+        else
+        {
+            if(IsJump)
+            {
+                Vector3 pos = transform.position;
+                pos.y  = 0f;
+
+                //StartAnimation
+                PlayerController.Instance.PlayerAnim.StartDown();
+
+                transform.DOMove(pos, 0.5f).OnComplete(() =>
+                {
+
+                });
+            }
+            else
+            {
+                PlayerController.Instance.PlayerAnim.StartDuck();
+            }
+        }
     }
 
+
+    //Server
     [ServerRpc]
     void SendPositionServerRpc(Vector3 pos)
     {

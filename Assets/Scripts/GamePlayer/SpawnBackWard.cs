@@ -33,7 +33,7 @@ public class SpawnBackWard : MonoBehaviour
 
         while (lengthStart <= 100)
         {
-            Debug.Log(lengthStart);
+            //Debug.Log(lengthStart);
             int randomBW = RandomBackWard();
             backWardCurrent = PoolingManager.Spawn(listPrefabs[randomBW], new Vector3(0f,0f,lengthStart), Quaternion.identity, parentBackWard);
             MoveObject moveO = backWardCurrent.GetComponent<MoveObject>();

@@ -30,4 +30,14 @@ public class PlayerController : Singleton<PlayerController>
     {
         inputActions.Disable();
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Ground"))
+        {
+            Debug.Log("Trigger Ground");
+            _playerMovement.IsGround = true;
+            _playerMovement.IsJump = false;
+            _playerAnimation.StartRunTrigger();
+        }
+    }
 }

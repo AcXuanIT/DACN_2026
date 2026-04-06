@@ -43,7 +43,7 @@ public class InGameManager : Singleton<InGameManager>
         Debug.Log("Start Game");
 
         isStartRun = true;
-        PlayerController.Instance.PlayerAnim.StartRun();
+        PlayerController.Instance.PlayerAnim.StartRunAnim();
         cameraManager.StartCameraToRun();
 
         spawnBackWard.StartSpawnBackWard();

@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class SpawnItem : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [Header("Tranform Postion")]
+    [SerializeField] private Transform posLeft;
+    [SerializeField] private Transform posMid;
+    [SerializeField] private Transform posRight;
+
+    [Header("List Spawn Items")]
+    [SerializeField] private List<GameObject> items = new List<GameObject>();
+
     void Start()
     {
         
@@ -14,5 +21,21 @@ public class SpawnItem : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void StartSpawn()
+    {
+
+    }
+
+    public void SpawnItems()
+    {
+        if (!InGameManager.Instance.IsStartRun) return;
+        
+    }
+
+    public void RandomPattern()
+    {
+
     }
 }
