@@ -15,9 +15,9 @@ public class InGameManager : Singleton<InGameManager>
 
     [SerializeField] private CameraManager cameraManager;
 
-    [SerializeField] private SpawnBackWard spawnBackWard;
-
     [SerializeField] private YardManager yardManager;
+
+    [SerializeField] private SpawnManager spawnManager;
 
 
     [Header("State")]
@@ -46,9 +46,10 @@ public class InGameManager : Singleton<InGameManager>
         PlayerController.Instance.PlayerAnim.StartRunAnim();
         cameraManager.StartCameraToRun();
 
-        spawnBackWard.StartSpawnBackWard();
+        //spawnBackWard.StartSpawnBackWard();
+        spawnManager.StartSpawn();
 
-        yardManager.StartYard();
+        //yardManager.StartYard();
     }
     public void EndGame()
     {

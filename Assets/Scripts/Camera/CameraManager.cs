@@ -13,6 +13,7 @@ public class CameraManager : MonoBehaviour
     [Header("Animation")]
     [SerializeField] private Animation _animCamera;
     [SerializeField] private AnimationClip _startRunClip;
+    [SerializeField] private float moveCamera;
 
     private int indexCamera = 0;
 
@@ -34,14 +35,14 @@ public class CameraManager : MonoBehaviour
     {
         Vector3 movePos = transform.position;
         indexCamera += (int)dir;
-        movePos.x += (int)dir * 0.6f;
+        movePos.x += (int)dir * moveCamera;
 
         transform.DOMove(movePos, 0.25f).OnComplete(() =>
         {
             Vector3 pos = transform.position;
-            if (indexCamera == 1) pos.x = 0.6f;
+            if (indexCamera == 1) pos.x = moveCamera;
             else if (indexCamera == 0) pos.x = 0f;
-            else if (indexCamera == -1) pos.x = -0.6f;
+            else if (indexCamera == -1) pos.x = -moveCamera;
             transform.position = pos;
         });
     }

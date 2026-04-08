@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aeaf02156fc9474691db9aa4ff9fad4, type: 3}
+  m_Name: _CityPattern_Static11_10
+  m_EditorClassIdentifier: 
+  length: 10
+  patterns:
+  - objectData: {fileID: 11400000, guid: 3586c18cd6214744582c86a8946d5a77, type: 2}
+    spawnPosition: {x: 1.25, y: 0, z: 2.89}
+  - objectData: {fileID: 11400000, guid: 15d37c16fb9dbc5429c32020a99e568b, type: 2}
+    spawnPosition: {x: -1.25, y: 0, z: 2.89}
+  - objectData: {fileID: 11400000, guid: 15d37c16fb9dbc5429c32020a99e568b, type: 2}
+    spawnPosition: {x: -1.25, y: 0, z: 9.48}
+  - objectData: {fileID: 11400000, guid: 3586c18cd6214744582c86a8946d5a77, type: 2}
+    spawnPosition: {x: 1.25, y: 0, z: 5.82}
+  - objectData: {fileID: 11400000, guid: 3586c18cd6214744582c86a8946d5a77, type: 2}
+    spawnPosition: {x: 0, y: 0, z: 2.89}
+  - objectData: {fileID: 11400000, guid: 3586c18cd6214744582c86a8946d5a77, type: 2}
+    spawnPosition: {x: 0, y: 0, z: 7.85}
+  startFreeLane: 010101
+  endFreeLane: 000101

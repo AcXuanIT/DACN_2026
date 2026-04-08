@@ -19,7 +19,7 @@ public class Yard : MonoBehaviour
 
     private void Update()
     {
-        RunOffsetMaterialInYard();
+        //RunOffsetMaterialInYard();
     }
 
     public void StartOffset(float s)

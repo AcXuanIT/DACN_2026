@@ -28,7 +28,7 @@ public class MoveObject : MonoBehaviour
     { 
         if(transform.position.z <= -30)
         {
-            PoolingManager.Despawn(this.gameObject);
+            Destroy(gameObject); 
         }
     }
 }

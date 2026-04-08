@@ -191,7 +191,6 @@ public class PlayerMovement : NetworkBehaviour
             PlayerController.Instance.PlayerAnim.StartJump();
 
             rb.AddForce(Vector3.up * 10f, ForceMode.Impulse);
-            Debug.Log(rb.velocity);
         }
         else
         {
