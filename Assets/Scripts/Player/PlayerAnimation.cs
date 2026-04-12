@@ -9,8 +9,6 @@ public class PlayerAnimation : MonoBehaviour
 
 
     [Header("List AnimationClip")]
-    [SerializeField] private List<AnimationState> animationStates = new List<AnimationState>();
-
     [SerializeField] private AnimationClip _idleClip;
     [SerializeField] private AnimationClip _idleClip02;
     [SerializeField] private AnimationClip _idleClip03;
@@ -39,13 +37,13 @@ public class PlayerAnimation : MonoBehaviour
 
     private void Start()
     {
-        //StartAnimation();
+        StartAnimation();
     }
 
     public void StartAnimation()
     {
         _anim.Play(_idleClip.name);
-        _idleClip.wrapMode = WrapMode.Loop;
+        //_idleClip.wrapMode = WrapMode.Loop;
         /*foreach (AnimationState state in _anim)
         {
             Debug.Log("Tên clip: " + state.name);
@@ -60,7 +58,7 @@ public class PlayerAnimation : MonoBehaviour
 
     public void StartRunAnim()
     {
-        _runCoroutine01 = StartCoroutine(StartDelayToRun(_idleClip));
+        _runCoroutine01 = StartCoroutine(StartDelay(_runIntroClip01, _runClip01));
     }
 
     public void StartDuck()
@@ -81,10 +79,6 @@ public class PlayerAnimation : MonoBehaviour
     public void StartJump()
     {
         _runCoroutineJump = StartCoroutine(StartJumpDelayToRun());
-    }
-    public void StartRun()
-    {
-        _runCoroutine01 = StartCoroutine(StartDelayToRun(_runClip01));
     }
     public void StartRunTrigger()
     {
@@ -110,6 +104,7 @@ public class PlayerAnimation : MonoBehaviour
     IEnumerator StartDelayToRun(AnimationClip clip)
     {
         yield return StartDelay(clip, _runClip01);
+        PlayerController.Instance.PlayerCol.SetActiveCollider(true);
     }
 
     IEnumerator StartDelay(AnimationClip clip, AnimationClip clip2)

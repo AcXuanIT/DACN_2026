@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 5812065719613403216}
   - component: {fileID: 7423974456592646133}
   - component: {fileID: 4675781116103740223}
+  - component: {fileID: 8320353480108847621}
   m_Layer: 0
   m_Name: CityTunnel_05
   m_TagString: Untagged
@@ -147,3 +148,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8320353480108847621
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6621217614393273066}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.1949058, y: 0.8017435, z: 9.937507}
+  m_Center: {x: -0.000008821487, y: 6.7908597, z: 5.0312467}

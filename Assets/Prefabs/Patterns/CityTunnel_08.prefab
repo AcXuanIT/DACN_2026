@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 20289459835613051}
   - component: {fileID: 4028415658694844638}
   - component: {fileID: 1153829681115452436}
+  - component: {fileID: 8034650341925457031}
   m_Layer: 0
   m_Name: CityTunnel_08
   m_TagString: Untagged
@@ -85,6 +86,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8034650341925457031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793695161826670017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ce3d1dca29b544198349e265e8c4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spacingWorld: 0.25
+  boundsPaddingWorld: 0
+  convex: 0
+  isTrigger: 0
+  colliderMaterial: {fileID: 0}
+  outputRootName: VoxelMeshColliders
+  maxColliders: 2000
+  minTrianglesPerVoxel: 4
+  warnIfTrianglesPerVoxelAbove: 5000
 --- !u!1 &3730576139320999950
 GameObject:
   m_ObjectHideFlags: 0

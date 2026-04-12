@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -6,7 +7,7 @@ using UnityEngine;
 
 public enum StateGame
 {
-    Build,Run,
+    Build,Run,End,
 }
 public class InGameManager : Singleton<InGameManager>
 {
@@ -44,10 +45,14 @@ public class InGameManager : Singleton<InGameManager>
 
         isStartRun = true;
         PlayerController.Instance.PlayerAnim.StartRunAnim();
-        cameraManager.StartCameraToRun();
 
         //spawnBackWard.StartSpawnBackWard();
-        spawnManager.StartSpawn();
+
+        DOVirtual.DelayedCall(0.7f, () =>
+        {
+            cameraManager.StartCameraToRun();
+            spawnManager.StartSpawn();
+        });
 
         //yardManager.StartYard();
     }

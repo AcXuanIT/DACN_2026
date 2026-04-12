@@ -26,6 +26,7 @@ public class UiInGameManger : MonoBehaviour
 
     private void Awake()
     {
+        //Bottom
         btnPlayGame.onClick.AddListener(() =>
         {
             Debug.Log("On Click Button Play Game");
@@ -33,6 +34,16 @@ public class UiInGameManger : MonoBehaviour
             InGameManager.Instance.StartGame();
             TurnOffButton();
             TurnOnButtonInGame();
+        });
+        btnBuilder.onClick.AddListener(() =>
+        {
+            UIManager.Instance.BuilderUI.gameObject.SetActive(true);
+        });
+
+        //Top
+        btnSetting.onClick.AddListener(() =>
+        {
+            UIManager.Instance.SettingUI.gameObject.SetActive(true);
         });
     }
 

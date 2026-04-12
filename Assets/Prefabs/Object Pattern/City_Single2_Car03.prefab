@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5079570168533221385}
   - component: {fileID: 1454297633650826351}
   - component: {fileID: 3398469891322454008}
+  - component: {fileID: 5043012561699976118}
   m_Layer: 0
   m_Name: City_Single2_Car03
-  m_TagString: Untagged
+  m_TagString: Pattern
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,6 +86,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5043012561699976118
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6535770123958386362}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4372137015753838706, guid: 37fc80f606b06c14a894422ee7cbb165, type: 3}
 --- !u!1 &6733561771382949028
 GameObject:
   m_ObjectHideFlags: 0

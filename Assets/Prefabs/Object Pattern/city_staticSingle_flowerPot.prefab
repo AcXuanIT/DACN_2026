@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5511586832058726597}
   - component: {fileID: 7188767758961595673}
   - component: {fileID: 4741766588268607994}
+  - component: {fileID: 7157491133796874256}
   m_Layer: 0
   m_Name: city_staticSingle_flowerPot
-  m_TagString: Untagged
+  m_TagString: Pattern
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,6 +85,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7157491133796874256
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714669509935366608}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1377564934787847775, guid: 271c07f1973a1ed4a8cb10885b3b36fc, type: 3}
 --- !u!1 &3727872570970606633
 GameObject:
   m_ObjectHideFlags: 0

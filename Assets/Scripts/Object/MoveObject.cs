@@ -26,7 +26,7 @@ public class MoveObject : MonoBehaviour
     }
     public void Delete()
     { 
-        if(transform.position.z <= -30)
+        if(transform.position.z <= -50)
         {
             Destroy(gameObject); 
         }

@@ -17,14 +17,29 @@ public class SpawnPattern : MonoBehaviour
 
     [Header("Prefabs new Object")]
     [SerializeField] private GameObject prefabObj;
-    //[SerializeField] private List<GameObject> itemsList;
+
+    private int indexSpawn = 0;
+    [Header("Special Pattern")]
+    [SerializeField] private PatternData _patternData01;
    
 
-    public PatternData RandomPatternData()
+    public PatternData RandomPatternData(float lenghth)
     {
+        indexSpawn++;
+        if(indexSpawn == 1 ||  indexSpawn == 2)
+        {
+            return _patternData01;
+        }
+
         int patternIndex = Random.Range(0, patternDatas.Count);
 
         PatternData patternData = patternDatas[patternIndex];
+
+        while(patternData.length != lenghth)
+        {
+            patternIndex = Random.Range(0, patternDatas.Count);
+            patternData = patternDatas[patternIndex];
+        }
 
         if(patternData == null) return null;
 
@@ -32,6 +47,7 @@ public class SpawnPattern : MonoBehaviour
         {
             if (CheckLaneFree(patternCurrent.endFreeLane, patternData.startFreeLane))
             {
+                patternCurrent = patternData;
                 return patternData;
             }
         }
@@ -39,6 +55,7 @@ public class SpawnPattern : MonoBehaviour
         {
             if(CheckLaneFree(new List<bool> { true,true,true}, patternData.startFreeLane))
             {
+                patternCurrent = patternData;
                 return patternData;
             }
         }
@@ -57,15 +74,15 @@ public class SpawnPattern : MonoBehaviour
     {
         if (length == 10f)
         {
-            return new List<PatternData> { RandomPatternData() };
+            return new List<PatternData> { RandomPatternData(10f) };
         }
         else if(length == 30f)
         {
             List<PatternData> list = new List<PatternData>();
 
-            list.Add(RandomPatternData());
-            list.Add(RandomPatternData());
-            list.Add(RandomPatternData());
+            list.Add(RandomPatternData(10f));
+            list.Add(RandomPatternData(10f));
+            list.Add(RandomPatternData(10f));
 
             return list;
         }

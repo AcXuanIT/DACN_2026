@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8286718948618149056}
   - component: {fileID: 3264135819837598737}
   - component: {fileID: 1822339834456005529}
+  - component: {fileID: 8601739074653614494}
   m_Layer: 0
   m_Name: city_over_concreteBlock
-  m_TagString: Untagged
+  m_TagString: Pattern
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,6 +85,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8601739074653614494
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109015403911339637}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2983969907863737534, guid: 419c7ec473648744a839cb83e128141f, type: 3}
 --- !u!1 &6133629368795694399
 GameObject:
   m_ObjectHideFlags: 0

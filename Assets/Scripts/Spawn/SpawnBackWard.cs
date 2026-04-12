@@ -12,6 +12,9 @@ public class SpawnBackWard : MonoBehaviour
 
     private float lengthCheck = 0f;
 
+    //Kiem sat spawn backward
+    private int backwardIndex = 0;
+
 
     public float LengthCheck
     {
@@ -32,8 +35,17 @@ public class SpawnBackWard : MonoBehaviour
 
     public BackwardData RandomBackWard()
     {
+        backwardIndex++;
         int rd = Random.Range(0, backwards.Count);
-        return backwards[rd];
+        BackwardData backward = backwards[rd];
+
+        while(backwardIndex  <=4 && backward.withPattern != null)
+        {
+            rd = Random.Range(0, backwards.Count);
+            backward = backwards[rd];
+        }
+
+        return backward;
     }
 
     public void SpawnBackward(BackwardData backward, Transform parent)

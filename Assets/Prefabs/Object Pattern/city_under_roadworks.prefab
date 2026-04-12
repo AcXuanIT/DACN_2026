@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4783056178134531888}
   - component: {fileID: 3828733322558676174}
   - component: {fileID: 1930233907622815317}
+  - component: {fileID: 3903806269962015885}
   m_Layer: 0
   m_Name: city_under_roadworks
-  m_TagString: Untagged
+  m_TagString: Pattern
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,6 +85,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3903806269962015885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424678600164716601}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.1159105, y: 1.1830893, z: 0.23011017}
+  m_Center: {x: -0.00035643578, y: 1.3813553, z: 0.09861566}
 --- !u!1 &4279719726595136548
 GameObject:
   m_ObjectHideFlags: 0

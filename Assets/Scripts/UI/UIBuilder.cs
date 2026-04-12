@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIBuilder : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Button Update")]
+    [SerializeField] private Button updateHouse;
+    [SerializeField] private Button updatePool;
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField] private Button btnBack;
+
+
+    private void Awake()
     {
-        
+        btnBack.onClick.AddListener(() =>
+        {
+            gameObject.SetActive(false);
+        });
     }
 }

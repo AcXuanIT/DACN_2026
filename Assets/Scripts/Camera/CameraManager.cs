@@ -33,7 +33,7 @@ public class CameraManager : MonoBehaviour
     
     public void FollowPlayer(object dir)
     {
-        Vector3 movePos = transform.position;
+        /*Vector3 movePos = transform.position;
         indexCamera += (int)dir;
         movePos.x += (int)dir * moveCamera;
 
@@ -44,6 +44,6 @@ public class CameraManager : MonoBehaviour
             else if (indexCamera == 0) pos.x = 0f;
             else if (indexCamera == -1) pos.x = -moveCamera;
             transform.position = pos;
-        });
+        });*/
     }
 }

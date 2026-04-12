@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6971170023681905640}
   - component: {fileID: 6653094096142292586}
   - component: {fileID: 2698893586089018431}
+  - component: {fileID: 8565535049622851307}
   m_Layer: 0
   m_Name: city_staticDouble1_roadworks_SummerSports_1
   m_TagString: Untagged
@@ -83,6 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8565535049622851307
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4154831777340461718}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7838135775214699911, guid: 7fbd36fe3a12b2742bc40f9b0074544a, type: 3}
 --- !u!1 &6973275812241813049
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,7 +117,7 @@ GameObject:
   - component: {fileID: 500856440472565780}
   m_Layer: 0
   m_Name: city_staticDouble1_roadworks_SummerSports
-  m_TagString: Untagged
+  m_TagString: Pattern
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

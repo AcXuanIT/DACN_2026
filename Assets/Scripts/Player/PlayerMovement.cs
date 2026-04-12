@@ -1,21 +1,27 @@
 ﻿using DG.Tweening;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public enum Direction
 {
-    Left, Right, Up, Down
+    Left, Right, Up, Down,None,
 }
 public class PlayerMovement : NetworkBehaviour
 {
     [SerializeField] private Rigidbody rb;
+
+    [Header("Input Action")]
+    [SerializeField] private InputAction inputMove;
+    [SerializeField] private InputAction inputDuck;
+    [SerializeField] private InputAction inputJump;
 
     public float speed = 5f;
     private Vector3 targetPos;
     private float distanceMoveX = 1.25f;
 
     private Vector2 targetCurrent;
-    private Direction targetDir;
+    private Direction targetDir = Direction.None;
 
     private bool IsProcessing;
     private bool IsMove;
@@ -39,6 +45,10 @@ public class PlayerMovement : NetworkBehaviour
     {
         IsProcessing = false;
         IsMove = false;
+
+        inputMove = PlayerController.Instance.InputActions.FindAction("Move");
+        inputJump = PlayerController.Instance.InputActions.FindAction("Jump");
+        inputDuck = PlayerController.Instance.InputActions.FindAction("Sprint");
     }
 
     void Update()
@@ -58,8 +68,8 @@ public class PlayerMovement : NetworkBehaviour
     {
         if (!InGameManager.Instance.IsStartRun) return;
         //pc
-        InputMovePC();
-
+        InputMovePCMouse();
+        InputMovePCKeyBoard();
         //mobile
         InputMoveMobile();
 
@@ -71,21 +81,21 @@ public class PlayerMovement : NetworkBehaviour
         {
             Touch touch = Input.GetTouch(0);
 
-            if(touch.phase == TouchPhase.Began)
+            if(touch.phase == UnityEngine.TouchPhase.Began)
             {
                 targetCurrent = touch.position;
             }
-            else if(touch.phase == TouchPhase.Moved)
+            else if(touch.phase == UnityEngine.TouchPhase.Moved)
             {
                 ProcessingPositionInput(touch.position);
             }
-            else if(touch.phase == TouchPhase.Ended)
+            else if(touch.phase == UnityEngine.TouchPhase.Ended)
             {
                 IsProcessing = false;
             }
         }
     }
-    public void InputMovePC()
+    public void InputMovePCMouse()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -98,6 +108,41 @@ public class PlayerMovement : NetworkBehaviour
         if(Input.GetMouseButtonUp(0))
         {
             IsProcessing = false;
+        }
+    }
+    public void InputMovePCKeyBoard()
+    {
+        if (IsProcessing) return;
+
+        Vector2 vc = inputMove.ReadValue<Vector2>();
+
+        if(vc.x > 0)
+        {
+            targetDir = Direction.Right;
+            IsProcessing = true;
+        }
+        if(vc.x < 0)
+        {
+            targetDir = Direction.Left;
+            IsProcessing = true;
+        }
+
+        if(inputJump.WasPressedThisFrame())
+        {
+            targetDir = Direction.Up;
+            IsProcessing = true;
+        }
+
+        if(inputDuck.WasPressedThisFrame())
+        {
+            targetDir = Direction.Down;
+            IsProcessing = true;
+        }
+        //
+        if (IsProcessing)
+        { 
+            ProcessingMove(targetDir);
+            DOVirtual.DelayedCall(0.2f,()=>IsProcessing = false);
         }
     }
 
@@ -146,6 +191,8 @@ public class PlayerMovement : NetworkBehaviour
                 break;
             case Direction.Down:
                 MoveUpAndDown(-1);
+                break;
+            case Direction.None:
                 break;
         }
     }
