@@ -20,6 +20,9 @@ public class UISettingMusic : MonoBehaviour
     [Header("Data")]
     [SerializeField] private SoundVolumeData _volumeData;
 
+    [Header("Object UI")]
+    [SerializeField] private RectTransform UiSettingMusic;
+
     private void Awake()
     {
         btnMusic.onClick.AddListener(() =>
@@ -36,12 +39,21 @@ public class UISettingMusic : MonoBehaviour
         });
         btnBack.onClick.AddListener(() =>
         {
-            gameObject.SetActive(false);
+            Close();
         });
     }
     private void OnEnable()
     {
         InitVolume();
+    }
+    public void Open()
+    {
+        UIManager.Instance.AnimationUI.UIOnMoveUp(UiSettingMusic);
+    }
+    public void Close()
+    {
+        UIManager.Instance.AnimationUI.UIOffMoveDown(UiSettingMusic);
+
     }
 
     public void InitVolume()

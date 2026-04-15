@@ -11,12 +11,79 @@ public class UIBuilder : MonoBehaviour
 
     [SerializeField] private Button btnBack;
 
+    [Header("House Items")]
+    [SerializeField] private List<UIBuilderItems> houses;
+
+    [Header("Pool Items")]
+    [SerializeField] private List<UIBuilderItems> pools;
+
+    [Header("Object UI")]
+    [SerializeField] private RectTransform Uitop;
+    [SerializeField] private RectTransform Uibuttom;
+
 
     private void Awake()
     {
         btnBack.onClick.AddListener(() =>
         {
-            gameObject.SetActive(false);
+            Close();
+            UIManager.Instance.InGameManagerUI.OpenUIInGame();
         });
+        updateHouse.onClick.AddListener(() =>
+        {
+
+        });
+        updatePool.onClick.AddListener(() =>
+        {
+
+        });
+    }
+    private void OnEnable()
+    {
+        InitDataBuilder();
+    }
+
+    public void InitDataBuilder()
+    {
+        BuildData data = GameManager.Instance.playerData.buildData;
+        int houseCount = data.builds[0].indexLevel;
+        int poolCount = data.builds[1].indexLevel;
+
+        for(int i =0; i< houses.Count; i++)
+        {
+            if(i <  houseCount)
+            {
+                houses[i].TurnOn();
+            }
+            else
+            {
+                houses[i].TurnOff();
+            }
+        }
+        for(int i=0; i< pools.Count; i++)
+        {
+            if(i < poolCount)
+            {
+                pools[i].TurnOn();
+            }
+            else
+            {
+                pools[i].TurnOff();
+            }
+        }
+    }
+
+    public void Open()
+    {
+        Debug.Log("Open UI Builder");
+        UIManager.Instance.AnimationUI.UIOnMoveDown(Uitop);
+        UIManager.Instance.AnimationUI.UIOnMoveUp(Uibuttom);
+    }
+
+    public void Close()
+    {
+        Debug.Log("Close UI Builder");
+        UIManager.Instance.AnimationUI.UIOffMoveUp(Uitop);
+        UIManager.Instance.AnimationUI.UIOffMoveDown(Uibuttom);
     }
 }

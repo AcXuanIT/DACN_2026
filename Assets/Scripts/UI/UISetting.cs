@@ -15,21 +15,33 @@ public class UISetting : MonoBehaviour
 
     [SerializeField] private Button btnBack;
 
+    [SerializeField] private RectTransform UiShop;
+
     private void Awake()
     {
         btnCaiDat.onClick.AddListener(() =>
         {
-            UIManager.Instance.SettingMusicUI.gameObject.SetActive(true);
+            UIManager.Instance.SettingMusicUI.Open();
         });
         btnBack.onClick.AddListener(() =>
         {
-            gameObject.SetActive(false);
+            Close();
+            UIManager.Instance.InGameManagerUI.OpenUIInGame();
         });
     }
 
     public void OnSettingMusic()
     {
 
+    }
+    
+    public void Open()
+    {
+        UIManager.Instance.AnimationUI.UIOnMoveUp(UiShop);
+    }
+    public void Close()
+    {
+        UIManager.Instance.AnimationUI.UIOffMoveDown(UiShop);
     }
 
 }

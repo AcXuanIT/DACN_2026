@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -34,17 +35,38 @@ public class UiInGameManger : MonoBehaviour
             InGameManager.Instance.StartGame();
             TurnOffButton();
             TurnOnButtonInGame();
+
+            DOVirtual.DelayedCall(1f, () =>
+            {
+                CloseUIInGame();
+                DOVirtual.DelayedCall(1.2f, () => {
+                    UIManager.Instance.GameUI.Open();
+                });
+            });
+
         });
         btnBuilder.onClick.AddListener(() =>
         {
-            UIManager.Instance.BuilderUI.gameObject.SetActive(true);
+            CloseUIInGame();
+            UIManager.Instance.BuilderUI.Open();
+        });
+        btnShop.onClick.AddListener(() =>
+        {
+            CloseUIInGame();
+            UIManager.Instance.ShopUI.Open();
         });
 
         //Top
         btnSetting.onClick.AddListener(() =>
         {
-            UIManager.Instance.SettingUI.gameObject.SetActive(true);
+            CloseUIInGame();
+            UIManager.Instance.SettingUI.Open();
         });
+        btnRank.onClick.AddListener(() =>
+        {
+            CloseUIInGame();
+        });
+
     }
 
     void Start()
@@ -91,5 +113,17 @@ public class UiInGameManger : MonoBehaviour
         btnPause.gameObject.SetActive(val);
         gold.SetActive(val);
         score.SetActive(val);
+    }
+    public void CloseUIInGame()
+    {
+        UIManager.Instance.AnimationUI.UIOffMoveUp(UIManager.Instance.UITop.GetComponent<RectTransform>());
+        UIManager.Instance.AnimationUI.UIOffMoveDown(UIManager.Instance.UIButtom.GetComponent<RectTransform>());
+        UIManager.Instance.AnimationUI.UIOffMoveDown(UIManager.Instance.UIMid.GetComponent<RectTransform>());
+    }
+    public void OpenUIInGame()
+    {
+        UIManager.Instance.AnimationUI.UIOnMoveDown(UIManager.Instance.UITop.GetComponent<RectTransform>());
+        UIManager.Instance.AnimationUI.UIOnMoveUp(UIManager.Instance.UIButtom.GetComponent<RectTransform>());
+        UIManager.Instance.AnimationUI.UIOnMoveUp(UIManager.Instance.UIMid.GetComponent<RectTransform>());
     }
 }

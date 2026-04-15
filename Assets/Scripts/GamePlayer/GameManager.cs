@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Data;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {
-    [Header("State Game")]
-    [SerializeField] private float x;
+    [Header("Player Data")]
+    [SerializeField] private PlayerData _playerData;
+
+
+    public PlayerData playerData => _playerData;
+
     void Start()
     {
         
