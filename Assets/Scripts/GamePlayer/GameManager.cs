@@ -8,8 +8,11 @@ public class GameManager : Singleton<GameManager>
     [Header("Player Data")]
     [SerializeField] private PlayerData _playerData;
 
+    [Header("Manager")]
+    [SerializeField] private BuildManager _builderManager;
 
     public PlayerData playerData => _playerData;
+    public BuildManager builder => _builderManager;
 
     void Start()
     {

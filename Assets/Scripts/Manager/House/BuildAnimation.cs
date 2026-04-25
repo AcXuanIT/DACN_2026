@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 using UnityEngine;
 
 
+
 public class BuildAnimation : MonoBehaviour
 {
     [SerializeField] private GameObject house;
@@ -20,19 +21,20 @@ public class BuildAnimation : MonoBehaviour
 
     [SerializeField] private Animation _anim;
 
-    public int level = 1;
+    public int level;
 
     private void Awake()
     {
         house = this.gameObject;
         _anim = this.GetComponent<Animation>();
+        InitListLevel(7);
+        AddChildToList();
     }
     private void Start()
     {
-        InitListLevel(7);
-        AddChildToList();
         StartLevel();
     }
+
     public void InitListLevel(int levelMax)
     {
        for(int i=0;i<levelMax;i++)

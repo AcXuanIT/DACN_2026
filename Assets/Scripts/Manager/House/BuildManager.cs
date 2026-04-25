@@ -15,47 +15,26 @@ public class BuildManager : MonoBehaviour
 
     private void Awake()
     {
-        btnUp.onClick.AddListener(() =>
-        {
-            upLevel();
-        });
-        btnDown.onClick.AddListener(() =>
-        {
-            DownLevel();
-        });
-        btnUp1.onClick.AddListener(() =>
-        {
-            upLevelPool();
-        });
-        btnDown1.onClick.AddListener(() =>
-        {
-            DownLevelPool();
-        });
+        _houseAnimation.level = GameManager.Instance.playerData.buildData.builds[0].indexLevel;
+        _poolAnimation.level = GameManager.Instance.playerData.buildData.builds[1].indexLevel;
     }
 
     public void upLevel()
     {
         _houseAnimation.level++;
         if(_houseAnimation.level > 5 ) _houseAnimation.level=5;
-        _houseAnimation.StartLevel();
-    }
-    public void DownLevel()
-    {
-       _houseAnimation.level--;
-        if(_houseAnimation.level < 1) _houseAnimation.level = 1;
+        GameManager.Instance.playerData.buildData.builds[0].indexLevel  = _houseAnimation.level;
+        UIManager.Instance.BuilderUI.CheckLevelToSetUIHouse(_houseAnimation.level);
+        UIManager.Instance.BuilderUI.InitDataBuilder();
         _houseAnimation.StartLevel();
     }
     public void upLevelPool()
     {
         _poolAnimation.level++;
         if (_poolAnimation.level > 5) _poolAnimation.level = 5;
+        GameManager.Instance.playerData.buildData.builds[1].indexLevel = _poolAnimation.level;
+        UIManager.Instance.BuilderUI.CheckLevelToSetUIPool(_poolAnimation.level);
+        UIManager.Instance.BuilderUI.InitDataBuilder();
         _poolAnimation.StartLevel();
     }
-    public void DownLevelPool()
-    {
-        _poolAnimation.level--;
-        if (_poolAnimation.level < 1) _poolAnimation.level = 1;
-        _poolAnimation.StartLevel();
-    }
-
 }

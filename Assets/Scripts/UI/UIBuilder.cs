@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class UIBuilder : MonoBehaviour
@@ -8,6 +10,9 @@ public class UIBuilder : MonoBehaviour
     [Header("Button Update")]
     [SerializeField] private Button updateHouse;
     [SerializeField] private Button updatePool;
+
+    [SerializeField] private GameObject btnUpdateHouse;
+    [SerializeField] private GameObject btnUpdatePool;
 
     [SerializeField] private Button btnBack;
 
@@ -31,16 +36,35 @@ public class UIBuilder : MonoBehaviour
         });
         updateHouse.onClick.AddListener(() =>
         {
-
+            GameManager.Instance.builder.upLevel();
         });
         updatePool.onClick.AddListener(() =>
         {
-
+            GameManager.Instance.builder.upLevelPool();
         });
     }
     private void OnEnable()
     {
         InitDataBuilder();
+    }
+
+    public void CheckLevelToSetUIHouse(int index)
+    {
+        if(index == 5)
+        {
+            updateHouse.gameObject.SetActive(false);
+            return;
+        }
+        updateHouse.gameObject.SetActive(true);
+    }
+    public void CheckLevelToSetUIPool(int index)
+    {
+        if (index == 5)
+        {
+            updatePool.gameObject.SetActive(false);
+            return;
+        }
+        updatePool.gameObject.SetActive(true);
     }
 
     public void InitDataBuilder()
