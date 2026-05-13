@@ -21,6 +21,7 @@ public class MoveObject : MonoBehaviour
     public void Move()
     {
         if (!InGameManager.Instance.IsStartRun) return;
+        if(InGameManager.Instance.IsEndGame) return;
 
         transform.Translate(Vector3.back *  speed * Time.deltaTime);
     }

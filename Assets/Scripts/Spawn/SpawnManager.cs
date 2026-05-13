@@ -90,4 +90,13 @@ public class SpawnManager : Singleton<SpawnManager>
         spawnBackWard.SpawnBackward(backwardData, pa);
         spawnPattern.SpawnPatternObject(patterns, pa);
     }
+
+    public void EndGame()
+    {
+        foreach(MoveObject obj in listObject)
+        {
+            PoolingManager.Despawn(obj.gameObject);
+        }
+        listObject.Clear();
+    }
 }

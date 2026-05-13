@@ -13,14 +13,4 @@ public class GameManager : Singleton<GameManager>
 
     public PlayerData playerData => _playerData;
     public BuildManager builder => _builderManager;
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 }

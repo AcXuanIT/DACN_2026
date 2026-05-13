@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 5752945293221414712}
   - component: {fileID: 4640388126035623851}
   - component: {fileID: 1962147512117538228}
-  - component: {fileID: 7344993270430951321}
-  - component: {fileID: 4089371800506587895}
+  - component: {fileID: 1691585092892513416}
   m_Layer: 0
   m_Name: city_overUnder_roadworks_SummerSports
   m_TagString: Pattern
@@ -107,45 +106,30 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0816094, y: 0.3027954, z: 0.07332945}
   m_Center: {x: -0.00002861023, y: 0.6721171, z: 0.092190355}
---- !u!65 &7344993270430951321
-BoxCollider:
+--- !u!54 &1691585092892513416
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4812016166223878897}
-  m_Material: {fileID: 0}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.18952262, y: 0.4769194, z: 0.07864338}
-  m_Center: {x: 0.4460147, y: 0.23909795, z: 0.12905014}
---- !u!65 &4089371800506587895
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4812016166223878897}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.15604204, y: 0.5009315, z: 0.08166872}
-  m_Center: {x: -0.41617534, y: 0.251104, z: 0.1046691}
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0

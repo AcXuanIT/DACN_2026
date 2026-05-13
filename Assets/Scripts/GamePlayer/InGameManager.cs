@@ -25,26 +25,17 @@ public class InGameManager : Singleton<InGameManager>
     [SerializeField] private float speedGame = 4f;
 
     [SerializeField] private bool isStartRun = false;
+    [SerializeField] private bool isEndGame = false;
     public float SpeedGame => speedGame;
     public bool IsStartRun => isStartRun;   
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public bool IsEndGame => isEndGame;
 
     public void StartGame()
     {
         Debug.Log("Start Game");
 
         isStartRun = true;
-        PlayerController.Instance.PlayerAnim.StartRunAnim();
+        PlayerController.Instance.PlayerAnim.PlayRunIntro();
 
         //spawnBackWard.StartSpawnBackWard();
 
@@ -58,7 +49,12 @@ public class InGameManager : Singleton<InGameManager>
     }
     public void EndGame()
     {
-
+        //Dung object 
+        isEndGame = true;
+        DOVirtual.DelayedCall(2.5f, () =>
+        {
+            UIManager.Instance.OpenUIEndGame();
+        });
     }
 
     public void GoBack()
@@ -74,6 +70,11 @@ public class InGameManager : Singleton<InGameManager>
 
     }
     public void ContinueGame()
+    {
+
+    }
+
+    public void ResetGame()
     {
 
     }

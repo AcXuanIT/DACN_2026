@@ -26,7 +26,7 @@ public class UISetting : MonoBehaviour
         btnBack.onClick.AddListener(() =>
         {
             Close();
-            UIManager.Instance.InGameManagerUI.OpenUIInGame();
+            UIManager.Instance.OpenUIMainGame();
         });
     }
 

@@ -6,12 +6,14 @@ public class PlayerCollider : MonoBehaviour
 {
     [Header("Collider")]
     [SerializeField] private Collider colliderCheckGround;
+    [SerializeField] private Collider colliderPlayer;
+
+    public Collider ColliderPlayer => colliderPlayer;
 
     private void Start()
     {
         SetActiveCollider(false);
     }
-
 
     public void SetActiveCollider(bool val)
     {

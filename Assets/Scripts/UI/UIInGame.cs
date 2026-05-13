@@ -5,16 +5,20 @@ using UnityEngine.UI;
 
 public class UIInGame : MonoBehaviour
 {
-    [Header("Button")]
-    [SerializeField] private Button btnPause;
-
     [Header("Object UI")]
     [SerializeField] private RectTransform UiInGame;
+
+    [Header("Button In Game")]
+    [SerializeField] private Button btnPause;
+    [SerializeField] private GameObject gold;
+    [SerializeField] private GameObject score;
+
     private void Awake()
     {
         btnPause.onClick.AddListener(() =>
         {
             UIManager.Instance.PauseUI.gameObject.SetActive(true);
+            Time.timeScale = 0f;
         });
     }
 

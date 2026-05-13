@@ -16,7 +16,7 @@ public class UIRank : MonoBehaviour
         btnBack.onClick.AddListener(() =>
         {
             Close();
-            UIManager.Instance.InGameManagerUI.OpenUIInGame();
+            UIManager.Instance.OpenUIMainGame();
         });
     }
 

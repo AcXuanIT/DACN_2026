@@ -7,8 +7,14 @@ public enum Direction
 {
     Left, Right, Up, Down,None,
 }
+public enum Lane
+{
+    Left, Mid, Right
+}
 public class PlayerMovement : NetworkBehaviour
 {
+ 
+    [Header("Rigi")]
     [SerializeField] private Rigidbody rb;
 
     [Header("Input Action")]
@@ -16,19 +22,18 @@ public class PlayerMovement : NetworkBehaviour
     [SerializeField] private InputAction inputDuck;
     [SerializeField] private InputAction inputJump;
 
+    [Header("Move")]
     public float speed = 5f;
-    private Vector3 targetPos;
+    [SerializeField] private Lane lanePlayer = Lane.Mid;
     private float distanceMoveX = 1.25f;
 
+    private Vector3 targetPos;
     private Vector2 targetCurrent;
     private Direction targetDir = Direction.None;
 
     private bool IsProcessing;
-    private bool IsMove;
     private bool _isJump = false;
     private bool _isGround = true;
-
-    private int indexPlayer = 0;
 
     public bool IsJump
     {
@@ -44,8 +49,9 @@ public class PlayerMovement : NetworkBehaviour
     private void Awake()
     {
         IsProcessing = false;
-        IsMove = false;
+        _isGround = true;
 
+        //input System
         inputMove = PlayerController.Instance.InputActions.FindAction("Move");
         inputJump = PlayerController.Instance.InputActions.FindAction("Jump");
         inputDuck = PlayerController.Instance.InputActions.FindAction("Sprint");
@@ -66,12 +72,16 @@ public class PlayerMovement : NetworkBehaviour
 
     public void MovePlayer()
     {
-        if (!InGameManager.Instance.IsStartRun) return;
+        if (!InGameManager.Instance.IsStartRun) return; 
+        if(InGameManager.Instance.IsEndGame) return;
+
         //pc
         InputMovePCMouse();
         InputMovePCKeyBoard();
         //mobile
         InputMoveMobile();
+
+        MovePlayerByLane();
 
         SendPositionServerRpc(transform.position);
     }
@@ -142,7 +152,7 @@ public class PlayerMovement : NetworkBehaviour
         if (IsProcessing)
         { 
             ProcessingMove(targetDir);
-            DOVirtual.DelayedCall(0.2f,()=>IsProcessing = false);
+            DOVirtual.DelayedCall(0.5f,()=>IsProcessing = false);
         }
     }
 
@@ -181,10 +191,10 @@ public class PlayerMovement : NetworkBehaviour
         switch(dir)
         {
             case Direction.Right:
-                MoveLeftAndRight(1);
+                MoveLR(Direction.Right);
                 break;
             case Direction.Left:
-                MoveLeftAndRight(-1);
+                MoveLR(Direction.Left);
                 break;
             case Direction.Up:
                 MoveUpAndDown(1);
@@ -196,34 +206,47 @@ public class PlayerMovement : NetworkBehaviour
                 break;
         }
     }
-    public void MoveLeftAndRight(int dir)
+    public void MoveLR(Direction dir)
     {
-        if (IsMove) return;
-        if (dir == -1 && indexPlayer == -1) return;
-        if (dir == 1 && indexPlayer == 1) return;
-
-        Vector3 movePos = transform.position;
-        indexPlayer += dir;
-        movePos.x += dir * 1.25f;
-
-
-        //start animation
-        if(IsJump)
+        MoveLeftAndRight(dir);
+    }
+    public void MoveLeftAndRight(Direction dir)
+    {
+        if (dir == Direction.Left)
         {
-            PlayerController.Instance.PlayerAnim.StartJumpLeftRight(dir);
-        } else
-            PlayerController.Instance.PlayerAnim.StartLeftRight(dir);
-
-
-        transform.DOMove(movePos, 0.25f).OnComplete(() =>
+            if(lanePlayer == Lane.Left)
+            {
+                return;
+            }
+            else if(lanePlayer == Lane.Mid)
+            {
+                lanePlayer = Lane.Left;
+                PlayerController.Instance.PlayerAnim.PlayLeft();
+            }
+            else if(lanePlayer == Lane.Right)
+            {
+                lanePlayer = Lane.Mid;
+                PlayerController.Instance.PlayerAnim.PlayLeft();
+            }
+        }
+        else if(dir == Direction.Right)
         {
-            Vector3 pos = transform.position;
-            if (indexPlayer == 1) pos.x = 1.25f;
-            else if (indexPlayer == 0) pos.x = 0f;
-            else if (indexPlayer == -1) pos.x = -1.25f;
-            transform.position = pos;
-            IsMove = false;
-        });
+            if(lanePlayer == Lane.Right)
+            {
+                return;
+            }
+            else if(lanePlayer == Lane.Mid)
+            {
+                lanePlayer = Lane.Right;
+                PlayerController.Instance.PlayerAnim.PlayRight();
+            }
+            else if(lanePlayer == Lane.Left)
+            {
+                lanePlayer = Lane.Mid;
+                PlayerController.Instance.PlayerAnim.PlayRight();
+            }
+        }
+
         ObserverManager<ActionCamera>.PostEven(ActionCamera.LeftRight, dir);
     }
     public void MoveUpAndDown(int dir)
@@ -235,9 +258,9 @@ public class PlayerMovement : NetworkBehaviour
             _isJump = true;
 
             //StartAnimation
-            PlayerController.Instance.PlayerAnim.StartJump();
+            PlayerController.Instance.PlayerAnim.PlayJump();
 
-            rb.AddForce(Vector3.up * 10f, ForceMode.Impulse);
+            rb.AddForce(Vector3.up * 20f, ForceMode.Impulse);
         }
         else
         {
@@ -247,21 +270,45 @@ public class PlayerMovement : NetworkBehaviour
                 pos.y  = 0f;
 
                 //StartAnimation
-                PlayerController.Instance.PlayerAnim.StartDown();
+                PlayerController.Instance.PlayerAnim.EndJump();
 
-                transform.DOMove(pos, 0.5f).OnComplete(() =>
+                transform.DOMove(pos, 0.2f).OnComplete(() =>
                 {
 
                 });
             }
             else
             {
-                PlayerController.Instance.PlayerAnim.StartDuck();
+                PlayerController.Instance.PlayerAnim.PlayDuck();
             }
         }
     }
 
+    public void MovePlayerByLane()
+    {
+        float targetX = 0f;
 
+        switch (lanePlayer)
+        {
+            case Lane.Left:
+                targetX = -distanceMoveX;
+                break;
+            case Lane.Mid:
+                targetX = 0f;
+                break;
+            case Lane.Right:
+                targetX = distanceMoveX;
+                break;
+        }
+
+        Vector3 pos = transform.position;
+
+        pos.x = Mathf.MoveTowards(pos.x, targetX, speed * Time.deltaTime);
+
+        transform.position = pos;
+
+    }
+    
     //Server
     [ServerRpc]
     void SendPositionServerRpc(Vector3 pos)

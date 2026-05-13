@@ -5,7 +5,6 @@ using UnityEngine;
 public class UIManager : Singleton<UIManager>
 {
     [Header("UI")]
-    [SerializeField] private UiInGameManger _uiInGameManager;
     [SerializeField] private UIBuilder _uiBuilder;
     [SerializeField] private UISetting _uiSetting;
     [SerializeField] private UISettingMusic _uiSettingMusic;
@@ -16,15 +15,14 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private UIInGame _uiInGame;
 
     [Header("UI Object")]
-    [SerializeField] private GameObject UItop;
-    [SerializeField] private GameObject UImid;
-    [SerializeField] private GameObject UIbuttom;
+    [SerializeField] private UITop UItop;
+    [SerializeField] private UIMid UImid;
+    [SerializeField] private UIButtom UIbuttom;
 
     [Header("UI Animation")]
     [SerializeField] private UIAnimation _uiAnimation;
 
-
-    public UiInGameManger InGameManagerUI => _uiInGameManager;
+    //Access
     public UIBuilder BuilderUI => _uiBuilder;
     public UISetting SettingUI => _uiSetting;
     public UISettingMusic SettingMusicUI => _uiSettingMusic;
@@ -34,11 +32,31 @@ public class UIManager : Singleton<UIManager>
     public UIShop ShopUI => _uiShop;
     public UIInGame GameUI => _uiInGame;
 
-    public GameObject UITop => UItop;
-    public GameObject UIMid => UImid;
-    public GameObject UIButtom => UIbuttom;
-
+    public UITop UITop => UItop;
+    public UIMid UIMid => UImid;
+    public UIButtom UIButtom => UIbuttom;
 
     //animation
     public UIAnimation AnimationUI => _uiAnimation;
+
+    
+    public void OpenUIMainGame()
+    {
+        UItop.OpenUITop();
+        UImid.OpenUIMid();
+        UIbuttom.OpenUIButtom();
+    }
+    public void CloseUIMainGame()
+    {
+        UItop.CloseUITop();
+        UImid.CloseUIMid();
+        UIbuttom.CloseUIButtom();
+    }
+
+    public void OpenUIEndGame()
+    {
+        _uiLose.Open();
+        UIButtom.OpenUIButtom();
+        _uiInGame.Close();
+    }
 }

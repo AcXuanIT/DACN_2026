@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 7728540482956830164}
   - component: {fileID: 5305272944244118494}
   - component: {fileID: 2381921913309981207}
-  - component: {fileID: 4038764360573320036}
-  - component: {fileID: 7587044383759910419}
+  - component: {fileID: -5101626661782070639}
   m_Layer: 0
   m_Name: city_longOverUnder_roadworks_SummerSports
   m_TagString: Pattern
@@ -107,45 +106,30 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0816094, y: 0.28864676, z: 0.07781337}
   m_Center: {x: -0.00002861023, y: 0.67919147, z: 0.10104359}
---- !u!65 &4038764360573320036
-BoxCollider:
+--- !u!54 &-5101626661782070639
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6906820211708011086}
-  m_Material: {fileID: 0}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.17854422, y: 0.5114007, z: 0.08122654}
-  m_Center: {x: 0.45150396, y: 0.2563386, z: 0.10082061}
---- !u!65 &7587044383759910419
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6906820211708011086}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1345551, y: 0.52312106, z: 0.07502377}
-  m_Center: {x: -0.42614913, y: 0.26219878, z: 0.10921033}
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0

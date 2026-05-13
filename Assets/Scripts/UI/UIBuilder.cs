@@ -32,7 +32,7 @@ public class UIBuilder : MonoBehaviour
         btnBack.onClick.AddListener(() =>
         {
             Close();
-            UIManager.Instance.InGameManagerUI.OpenUIInGame();
+            UIManager.Instance.OpenUIMainGame();
         });
         updateHouse.onClick.AddListener(() =>
         {

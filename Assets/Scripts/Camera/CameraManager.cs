@@ -15,8 +15,6 @@ public class CameraManager : MonoBehaviour
     [SerializeField] private AnimationClip _startRunClip;
     [SerializeField] private float moveCamera;
 
-    private int indexCamera = 0;
-
     private void OnEnable()
     {
         ObserverManager<ActionCamera>.AddDesgisterEvent(ActionCamera.LeftRight, FollowPlayer);

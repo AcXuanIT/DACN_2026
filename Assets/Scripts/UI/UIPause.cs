@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,14 +16,24 @@ public class UIPause : MonoBehaviour
         btnBack.onClick.AddListener(() =>
         {
             gameObject.SetActive(false);
+            DelayTimeScale();
         });
         btnGiveUp.onClick.AddListener(() =>
         {
             gameObject.SetActive(false);
+            DelayTimeScale();
         });
         btnContinue.onClick.AddListener(() =>
         {
             gameObject.SetActive(false);
+            DelayTimeScale();
         });
+    }
+
+    public void DelayTimeScale()
+    {
+        DOTween.To(() => Time.timeScale, x => Time.timeScale = x, 1f, 1.5f)
+        .SetEase(Ease.OutQuad)
+        .SetUpdate(true);
     }
 }
